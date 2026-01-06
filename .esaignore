@@ -1,0 +1,34 @@
+# Python 相关文件（不需要部署）
+*.py
+*.pyc
+__pycache__/
+.venv/
+venv/
+.env
+
+# 项目配置文件
+pyproject.toml
+requirements.txt
+uv.lock
+
+# 开发文档
+docs/
+*.md
+!README.md
+
+# 旧数据备份
+data/old/
+data/articles/
+data/html/
+
+# Git 相关
+.git/
+.gitignore
+
+# 配置目录
+config/
+src/
+
+# 其他
+.vscode/
+*.log
