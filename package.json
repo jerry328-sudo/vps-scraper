@@ -1,0 +1,9 @@
+{
+  "name": "vps-data-viewer",
+  "version": "1.0.0",
+  "description": "VPS 测评数据展示静态网站",
+  "scripts": {
+    "build": "echo 'No build required for static site'"
+  },
+  "private": true
+}
