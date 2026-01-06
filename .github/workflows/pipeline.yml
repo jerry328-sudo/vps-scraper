@@ -1,0 +1,45 @@
+name: VPS 爬虫 Pipeline
+
+on:
+  # 每5天运行一次（每月1日、6日、11日、16日、21日、26日 UTC 时间 2:00）
+  schedule:
+    - cron: '0 2 1,6,11,16,21,26 * *'
+  
+  # 支持手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+      
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      
+      - name: 安装 uv 包管理器
+        uses: astral-sh/setup-uv@v4
+      
+      - name: 安装依赖
+        run: uv pip install --system -r pyproject.toml
+      
+      - name: 运行 Pipeline
+        env:
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+        run: python pipeline.py
+      
+      - name: 提交更新的数据
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git diff --staged --quiet || git commit -m "🤖 自动更新: $(date +'%Y-%m-%d %H:%M') 爬取的 VPS 数据"
+          git push
