@@ -475,6 +475,28 @@
                     <option value="8">8 GB</option>
                 </select>
             </div>
+            <div class="filter-group">
+                <label>带宽 >=</label>
+                <select id="minBandwidthFilter">
+                    <option value="">不限</option>
+                    <option value="1">1 Mbps</option>
+                    <option value="5">5 Mbps</option>
+                    <option value="10">10 Mbps</option>
+                    <option value="30">30 Mbps</option>
+                    <option value="100">100 Mbps</option>
+                    <option value="1000">1 Gbps</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>CPU >=</label>
+                <select id="minCpuFilter">
+                    <option value="">不限</option>
+                    <option value="1">1 核</option>
+                    <option value="2">2 核</option>
+                    <option value="4">4 核</option>
+                    <option value="8">8 核</option>
+                </select>
+            </div>
             <button class="toggle-btn" style="background:var(--text-color);color:white;border:none" onclick="resetFilters()">重置</button>
         </div>
 
@@ -625,7 +647,7 @@
             });
 
             // 绑定事件
-            ['vendorFilter', 'locationFilter', 'minMemoryFilter'].forEach(id => {
+            ['vendorFilter', 'locationFilter', 'minMemoryFilter', 'minBandwidthFilter', 'minCpuFilter'].forEach(id => {
                 document.getElementById(id).addEventListener('change', render);
             });
             document.getElementById('maxPriceFilter').addEventListener('input', render);
@@ -636,6 +658,8 @@
             document.getElementById('locationFilter').value = "";
             document.getElementById('maxPriceFilter').value = "";
             document.getElementById('minMemoryFilter').value = "";
+            document.getElementById('minBandwidthFilter').value = "";
+            document.getElementById('minCpuFilter').value = "";
             render();
         }
 
@@ -646,7 +670,9 @@
                 vendor: document.getElementById('vendorFilter').value,
                 location: document.getElementById('locationFilter').value,
                 maxPrice: parseFloat(document.getElementById('maxPriceFilter').value) || Infinity,
-                minMem: parseFloat(document.getElementById('minMemoryFilter').value) || 0
+                minMem: parseFloat(document.getElementById('minMemoryFilter').value) || 0,
+                minBw: parseFloat(document.getElementById('minBandwidthFilter').value) || 0,
+                minCpu: parseFloat(document.getElementById('minCpuFilter').value) || 0
             };
 
             // 重新按筛选条件构建分组
@@ -683,6 +709,17 @@
                         let memGB = memVal;
                         if (memUnit === 'MB') memGB = memVal / 1024;
                         if (memGB < filters.minMem) return false;
+
+                        // CPU 检查
+                        const cpuVal = plan.cpu ? parseFloat(plan.cpu.cores) : 0;
+                        if (cpuVal < filters.minCpu) return false;
+
+                        // 带宽检查
+                        const bwVal = plan.bandwidth ? parseFloat(plan.bandwidth.value) : 0;
+                        const bwUnit = plan.bandwidth ? (plan.bandwidth.unit || '').toUpperCase() : '';
+                        let bwMbps = bwVal;
+                        if (bwUnit.includes('GBPS')) bwMbps = bwVal * 1000;
+                        if (bwMbps < filters.minBw) return false;
 
                         // 价格检查 (检查所有价格选项，只要有一个低于 maxPrice 即可)
                         const prices = Array.isArray(plan.price) ? plan.price : (plan.price ? [plan.price] : []);
