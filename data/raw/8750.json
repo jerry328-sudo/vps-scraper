@@ -2,11 +2,11 @@
   "products": [
     {
       "vendor": "RackNerd",
-      "product_name": "黑五年付 VPS",
+      "product_name": "黑五年付 VPS 套餐",
       "location": "北美 + 欧洲",
       "plans": [
         {
-          "name": "1GB RAM",
+          "name": "1GB 套餐",
           "cpu": {
             "cores": 1,
             "model": null
@@ -35,7 +35,7 @@
           }
         },
         {
-          "name": "2.5GB RAM",
+          "name": "2.5GB 套餐",
           "cpu": {
             "cores": 2,
             "model": null
@@ -64,7 +64,7 @@
           }
         },
         {
-          "name": "4GB RAM",
+          "name": "4GB 套餐",
           "cpu": {
             "cores": 3,
             "model": null
@@ -93,7 +93,7 @@
           }
         },
         {
-          "name": "6GB RAM",
+          "name": "6GB 套餐",
           "cpu": {
             "cores": 5,
             "model": null
@@ -122,7 +122,7 @@
           }
         },
         {
-          "name": "8GB RAM",
+          "name": "8GB 套餐",
           "cpu": {
             "cores": 6,
             "model": null
@@ -163,10 +163,9 @@
         "KVM 虚拟化",
         "SolusVM 面板",
         "完整 Root 权限",
-        "多数据中心可选（北美 + 欧洲）",
-        "性价比极高",
+        "多数据中心可选",
         "独立 IPv4",
-        "免费送双倍流量"
+        "支持双倍流量活动"
       ],
       "suitable_for": [
         "低成本长期 VPS",
@@ -174,11 +173,11 @@
         "Docker / API / 轻量服务部署",
         "学习 Linux、服务器运维"
       ],
-      "summary": "RackNerd 的黑五套餐目前依然可以购买，全部为KVM虚拟化，带独立 IPv4，支持多个机房选择，性价比在年付 VPS 中非常突出。"
+      "summary": "RackNerd 黑五年付 VPS 套餐性价比极高，最低 $10.60/年，适合建站、Docker 和学习测试等用途，支持多种支付方式和多机房选择。"
     }
   ],
   "article_title": "RackNerd 2026年1月抽奖活动及黑五年付VPS套餐测评",
-  "article_summary": "文章介绍了 RackNerd 在 2026 年 1 月开启的抽奖活动，奖品包括笔记本、VPS 和余额。同时重点评测了其仍在销售的超高性价比黑五年付 VPS 套餐，价格最低 $10.60/年，配置涵盖 1GB 到 8GB 内存，适合建站、Docker 及学习测试等多种用途。",
+  "article_summary": "文章介绍了 RackNerd 在 2026 年 1 月开启的抽奖活动，以及目前仍在持续销售的高性价比黑五年付 VPS 套餐，详细列出了各套餐配置、价格及适用场景。",
   "source_url": "https://www.gwvpsceping.com/8750.html",
   "publish_date": "2026-01-04"
 }

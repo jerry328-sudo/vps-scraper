@@ -151,25 +151,22 @@
           }
         }
       ],
-      "purchase_url": "https://www.qingyunl.com/",
+      "purchase_url": "https://www.qingyunl.com/aff.php?aff=798&pid=194",
       "coupon_code": "VG7MLMZ637",
       "payment_methods": null,
       "features": [
-        "AMD EPYC高性能CPU",
         "KVM虚拟化架构",
         "香港三网直连（电信CN2GIA/联通移动CN2直连）",
-        "原生IP支持",
         "不限流量",
-        "硬件防火墙CC攻击防护",
-        "免费更换IP"
+        "原生IP支持",
+        "硬件防火墙CC攻击防护"
       ],
       "suitable_for": [
         "建站",
         "开发",
-        "新手用户",
-        "中小企业业务"
+        "新手用户"
       ],
-      "summary": "香港云服务器采用AMD EPYC高性能CPU，提供三网直连优质线路，适合对网络质量要求较高的建站和业务场景。"
+      "summary": "中国香港机房，AMD EPYC高性能CPU，三网直连线路，适合对大陆连接质量要求较高的建站和业务场景。"
     },
     {
       "vendor": "轻云互联",
@@ -322,25 +319,22 @@
           }
         }
       ],
-      "purchase_url": "https://www.qingyunl.com/",
+      "purchase_url": "https://www.qingyunl.com/aff.php?aff=798&pid=209",
       "coupon_code": "VG7MLMZ637",
       "payment_methods": null,
       "features": [
-        "Intel Xeon 第四代CPU",
         "KVM虚拟化架构",
-        "CN2回程优化线路",
-        "原生IP支持",
+        "美国圣何塞CN2回程优化线路",
         "不限流量",
-        "硬件防火墙CC攻击防护",
-        "免费更换IP"
+        "原生IP支持",
+        "硬件防火墙CC攻击防护"
       ],
       "suitable_for": [
         "建站",
         "开发",
-        "新手用户",
-        "中小企业业务"
+        "新手用户"
       ],
-      "summary": "美国云服务器采用Intel Xeon第四代CPU，提供CN2回程优化线路，价格低至17.6元/月，性价比高。"
+      "summary": "美国圣何塞机房，Intel Xeon 第四代CPU，CN2回程优化，提供原生IP，性价比高。"
     },
     {
       "vendor": "轻云互联",
@@ -493,23 +487,21 @@
           }
         }
       ],
-      "purchase_url": "https://www.qingyunl.com/",
+      "purchase_url": "https://www.qingyunl.com/aff.php?aff=798&pid=355",
       "coupon_code": "G29GG0DN2X",
       "payment_methods": null,
       "features": [
         "KVM虚拟化架构",
-        "120G高防动态BGP线路",
+        "陕西西安120G高防动态BGP线路",
         "不限流量",
-        "硬件防火墙CC攻击防护",
-        "免费更换IP"
+        "硬件防火墙CC攻击防护"
       ],
       "suitable_for": [
         "建站",
         "开发",
-        "新手用户",
-        "中小企业业务"
+        "新手用户"
       ],
-      "summary": "西安云服务器主打高防动态BGP线路，提供120G防御能力，适合对安全性要求较高的业务。"
+      "summary": "国内西安机房，提供120G高防动态BGP线路，适合需要高防服务的业务场景。"
     },
     {
       "vendor": "轻云互联",
@@ -662,27 +654,25 @@
           }
         }
       ],
-      "purchase_url": "https://www.qingyunl.com/",
+      "purchase_url": "https://www.qingyunl.com/aff.php?aff=798&pid=250",
       "coupon_code": "JVXTVA92N9",
       "payment_methods": null,
       "features": [
         "KVM虚拟化架构",
-        "华东镇江双线线路",
+        "华东镇江双线",
         "不限流量",
-        "硬件防火墙CC攻击防护",
-        "免费更换IP"
+        "硬件防火墙CC攻击防护"
       ],
       "suitable_for": [
         "建站",
         "开发",
-        "新手用户",
-        "中小企业业务"
+        "新手用户"
       ],
-      "summary": "镇江云服务器提供华东双线线路，覆盖国内网络，适合面向国内用户的业务场景。"
+      "summary": "国内华东镇江机房，双线线路，适合覆盖华东地区的国内业务。"
     }
   ],
   "article_title": "轻云互联推出2026年1月优惠活动：中国香港、美国、西安、镇江云服务器终身折扣",
-  "article_summary": "轻云互联2026年1月推出终身折扣优惠，涵盖香港、美国、西安、镇江四个机房。产品基于KVM架构，提供高性能AMD/Intel CPU、全线高防与不限流量，最低价格17.6元/月，适合建站、开发和新手用户。",
+  "article_summary": "轻云互联2026年1月促销活动，提供香港、美国、西安、镇江四地云服务器，终身折扣，低至17.6元/月，主打KVM架构、不限流量、高防及原生IP等特性，适合建站和开发用户。",
   "source_url": "https://www.gwvpsceping.com/8758.html",
   "publish_date": "2026-01-05"
 }

@@ -3,13 +3,13 @@
     {
       "vendor": "DediRock",
       "product_name": "大硬盘VPS",
-      "location": "洛杉矶或纽约（随机分配）",
+      "location": "美国洛杉矶/纽约（随机分配）",
       "plans": [
         {
-          "name": "512MB 内存套餐",
+          "name": "256GB硬盘套餐",
           "cpu": {
             "cores": 1,
-            "model": null
+            "model": "未知"
           },
           "memory": {
             "value": 512,
@@ -18,7 +18,7 @@
           "storage": {
             "value": 256,
             "unit": "GB",
-            "type": null
+            "type": "未知"
           },
           "bandwidth": {
             "value": 1,
@@ -35,10 +35,10 @@
           }
         },
         {
-          "name": "1GB 内存套餐",
+          "name": "1TB硬盘套餐",
           "cpu": {
             "cores": 1,
-            "model": null
+            "model": "未知"
           },
           "memory": {
             "value": 1,
@@ -47,7 +47,7 @@
           "storage": {
             "value": 1,
             "unit": "TB",
-            "type": null
+            "type": "未知"
           },
           "bandwidth": {
             "value": 1,
@@ -64,10 +64,10 @@
           }
         },
         {
-          "name": "2GB 内存套餐",
+          "name": "2TB硬盘套餐",
           "cpu": {
             "cores": 1,
-            "model": null
+            "model": "未知"
           },
           "memory": {
             "value": 2,
@@ -76,7 +76,7 @@
           "storage": {
             "value": 2,
             "unit": "TB",
-            "type": null
+            "type": "未知"
           },
           "bandwidth": {
             "value": 1,
@@ -93,7 +93,7 @@
           }
         }
       ],
-      "purchase_url": "https://dedirock.com/",
+      "purchase_url": "https://billing.dedirock.com/aff.php?aff=55&pid=106",
       "coupon_code": null,
       "payment_methods": [
         "PayPal",
@@ -101,8 +101,8 @@
       ],
       "features": [
         "低价 + 大容量硬盘",
-        "KVM虚拟化架构",
-        "年付特价"
+        "基于KVM虚拟化架构",
+        "使用 Colocrossing 数据中心资源"
       ],
       "suitable_for": [
         "冷数据存储",
@@ -114,13 +114,13 @@
     {
       "vendor": "DediRock",
       "product_name": "历史特价VPS",
-      "location": "洛杉矶 / 纽约",
+      "location": "美国洛杉矶/纽约（可选）",
       "plans": [
         {
-          "name": "洛杉矶 2GB/15GB",
+          "name": "洛杉矶15GB套餐",
           "cpu": {
             "cores": 1,
-            "model": null
+            "model": "未知"
           },
           "memory": {
             "value": 2,
@@ -129,7 +129,7 @@
           "storage": {
             "value": 15,
             "unit": "GB",
-            "type": null
+            "type": "未知"
           },
           "bandwidth": {
             "value": 1,
@@ -146,10 +146,10 @@
           }
         },
         {
-          "name": "洛杉矶 2GB/30GB",
+          "name": "洛杉矶30GB套餐",
           "cpu": {
             "cores": 1,
-            "model": null
+            "model": "未知"
           },
           "memory": {
             "value": 2,
@@ -158,7 +158,7 @@
           "storage": {
             "value": 30,
             "unit": "GB",
-            "type": null
+            "type": "未知"
           },
           "bandwidth": {
             "value": 1,
@@ -175,10 +175,10 @@
           }
         },
         {
-          "name": "洛杉矶 1.5GB/25GB",
+          "name": "洛杉矶25GB套餐",
           "cpu": {
             "cores": 1,
-            "model": null
+            "model": "未知"
           },
           "memory": {
             "value": 1.5,
@@ -187,7 +187,7 @@
           "storage": {
             "value": 25,
             "unit": "GB",
-            "type": null
+            "type": "未知"
           },
           "bandwidth": {
             "value": 1,
@@ -204,10 +204,10 @@
           }
         },
         {
-          "name": "洛杉矶 2GB/20GB",
+          "name": "洛杉矶20GB套餐",
           "cpu": {
             "cores": 1,
-            "model": null
+            "model": "未知"
           },
           "memory": {
             "value": 2,
@@ -216,7 +216,7 @@
           "storage": {
             "value": 20,
             "unit": "GB",
-            "type": null
+            "type": "未知"
           },
           "bandwidth": {
             "value": 1,
@@ -233,10 +233,10 @@
           }
         },
         {
-          "name": "纽约 2GB/15GB",
+          "name": "纽约15GB套餐",
           "cpu": {
             "cores": 1,
-            "model": null
+            "model": "未知"
           },
           "memory": {
             "value": 2,
@@ -245,7 +245,7 @@
           "storage": {
             "value": 15,
             "unit": "GB",
-            "type": null
+            "type": "未知"
           },
           "bandwidth": {
             "value": 1,
@@ -262,10 +262,10 @@
           }
         },
         {
-          "name": "纽约 2GB/30GB",
+          "name": "纽约30GB套餐",
           "cpu": {
             "cores": 1,
-            "model": null
+            "model": "未知"
           },
           "memory": {
             "value": 2,
@@ -274,7 +274,7 @@
           "storage": {
             "value": 30,
             "unit": "GB",
-            "type": null
+            "type": "未知"
           },
           "bandwidth": {
             "value": 1,
@@ -291,10 +291,10 @@
           }
         },
         {
-          "name": "纽约 1.5GB/25GB",
+          "name": "纽约25GB套餐",
           "cpu": {
             "cores": 1,
-            "model": null
+            "model": "未知"
           },
           "memory": {
             "value": 1.5,
@@ -303,7 +303,7 @@
           "storage": {
             "value": 25,
             "unit": "GB",
-            "type": null
+            "type": "未知"
           },
           "bandwidth": {
             "value": 1,
@@ -320,10 +320,10 @@
           }
         },
         {
-          "name": "纽约 2GB/20GB",
+          "name": "纽约20GB套餐",
           "cpu": {
             "cores": 1,
-            "model": null
+            "model": "未知"
           },
           "memory": {
             "value": 2,
@@ -332,7 +332,7 @@
           "storage": {
             "value": 20,
             "unit": "GB",
-            "type": null
+            "type": "未知"
           },
           "bandwidth": {
             "value": 1,
@@ -349,7 +349,7 @@
           }
         }
       ],
-      "purchase_url": "https://dedirock.com/",
+      "purchase_url": "https://billing.dedirock.com/aff.php?aff=55&pid=220",
       "coupon_code": null,
       "payment_methods": [
         "PayPal",
@@ -357,19 +357,17 @@
       ],
       "features": [
         "早期促销套餐",
-        "无需优惠码",
-        "可明确选择洛杉矶或纽约机房"
+        "可明确选择洛杉矶或纽约机房",
+        "无需优惠码"
       ],
       "suitable_for": [
-        "对机房位置有要求的用户",
-        "低成本建站测试",
-        "轻量应用"
+        "对机房位置有要求的用户"
       ],
-      "summary": "属于早期促销套餐，目前仍可直接购买，无需优惠码，且可明确选择洛杉矶或纽约机房，更适合对机房位置有要求的用户。"
+      "summary": "这部分属于早期促销套餐，目前仍可直接购买，无需优惠码，且可明确选择洛杉矶或纽约机房，更适合对机房位置有要求的用户。"
     }
   ],
-  "article_title": "DediRock大硬盘VPS与历史特价套餐测评",
-  "article_summary": "DediRock 是一家提供低价 VPS 与独立服务器的海外主机商，主要面向预算有限、追求高性价比的用户。文章详细介绍了其大硬盘 VPS 年付特价套餐以及历史特价套餐，涵盖了配置、价格、机房位置及适用场景，并指出其网络未做中国方向优化，更适合存储、备份及对延迟不敏感的应用。",
+  "article_title": "DediRock VPS测评：低价大硬盘与年付特价套餐",
+  "article_summary": "DediRock是一家提供低价VPS的海外主机商，主要面向预算有限、追求高性价比的用户。文章介绍了其两款高性价比年付套餐：大硬盘VPS（随机分配机房）和历史特价VPS（可选机房）。产品基于KVM架构，位于美国洛杉矶和纽约，使用Colocrossing数据中心。网络属于普通国际线路，适合数据备份、下载中转、低成本建站测试等场景，不适合追求低延迟或高CPU性能的用户。",
   "source_url": "https://www.gwvpsceping.com/8777.html",
   "publish_date": "2026-01-06"
 }

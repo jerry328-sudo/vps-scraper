@@ -42,12 +42,12 @@
         "加密货币"
       ],
       "features": [
-        "高频CPU (Xeon Gold 6244 至4.3GHz)",
+        "高频CPU (Xeon Gold 6244, 4.3GHz)",
         "无限流量",
         "冷门智利IP段",
         "1Gbps 带宽",
         "免费 DDoS 防护",
-        "支持 IPv6 (/64)"
+        "提供 /64 IPv6"
       ],
       "suitable_for": [
         "外贸站点",
@@ -56,11 +56,11 @@
         "对南美IP有需求的用户",
         "希望使用冷门机房进行业务部署的用户"
       ],
-      "summary": "InfoFractal 提供的智利 VPS 方案，主打高频 CPU、无限流量和冷门 IP 段，虽然配置较低且不适合对国内延迟敏感的场景，但适合有南美业务需求或需要差异化 IP 的用户。"
+      "summary": "InfoFractal 提供的智利 VPS 方案，主打冷门 IP 段和高频 CPU，虽然配置基础，但凭借无限流量和低廉的价格，适合有特定区域需求的跨境运营者及外贸建站用户。"
     }
   ],
-  "article_title": "InfoFractal 智利 VPS 测评：2.5美元/月 高频CPU+无限流量",
-  "article_summary": "文章介绍了智利本土 IDC 服务商 InfoFractal 推出的特价 VPS 方案，该方案价格低至 2.5 美元/月，配备 1 核高频 CPU、1GB 内存和无限流量，适合外贸建站及对冷门机房有特定需求的用户。",
+  "article_title": "InfoFractal智利VPS测评：冷门机房、高频CPU与无限流量",
+  "article_summary": "文章介绍了智利本土 IDC 服务商 InfoFractal 推出的 VPS 特价方案，该方案具备高频 CPU、无限流量及冷门 IP 等特点，适合外贸建站及特定测试场景，但不适合对国内延迟有要求或邮件发送类业务。",
   "source_url": "https://www.gwvpsceping.com/8781.html",
   "publish_date": "2026-01-06"
 }
