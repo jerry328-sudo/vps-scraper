@@ -6,7 +6,7 @@
       "location": "美国",
       "plans": [
         {
-          "name": "博客型 (Linux)",
+          "name": "博客型",
           "cpu": null,
           "memory": null,
           "storage": {
@@ -26,7 +26,7 @@
           }
         },
         {
-          "name": "基础型 (Linux)",
+          "name": "基础型",
           "cpu": null,
           "memory": null,
           "storage": {
@@ -46,7 +46,7 @@
           }
         },
         {
-          "name": "商务型 (Linux)",
+          "name": "商务型",
           "cpu": null,
           "memory": null,
           "storage": {
@@ -66,7 +66,7 @@
           }
         },
         {
-          "name": "博客型 (Windows)",
+          "name": "博客型",
           "cpu": null,
           "memory": null,
           "storage": {
@@ -86,7 +86,7 @@
           }
         },
         {
-          "name": "扩展型 (Windows)",
+          "name": "扩展型",
           "cpu": null,
           "memory": null,
           "storage": {
@@ -106,7 +106,7 @@
           }
         },
         {
-          "name": "无限型 (Windows)",
+          "name": "无限型",
           "cpu": null,
           "memory": null,
           "storage": {
@@ -126,15 +126,15 @@
           }
         }
       ],
-      "purchase_url": "https://manage.hostease.com/aff.php?aff=2965&pid=1",
+      "purchase_url": null,
       "coupon_code": "2026",
       "payment_methods": null,
       "features": [
-        "Linux和Windows系统可选",
-        "全场6折优惠"
+        "全场六折",
+        "Linux和Windows系统可选"
       ],
       "suitable_for": null,
-      "summary": "HostEase美国虚拟主机全场6折，低至$2.37/月，适合博客建站。"
+      "summary": "HostEase美国虚拟主机全场6折，低至$2.37/月，提供多种配置方案。"
     },
     {
       "vendor": "HostEase",
@@ -142,7 +142,7 @@
       "location": "香港",
       "plans": [
         {
-          "name": "博客型 (Linux)",
+          "name": "博客型",
           "cpu": null,
           "memory": null,
           "storage": {
@@ -162,7 +162,7 @@
           }
         },
         {
-          "name": "基础型 (Linux)",
+          "name": "基础型",
           "cpu": null,
           "memory": null,
           "storage": {
@@ -182,7 +182,7 @@
           }
         },
         {
-          "name": "商务型 (Linux)",
+          "name": "商务型",
           "cpu": null,
           "memory": null,
           "storage": {
@@ -202,7 +202,7 @@
           }
         },
         {
-          "name": "博客型 (Windows)",
+          "name": "博客型",
           "cpu": null,
           "memory": null,
           "storage": {
@@ -222,7 +222,7 @@
           }
         },
         {
-          "name": "扩展型 (Windows)",
+          "name": "扩展型",
           "cpu": null,
           "memory": null,
           "storage": {
@@ -242,7 +242,7 @@
           }
         },
         {
-          "name": "无限型 (Windows)",
+          "name": "无限型",
           "cpu": null,
           "memory": null,
           "storage": {
@@ -262,15 +262,15 @@
           }
         }
       ],
-      "purchase_url": "https://manage.hostease.com/aff.php?aff=2965&pid=69",
+      "purchase_url": null,
       "coupon_code": "2026",
       "payment_methods": null,
       "features": [
-        "Linux和Windows系统可选",
-        "全场6折优惠"
+        "全场六折",
+        "Linux和Windows系统可选"
       ],
       "suitable_for": null,
-      "summary": "HostEase香港虚拟主机全场6折，低至$3.57/月，适合亚洲地区业务。"
+      "summary": "HostEase香港虚拟主机全场6折，低至$3.57/月，提供多种配置方案。"
     },
     {
       "vendor": "HostEase",
@@ -278,7 +278,7 @@
       "location": "多地",
       "plans": [
         {
-          "name": "中国台湾 VPS",
+          "name": "中国台湾",
           "cpu": {
             "cores": 1,
             "model": null
@@ -304,7 +304,7 @@
           }
         },
         {
-          "name": "马尼拉 VPS",
+          "name": "马尼拉",
           "cpu": {
             "cores": 1,
             "model": null
@@ -330,7 +330,7 @@
           }
         },
         {
-          "name": "中国香港 VPS",
+          "name": "中国香港",
           "cpu": {
             "cores": 1,
             "model": null
@@ -356,7 +356,7 @@
           }
         },
         {
-          "name": "美国洛杉矶 VPS",
+          "name": "美国洛杉矶",
           "cpu": {
             "cores": 1,
             "model": null
@@ -382,7 +382,7 @@
           }
         },
         {
-          "name": "美国圣何塞 VPS",
+          "name": "美国圣何塞",
           "cpu": {
             "cores": 1,
             "model": null
@@ -408,7 +408,7 @@
           }
         },
         {
-          "name": "美国达拉斯 VPS (CN2)",
+          "name": "美国达拉斯",
           "cpu": {
             "cores": 2,
             "model": null
@@ -434,7 +434,7 @@
           }
         },
         {
-          "name": "德国法兰克福 VPS",
+          "name": "德国法兰克福",
           "cpu": {
             "cores": 2,
             "model": null
@@ -460,7 +460,7 @@
           }
         },
         {
-          "name": "美国达拉斯 VPS (BGP)",
+          "name": "美国达拉斯",
           "cpu": {
             "cores": 3,
             "model": null
@@ -486,24 +486,24 @@
           }
         }
       ],
-      "purchase_url": "https://manage.hostease.com/aff.php?aff=2965&pid=926",
+      "purchase_url": null,
       "coupon_code": null,
       "payment_methods": null,
       "features": [
-        "年付优惠",
-        "CN2优化线路",
-        "覆盖多地节点"
+        "年付低至$34.9起",
+        "覆盖多地节点",
+        "拥有CN2优化线路"
       ],
       "suitable_for": null,
-      "summary": "HostEase VPS云主机年付低至$34.9起，拥有CN2优化线路，覆盖多地。"
+      "summary": "HostEase VPS云主机年付低至$34.9起，覆盖中国香港、美国、新加坡等多地节点，拥有CN2优化线路。"
     },
     {
       "vendor": "HostEase",
-      "product_name": "美国服务器",
+      "product_name": "美国独立服务器",
       "location": "美国",
       "plans": [
         {
-          "name": "圣何塞 E3 1230",
+          "name": "Intel E3 1230",
           "cpu": {
             "cores": null,
             "model": "Intel E3 1230"
@@ -513,8 +513,8 @@
             "unit": "GB"
           },
           "storage": {
-            "value": 1,
-            "unit": "TB",
+            "value": 1024,
+            "unit": "GB",
             "type": "HDD/SSD"
           },
           "bandwidth": {
@@ -529,18 +529,18 @@
           }
         },
         {
-          "name": "圣何塞 E5-2660x2",
+          "name": "Intel E5-2660×2",
           "cpu": {
             "cores": null,
-            "model": "Intel E5-2660x2"
+            "model": "Intel E5-2660×2"
           },
           "memory": {
             "value": 32,
             "unit": "GB"
           },
           "storage": {
-            "value": 1,
-            "unit": "TB",
+            "value": 1024,
+            "unit": "GB",
             "type": "HDD/SSD"
           },
           "bandwidth": {
@@ -555,10 +555,10 @@
           }
         },
         {
-          "name": "犹他州 Ryzen 7600",
+          "name": "AMD Ryzen7600",
           "cpu": {
             "cores": null,
-            "model": "AMD Ryzen 7600"
+            "model": "AMD Ryzen7600"
           },
           "memory": {
             "value": 64,
@@ -581,7 +581,7 @@
           }
         },
         {
-          "name": "新泽西 Ryzen 5900X",
+          "name": "AMD Ryzen 5900X",
           "cpu": {
             "cores": null,
             "model": "AMD Ryzen 5900X"
@@ -591,8 +591,8 @@
             "unit": "GB"
           },
           "storage": {
-            "value": 4,
-            "unit": "TB",
+            "value": 4096,
+            "unit": "GB",
             "type": "SSD"
           },
           "bandwidth": {
@@ -607,18 +607,18 @@
           }
         },
         {
-          "name": "洛杉矶 E5-2620x2",
+          "name": "Intel E5-2620×2",
           "cpu": {
             "cores": null,
-            "model": "Intel E5-2620x2"
+            "model": "Intel E5-2620×2"
           },
           "memory": {
             "value": 32,
             "unit": "GB"
           },
           "storage": {
-            "value": 1,
-            "unit": "TB",
+            "value": 1024,
+            "unit": "GB",
             "type": "SSD"
           },
           "bandwidth": {
@@ -633,23 +633,23 @@
           }
         }
       ],
-      "purchase_url": "https://manage.hostease.com/aff.php?aff=2965&pid=52",
+      "purchase_url": null,
       "coupon_code": null,
       "payment_methods": null,
       "features": [
-        "顶级数据中心",
-        "CN2/BGP线路"
+        "全球多地顶级数据中心",
+        "确保业务安全、稳定运行"
       ],
       "suitable_for": null,
-      "summary": "HostEase美国服务器低至$59/月，提供多种CPU配置和大带宽。"
+      "summary": "HostEase美国独立服务器低至$59/月，提供多种配置选择。"
     },
     {
       "vendor": "HostEase",
-      "product_name": "日本服务器",
+      "product_name": "日本独立服务器",
       "location": "日本",
       "plans": [
         {
-          "name": "E3 1230",
+          "name": "Intel E3 1230",
           "cpu": {
             "cores": null,
             "model": "Intel E3 1230"
@@ -659,8 +659,8 @@
             "unit": "GB"
           },
           "storage": {
-            "value": 1,
-            "unit": "TB",
+            "value": 1024,
+            "unit": "GB",
             "type": "HDD/SSD"
           },
           "bandwidth": {
@@ -675,7 +675,7 @@
           }
         },
         {
-          "name": "E5 2630L",
+          "name": "Intel E5 2630L",
           "cpu": {
             "cores": null,
             "model": "Intel E5 2630L"
@@ -685,8 +685,8 @@
             "unit": "GB"
           },
           "storage": {
-            "value": 1,
-            "unit": "TB",
+            "value": 1024,
+            "unit": "GB",
             "type": "HDD"
           },
           "bandwidth": {
@@ -701,7 +701,7 @@
           }
         },
         {
-          "name": "E5 2698v3",
+          "name": "Intel E5 2698v3",
           "cpu": {
             "cores": null,
             "model": "Intel E5 2698v3"
@@ -711,8 +711,8 @@
             "unit": "GB"
           },
           "storage": {
-            "value": 1,
-            "unit": "TB",
+            "value": 1024,
+            "unit": "GB",
             "type": "SSD"
           },
           "bandwidth": {
@@ -727,18 +727,18 @@
           }
         },
         {
-          "name": "E5 2683v4x2",
+          "name": "Intel E5 2683v4×2",
           "cpu": {
             "cores": null,
-            "model": "Intel E5 2683v4x2"
+            "model": "Intel E5 2683v4×2"
           },
           "memory": {
             "value": 32,
             "unit": "GB"
           },
           "storage": {
-            "value": 1,
-            "unit": "TB",
+            "value": 1024,
+            "unit": "GB",
             "type": "SSD"
           },
           "bandwidth": {
@@ -753,20 +753,20 @@
           }
         }
       ],
-      "purchase_url": "https://manage.hostease.com/aff.php?aff=2965&pid=835",
+      "purchase_url": null,
       "coupon_code": null,
       "payment_methods": null,
       "features": [
-        "大陆优化线路",
-        "CN2线路"
+        "全球多地顶级数据中心",
+        "确保业务安全、稳定运行"
       ],
       "suitable_for": null,
-      "summary": "HostEase日本服务器提供多种Intel配置，优化线路连接大陆。"
+      "summary": "HostEase日本独立服务器提供多种配置，低至$89/月。"
     },
     {
       "vendor": "HostEase",
       "product_name": "高防服务器",
-      "location": "未指定",
+      "location": null,
       "plans": [
         {
           "name": "E3-1270v2",
@@ -873,25 +873,25 @@
           }
         }
       ],
-      "purchase_url": "https://manage.hostease.com/aff.php?aff=2965&pid=908",
+      "purchase_url": null,
       "coupon_code": null,
       "payment_methods": null,
       "features": [
-        "高防DDoS"
+        "高防服务器"
       ],
       "suitable_for": null,
-      "summary": "HostEase高防服务器低至$59/月，提供1G DDoS防护。"
+      "summary": "HostEase高防服务器低至$59/月，提供多种配置选择。"
     },
     {
       "vendor": "HostEase",
       "product_name": "GPU服务器",
-      "location": "多地",
+      "location": null,
       "plans": [
         {
-          "name": "RTX 5090 (犹他)",
+          "name": "RTX 5090",
           "cpu": {
             "cores": null,
-            "model": null
+            "model": "AMD Ryzen 9950X"
           },
           "memory": {
             "value": 96,
@@ -914,10 +914,10 @@
           }
         },
         {
-          "name": "RTX 5090 (洛杉矶)",
+          "name": "RTX 5090",
           "cpu": {
             "cores": null,
-            "model": null
+            "model": "AMD Ryzen 9950X"
           },
           "memory": {
             "value": 96,
@@ -940,10 +940,10 @@
           }
         },
         {
-          "name": "RTX 4090 (新泽西)",
+          "name": "RTX 4090",
           "cpu": {
             "cores": null,
-            "model": null
+            "model": "AMD Ryzen 9950X"
           },
           "memory": {
             "value": 96,
@@ -966,10 +966,10 @@
           }
         },
         {
-          "name": "RTX 5090 (新泽西)",
+          "name": "RTX 5090",
           "cpu": {
             "cores": null,
-            "model": null
+            "model": "AMD Ryzen 9950X"
           },
           "memory": {
             "value": 96,
@@ -992,10 +992,10 @@
           }
         },
         {
-          "name": "RTX A5000 (犹他)",
+          "name": "RTX A5000",
           "cpu": {
             "cores": null,
-            "model": null
+            "model": "AMD Ryzen 9950X"
           },
           "memory": {
             "value": 64,
@@ -1018,22 +1018,19 @@
           }
         }
       ],
-      "purchase_url": "https://manage.hostease.com/aff.php?aff=2965&pid=943",
+      "purchase_url": null,
       "coupon_code": null,
       "payment_methods": null,
       "features": [
-        "购买AMD Ryzen 9950X返现$100",
-        "支持部署Deepseek本地大模型"
+        "购买AMD Ryzen 9950X处理器GPU服务器即返现100美金",
+        "联系客服，可以免费部署Deepseek本地大模型"
       ],
-      "suitable_for": [
-        "AI计算",
-        "深度学习"
-      ],
-      "summary": "HostEase GPU服务器提供RTX 4090/5090/A5000等高端显卡，适合AI大模型部署。"
+      "suitable_for": null,
+      "summary": "HostEase GPU服务器提供RTX 5090、RTX 4090等多种型号，购买AMD Ryzen 9950X服务器即返现100美金。"
     }
   ],
-  "article_title": "HostEase新年限时特惠活动开启",
-  "article_summary": "HostEase开启新年限时特惠，涉及虚拟主机、VPS云主机、独立服务器、高防服务器、GPU服务器等多种产品。虚拟主机全场6折，VPS年付低至$34.9，独立服务器低至$59/月，GPU服务器购买指定机型返现$100。",
+  "article_title": "美国主机商HostEase新年限时特惠活动开启啦",
+  "article_summary": "HostEase新年限时特惠活动开启，虚拟主机全场六折，VPS云主机年付低至$34.9起，独立服务器低至$59/月，高防服务器低至$59/月，购买AMD Ryzen 9950X GPU服务器即返现100美金。活动时间即日起至2026年1月31日。",
   "source_url": "https://www.gwvpsceping.com/8772.html",
   "publish_date": "2026-01-05"
 }

@@ -18,7 +18,7 @@
           "storage": {
             "value": 50,
             "unit": "GB",
-            "type": "SSD"
+            "type": null
           },
           "bandwidth": {
             "value": 5,
@@ -26,7 +26,7 @@
           },
           "traffic": {
             "value": -1,
-            "unit": "不限"
+            "unit": "无限"
           },
           "price": [
             {
@@ -54,7 +54,7 @@
           "storage": {
             "value": 50,
             "unit": "GB",
-            "type": "SSD"
+            "type": null
           },
           "bandwidth": {
             "value": 5,
@@ -62,7 +62,7 @@
           },
           "traffic": {
             "value": -1,
-            "unit": "不限"
+            "unit": "无限"
           },
           "price": [
             {
@@ -90,7 +90,7 @@
           "storage": {
             "value": 50,
             "unit": "GB",
-            "type": "SSD"
+            "type": null
           },
           "bandwidth": {
             "value": 5,
@@ -98,7 +98,7 @@
           },
           "traffic": {
             "value": -1,
-            "unit": "不限"
+            "unit": "无限"
           },
           "price": [
             {
@@ -126,7 +126,7 @@
           "storage": {
             "value": 50,
             "unit": "GB",
-            "type": "SSD"
+            "type": null
           },
           "bandwidth": {
             "value": 5,
@@ -134,7 +134,7 @@
           },
           "traffic": {
             "value": -1,
-            "unit": "不限"
+            "unit": "无限"
           },
           "price": [
             {
@@ -161,7 +161,9 @@
         "电信/联通/移动三网直连",
         "原生IPv4",
         "免费T级DDoS防护",
-        "支持配置动态扩容"
+        "支持CentOS、Ubuntu、Windows系统",
+        "支持配置动态扩容",
+        "年付性价比高"
       ],
       "suitable_for": [
         "面向中国大陆访问的网站",
@@ -169,11 +171,11 @@
         "需要CN2优化线路的跨境应用",
         "希望降低长期服务器成本的用户"
       ],
-      "summary": "华纳云美国VPS在同价位产品中具备较强竞争力，尤其是年付方案，对追求长期稳定使用的用户来说非常合适。提供CN2优化线路与三网直连架构，网络质量稳定，适合建站及跨境应用。"
+      "summary": "华纳云美国VPS位于洛杉矶，采用CN2优化线路和三网直连架构，网络稳定且延迟较低。年付方案性价比突出，提供原生IP和免费DDoS防护，适合建站及跨境业务，但不支持多IP配置。"
     }
   ],
-  "article_title": "华纳云美国VPS测评：洛杉矶CN2三网直连线路性能如何？",
-  "article_summary": "文章对华纳云位于美国洛杉矶的VPS产品进行了详细测评，涵盖网络延迟、路由分析、性能表现及价格体系。产品优势在于CN2优化线路、三网直连及年付高性价比，适合面向国内用户的建站及跨境业务。",
+  "article_title": "华纳云洛杉矶美国VPS测评：CN2优化线路与三网直连",
+  "article_summary": "本文对华纳云洛杉矶美国VPS进行了全面测评，涵盖了基础配置、网络延迟、路由分析、性能表现及价格体系。测评显示该产品具备CN2优化、三网直连、原生IP及高防御能力，年付价格具备较强竞争力，适合追求稳定性和性价比的用户。",
   "source_url": "https://www.gwvpsceping.com/8748.html",
   "publish_date": "2026-01-04"
 }

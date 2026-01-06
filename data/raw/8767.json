@@ -18,7 +18,7 @@
           "storage": {
             "value": 30,
             "unit": "GB",
-            "type": "SSD"
+            "type": null
           },
           "bandwidth": {
             "value": 100,
@@ -47,7 +47,7 @@
           "storage": {
             "value": 40,
             "unit": "GB",
-            "type": "SSD"
+            "type": null
           },
           "bandwidth": {
             "value": 100,
@@ -76,7 +76,7 @@
           "storage": {
             "value": 60,
             "unit": "GB",
-            "type": "SSD"
+            "type": null
           },
           "bandwidth": {
             "value": 200,
@@ -105,7 +105,7 @@
           "storage": {
             "value": 80,
             "unit": "GB",
-            "type": "SSD"
+            "type": null
           },
           "bandwidth": {
             "value": 200,
@@ -132,21 +132,19 @@
         "网络稳定",
         "支持多系统安装",
         "可配置多个IP",
-        "性价比高",
-        "支持Windows和Linux系统"
+        "性价比高"
       ],
       "suitable_for": [
         "TikTok/YouTube直播",
         "跨境电商",
         "海外测试",
-        "流媒体解锁",
-        "跨境业务"
+        "流媒体解锁"
       ],
       "summary": "莱卡云越南家宽VPS拥有双ISP原生住宅IP、网络稳定、性能可靠，价格合理，支持多操作系统和多IP配置，适合需要高质量越南家宽VPS的用户。"
     }
   ],
   "article_title": "莱卡云越南双ISP家宽VPS测评",
-  "article_summary": "莱卡云是一家国人运营的主机商，近期优化了越南双ISP家宽VPS。测评显示该产品网络稳定，延迟低（本地平均133ms），IP纯净度高，适合跨境业务和流媒体解锁。套餐价格从88元/月起，性价比较高。",
+  "article_summary": "莱卡云是一家国人运营的主机商，提供越南河内机房的双ISP家宽VPS。经测评，该产品拥有双ISP原生住宅IP，网络稳定性良好（平均延迟133ms左右），性能满足轻量业务需求，适合跨境业务、流媒体解锁等场景。",
   "source_url": "https://www.gwvpsceping.com/8767.html",
   "publish_date": "2026-01-05"
 }
