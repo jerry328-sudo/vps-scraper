@@ -1,0 +1,423 @@
+{
+  "products": [
+    {
+      "vendor": "ReliableSite",
+      "product_name": "Metal+ 会员计划",
+      "location": null,
+      "plans": [
+        {
+          "name": "Metal+ 年度会员",
+          "cpu": null,
+          "memory": null,
+          "storage": null,
+          "bandwidth": null,
+          "traffic": null,
+          "price": {
+            "value": 99,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "http://payments.reliablesite.net/aff.php?aff=1323",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "硬件升级25%循环折扣",
+        "免费升级至10Gbps高速端口（入站不限速）",
+        "免费增加第二个IPv4地址",
+        "账号级会员，一次订阅全账号受益"
+      ],
+      "suitable_for": [
+        "多台美国独立服务器长期使用者",
+        "对端口速率、IP数量有明确需求的项目",
+        "高带宽应用、存储节点、业务节点部署",
+        "希望一次付费长期降本的用户"
+      ],
+      "summary": "Metal+ 是一个专为重度专用服务器用户打造的增值方案，性价比突出，越多服务器性价比越高。"
+    },
+    {
+      "vendor": "ReliableSite",
+      "product_name": "美国专用服务器促销套餐",
+      "location": "纽约",
+      "plans": [
+        {
+          "name": "Intel Atom D525",
+          "cpu": {
+            "cores": 1,
+            "model": "Intel Atom D525"
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1064,
+            "unit": "GB",
+            "type": "SSD + HDD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 5,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 10,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "Intel Core i7 860 or better",
+          "cpu": {
+            "cores": 4,
+            "model": "Intel Core i7 860 or better"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 5,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 19,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "Intel Core i9 9900K",
+          "cpu": {
+            "cores": 1,
+            "model": "Intel Core i9 9900K"
+          },
+          "memory": {
+            "value": 128,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 6,
+            "unit": "TB",
+            "type": "NVMe + HD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 99,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "Intel Special 6 Core",
+          "cpu": {
+            "cores": 6,
+            "model": "Intel Special 6 Core"
+          },
+          "memory": {
+            "value": 256,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 8,
+            "unit": "TB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 99,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "http://payments.reliablesite.net/aff.php?aff=1323",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "支持叠加 Metal+ 会员权益"
+      ],
+      "suitable_for": null,
+      "summary": null
+    },
+    {
+      "vendor": "ReliableSite",
+      "product_name": "美国专用服务器促销套餐",
+      "location": "纽约|洛杉矶",
+      "plans": [
+        {
+          "name": "AMD Ryzen 3700X",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD Ryzen 3700X"
+          },
+          "memory": {
+            "value": 128,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 2,
+            "unit": "TB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 99,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "AMD Ryzen 3900X",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD Ryzen 3900X"
+          },
+          "memory": {
+            "value": 128,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 4,
+            "unit": "TB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 119,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "AMD Epyc 4545P",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD Epyc 4545P"
+          },
+          "memory": {
+            "value": 256,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 4,
+            "unit": "TB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 219,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "http://payments.reliablesite.net/aff.php?aff=1323",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "支持叠加 Metal+ 会员权益"
+      ],
+      "suitable_for": null,
+      "summary": null
+    },
+    {
+      "vendor": "ReliableSite",
+      "product_name": "美国专用服务器促销套餐",
+      "location": "纽约|洛杉矶|迈阿密",
+      "plans": [
+        {
+          "name": "AMD Ryzen 3900X",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD Ryzen 3900X"
+          },
+          "memory": {
+            "value": 128,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 4,
+            "unit": "TB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 119,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "AMD Epyc 4545P",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD Epyc 4545P"
+          },
+          "memory": {
+            "value": 256,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 4,
+            "unit": "TB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 219,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "http://payments.reliablesite.net/aff.php?aff=1323",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "支持叠加 Metal+ 会员权益"
+      ],
+      "suitable_for": null,
+      "summary": null
+    },
+    {
+      "vendor": "ReliableSite",
+      "product_name": "美国专用服务器促销套餐",
+      "location": "迈阿密",
+      "plans": [
+        {
+          "name": "AMD Ryzen 9900X",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD Ryzen 9900X"
+          },
+          "memory": {
+            "value": 192,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 8,
+            "unit": "TB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 239,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "AMD Ryzen 9950X",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD Ryzen 9950X"
+          },
+          "memory": {
+            "value": 256,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 8,
+            "unit": "TB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 319,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "http://payments.reliablesite.net/aff.php?aff=1323",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "支持叠加 Metal+ 会员权益"
+      ],
+      "suitable_for": null,
+      "summary": null
+    }
+  ],
+  "article_title": "ReliableSite上线Metal+会员计划：10Gbps端口+25%硬件折扣，多服务器用户福音",
+  "article_summary": "ReliableSite 推出 Metal+ 会员计划，年费 $99，提供 10Gbps 端口升级、免费 IPv4 和硬件升级折扣。同时列出了多款美国专用服务器促销套餐，支持叠加会员权益。",
+  "source_url": "https://www.gwvpsceping.com/8774.html",
+  "publish_date": "2026-01-06"
+}

@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "vendor": "LOCVPS",
+      "product_name": "湖南移动VPS",
+      "location": "中国湖南长沙",
+      "plans": [
+        {
+          "name": "湖南移动VPS套餐",
+          "cpu": {
+            "cores": 4,
+            "model": "AMD EPYC 7R13"
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 80,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 300,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 3000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 159.2,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://my.locvps.net/page.aspx?c=referral&u=41625",
+      "coupon_code": "2025",
+      "payment_methods": [
+        "支付宝",
+        "微信"
+      ],
+      "features": [
+        "AMD EPYC 架构，性能稳定",
+        "16G 大内存，资源富余",
+        "300Mbps 带宽实打实",
+        "三网强制 CMI，国内延迟低",
+        "IP 纯净度高，适合正规业务",
+        "需要实名认证"
+      ],
+      "suitable_for": [
+        "正规中文网站、企业官网",
+        "需要低延迟的Windows VPS挂机",
+        "抖音相关业务、直播分流",
+        "对内地访问速度和稳定性要求较高的场景",
+        "多站点建站",
+        "中小型业务系统"
+      ],
+      "summary": "LOCVPS 湖南移动 VPS 采用 AMD EPYC 7R13 处理器，配备 16GB 内存和 300Mbps 带宽，性能在国内机房中表现亮眼。三网强制走移动 CMI，全国平均延迟约 27ms，非常适合内地低延迟建站和 Windows 远程挂机。IP 纯净度高，适合正规业务，但不适合做跨境或海外业务加速。"
+    }
+  ],
+  "article_title": "LOCVPS湖南移动VPS测评",
+  "article_summary": "本文对 LOCVPS 新上线的湖南移动 VPS 进行了详细测评，涵盖硬件性能（AMD EPYC 7R13, 16G RAM）、带宽速度（下载 400Mbps+）、网络延迟（全国平均 27ms）及 IP 质量等方面。结果显示该产品性能稳定、资源充裕，非常适合对内地访问速度要求高的建站、挂机及直播分流场景，但不适合海外业务。",
+  "source_url": "https://www.gwvpsceping.com/8785.html",
+  "publish_date": "2026-01-06"
+}

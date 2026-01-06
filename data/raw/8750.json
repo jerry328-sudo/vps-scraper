@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "vendor": "RackNerd",
+      "product_name": "黑五年付 VPS",
+      "location": "北美 + 欧洲",
+      "plans": [
+        {
+          "name": "1GB RAM",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 25,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 2000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 10.6,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "2.5GB RAM",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2.5,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 45,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 3000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 18.66,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "4GB RAM",
+          "cpu": {
+            "cores": 3,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 65,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 6500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 29.98,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "6GB RAM",
+          "cpu": {
+            "cores": 5,
+            "model": null
+          },
+          "memory": {
+            "value": 6,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 100,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 10000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 44.98,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "8GB RAM",
+          "cpu": {
+            "cores": 6,
+            "model": null
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 150,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 20000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 62.49,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://my.racknerd.com/aff.php?aff=2195&pid=923",
+      "coupon_code": null,
+      "payment_methods": [
+        "支付宝",
+        "银联卡",
+        "比特币",
+        "USDT"
+      ],
+      "features": [
+        "KVM 虚拟化",
+        "SolusVM 面板",
+        "完整 Root 权限",
+        "多数据中心可选（北美 + 欧洲）",
+        "性价比极高",
+        "独立 IPv4",
+        "免费送双倍流量"
+      ],
+      "suitable_for": [
+        "低成本长期 VPS",
+        "个人博客 / WordPress / 宝塔面板",
+        "Docker / API / 轻量服务部署",
+        "学习 Linux、服务器运维"
+      ],
+      "summary": "RackNerd 的黑五套餐目前依然可以购买，全部为KVM虚拟化，带独立 IPv4，支持多个机房选择，性价比在年付 VPS 中非常突出。"
+    }
+  ],
+  "article_title": "RackNerd 2026年1月抽奖活动及黑五年付VPS套餐测评",
+  "article_summary": "文章介绍了 RackNerd 在 2026 年 1 月开启的抽奖活动，奖品包括笔记本、VPS 和余额。同时重点评测了其仍在销售的超高性价比黑五年付 VPS 套餐，价格最低 $10.60/年，配置涵盖 1GB 到 8GB 内存，适合建站、Docker 及学习测试等多种用途。",
+  "source_url": "https://www.gwvpsceping.com/8750.html",
+  "publish_date": "2026-01-04"
+}

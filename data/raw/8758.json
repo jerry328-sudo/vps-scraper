@@ -1,0 +1,688 @@
+{
+  "products": [
+    {
+      "vendor": "轻云互联",
+      "product_name": "香港云服务器",
+      "location": "中国香港",
+      "plans": [
+        {
+          "name": "轻量级",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD EPYC"
+          },
+          "memory": {
+            "value": 512,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 40,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 5,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 20,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "建站型",
+          "cpu": {
+            "cores": 2,
+            "model": "AMD EPYC"
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 60,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 8,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 24,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "极客型",
+          "cpu": {
+            "cores": 2,
+            "model": "AMD EPYC"
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 80,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 32,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "疾御型",
+          "cpu": {
+            "cores": 4,
+            "model": "AMD EPYC"
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 120,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 15,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 64,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "巨牛型",
+          "cpu": {
+            "cores": 8,
+            "model": "AMD EPYC"
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 160,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 20,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 112,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://www.qingyunl.com/",
+      "coupon_code": "VG7MLMZ637",
+      "payment_methods": null,
+      "features": [
+        "AMD EPYC高性能CPU",
+        "KVM虚拟化架构",
+        "香港三网直连（电信CN2GIA/联通移动CN2直连）",
+        "原生IP支持",
+        "不限流量",
+        "硬件防火墙CC攻击防护",
+        "免费更换IP"
+      ],
+      "suitable_for": [
+        "建站",
+        "开发",
+        "新手用户",
+        "中小企业业务"
+      ],
+      "summary": "香港云服务器采用AMD EPYC高性能CPU，提供三网直连优质线路，适合对网络质量要求较高的建站和业务场景。"
+    },
+    {
+      "vendor": "轻云互联",
+      "product_name": "美国云服务器",
+      "location": "美国圣何塞",
+      "plans": [
+        {
+          "name": "美国·晓",
+          "cpu": {
+            "cores": 1,
+            "model": "Intel Xeon 第四代"
+          },
+          "memory": {
+            "value": 512,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 40,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 15,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 17.6,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "美国·御",
+          "cpu": {
+            "cores": 2,
+            "model": "Intel Xeon 第四代"
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 70,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 25,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 23.2,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "美国·灵",
+          "cpu": {
+            "cores": 2,
+            "model": "Intel Xeon 第四代"
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 90,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 30,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 31.2,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "美国·禅",
+          "cpu": {
+            "cores": 4,
+            "model": "Intel Xeon 第四代"
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 130,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 35,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 61.6,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "美国·影",
+          "cpu": {
+            "cores": 8,
+            "model": "Intel Xeon 第四代"
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 170,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 40,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 104,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://www.qingyunl.com/",
+      "coupon_code": "VG7MLMZ637",
+      "payment_methods": null,
+      "features": [
+        "Intel Xeon 第四代CPU",
+        "KVM虚拟化架构",
+        "CN2回程优化线路",
+        "原生IP支持",
+        "不限流量",
+        "硬件防火墙CC攻击防护",
+        "免费更换IP"
+      ],
+      "suitable_for": [
+        "建站",
+        "开发",
+        "新手用户",
+        "中小企业业务"
+      ],
+      "summary": "美国云服务器采用Intel Xeon第四代CPU，提供CN2回程优化线路，价格低至17.6元/月，性价比高。"
+    },
+    {
+      "vendor": "轻云互联",
+      "product_name": "西安云服务器",
+      "location": "陕西西安",
+      "plans": [
+        {
+          "name": "入门型",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 200,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 36,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "标准型",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 300,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 48,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "增强型",
+          "cpu": {
+            "cores": 8,
+            "model": null
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 400,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 15,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 80,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "专业型",
+          "cpu": {
+            "cores": 16,
+            "model": null
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 600,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 15,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 128,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "内存型",
+          "cpu": {
+            "cores": 16,
+            "model": null
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 650,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 20,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 176,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://www.qingyunl.com/",
+      "coupon_code": "G29GG0DN2X",
+      "payment_methods": null,
+      "features": [
+        "KVM虚拟化架构",
+        "120G高防动态BGP线路",
+        "不限流量",
+        "硬件防火墙CC攻击防护",
+        "免费更换IP"
+      ],
+      "suitable_for": [
+        "建站",
+        "开发",
+        "新手用户",
+        "中小企业业务"
+      ],
+      "summary": "西安云服务器主打高防动态BGP线路，提供120G防御能力，适合对安全性要求较高的业务。"
+    },
+    {
+      "vendor": "轻云互联",
+      "product_name": "镇江云服务器",
+      "location": "华东镇江",
+      "plans": [
+        {
+          "name": "入门型",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 150,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 15,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 54,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "标准型",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 250,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 20,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 63,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "性能型",
+          "cpu": {
+            "cores": 8,
+            "model": null
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 350,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 25,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 99,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "增强型",
+          "cpu": {
+            "cores": 16,
+            "model": null
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 550,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 30,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 162,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "专业型",
+          "cpu": {
+            "cores": 32,
+            "model": null
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 600,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 35,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 216,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://www.qingyunl.com/",
+      "coupon_code": "JVXTVA92N9",
+      "payment_methods": null,
+      "features": [
+        "KVM虚拟化架构",
+        "华东镇江双线线路",
+        "不限流量",
+        "硬件防火墙CC攻击防护",
+        "免费更换IP"
+      ],
+      "suitable_for": [
+        "建站",
+        "开发",
+        "新手用户",
+        "中小企业业务"
+      ],
+      "summary": "镇江云服务器提供华东双线线路，覆盖国内网络，适合面向国内用户的业务场景。"
+    }
+  ],
+  "article_title": "轻云互联推出2026年1月优惠活动：中国香港、美国、西安、镇江云服务器终身折扣",
+  "article_summary": "轻云互联2026年1月推出终身折扣优惠，涵盖香港、美国、西安、镇江四个机房。产品基于KVM架构，提供高性能AMD/Intel CPU、全线高防与不限流量，最低价格17.6元/月，适合建站、开发和新手用户。",
+  "source_url": "https://www.gwvpsceping.com/8758.html",
+  "publish_date": "2026-01-05"
+}

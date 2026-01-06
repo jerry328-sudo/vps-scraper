@@ -1,0 +1,2052 @@
+{
+  "products": [
+    {
+      "vendor": "HostDare",
+      "product_name": "美国CN2 VPS CSSD方案",
+      "location": "美国洛杉矶",
+      "plans": [
+        {
+          "name": "CSSD0",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 512,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 250,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 28.79,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CSSD1",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 25,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 600,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 44.79,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CSSD2",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 50,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 68.79,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CSSD3",
+          "cpu": {
+            "cores": 3,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 100,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 188.79,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CSSD4",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 200,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 502.79,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CSSD5",
+          "cpu": {
+            "cores": 5,
+            "model": null
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 400,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 3500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 868.79,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CSSD6",
+          "cpu": {
+            "cores": 6,
+            "model": null
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 800,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 5500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 1712.79,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=106",
+      "coupon_code": "VU6E1H58UY",
+      "payment_methods": [
+        "支付宝",
+        "PayPal"
+      ],
+      "features": [
+        "电信CN2 GIA+联通9929+移动CMIN2线路",
+        "NVMe固态硬盘",
+        "KVM虚拟化",
+        "默认1个IPv4地址",
+        "带宽免费升级至100Mbps"
+      ],
+      "suitable_for": null,
+      "summary": "HostDare中国优化美国VPSCSSD方案，走CN2 GIA等三网高端线路，NVMe硬盘，适合对线路质量要求较高的用户。"
+    },
+    {
+      "vendor": "HostDare",
+      "product_name": "美国CN2 VPS CKVM方案",
+      "location": "美国洛杉矶",
+      "plans": [
+        {
+          "name": "CKVM1",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 768,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 35,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 600,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 39.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CKVM2",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 1.5,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 75,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 61.6,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CKVM3",
+          "cpu": {
+            "cores": 3,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 150,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 180,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CKVM4",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 300,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 441.6,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CKVM5",
+          "cpu": {
+            "cores": 5,
+            "model": null
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 600,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 3500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 528.8,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CKVM6",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 768,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 150,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 600,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 53.6,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CKVM7",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 1.5,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 300,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 107.2,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CKVM8",
+          "cpu": {
+            "cores": 3,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 450,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 214.4,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=74",
+      "coupon_code": "VU6E1H58UY",
+      "payment_methods": [
+        "支付宝",
+        "PayPal"
+      ],
+      "features": [
+        "电信CN2 GIA+联通9929+移动CMIN2线路",
+        "HDD硬盘",
+        "KVM虚拟化",
+        "带宽免费升级至100Mbps"
+      ],
+      "suitable_for": [
+        "需要更大存储的用户"
+      ],
+      "summary": "HostDare中国优化美国VPS CKVM方案，采用HDD硬盘，适合对存储容量有较大需求的用户。"
+    },
+    {
+      "vendor": "HostDare",
+      "product_name": "美国CN2 VPS CAMD方案",
+      "location": "美国洛杉矶",
+      "plans": [
+        {
+          "name": "CAMD0",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD EPYC"
+          },
+          "memory": {
+            "value": 768,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 250,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 30.4,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CAMD1",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD EPYC"
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 25,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 600,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 47.2,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CAMD2",
+          "cpu": {
+            "cores": 2,
+            "model": "AMD EPYC"
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 50,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 72.8,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CAMD3",
+          "cpu": {
+            "cores": 3,
+            "model": "AMD EPYC"
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 100,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 203.2,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CAMD4",
+          "cpu": {
+            "cores": 4,
+            "model": "AMD EPYC"
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 200,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 556,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CAMD5",
+          "cpu": {
+            "cores": 5,
+            "model": "AMD EPYC"
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 400,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 3500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 958.38,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "CAMD6",
+          "cpu": {
+            "cores": 6,
+            "model": "AMD EPYC"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 800,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 5500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 1815.98,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=176",
+      "coupon_code": "VU6E1H58UY",
+      "payment_methods": [
+        "支付宝",
+        "PayPal"
+      ],
+      "features": [
+        "AMD EPYC处理器",
+        "美国CN2 GIA线路",
+        "NVMe硬盘",
+        "1个IPv4、/64 IPv6",
+        "带宽免费升级至100Mbps"
+      ],
+      "suitable_for": null,
+      "summary": "HostDare新推出的AMD EPYC处理器方案，配备CN2 GIA线路，性能强劲。"
+    },
+    {
+      "vendor": "HostDare",
+      "product_name": "美国VPS SSD方案",
+      "location": "美国洛杉矶",
+      "plans": [
+        {
+          "name": "SSD0",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 768,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 12.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "SSD1",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 25,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 1000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 20,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "SSD2",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 50,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 2000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 35,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "SSD3",
+          "cpu": {
+            "cores": 3,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 100,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 3000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 65,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "SSD4",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 200,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 5000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 125,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "SSD5",
+          "cpu": {
+            "cores": 5,
+            "model": null
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 400,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 10000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 240,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=113",
+      "coupon_code": "DEAL50",
+      "payment_methods": [
+        "支付宝",
+        "PayPal"
+      ],
+      "features": [
+        "普通三网往返直连",
+        "KVM虚拟化",
+        "NVMe硬盘",
+        "可选Windows操作系统",
+        "双倍流量+双倍内存"
+      ],
+      "suitable_for": null,
+      "summary": "HostDare美国VPS SSD方案，采用普通线路，NVMe硬盘，价格低廉，适合预算有限的用户。"
+    },
+    {
+      "vendor": "HostDare",
+      "product_name": "美国VPS HDD方案",
+      "location": "美国洛杉矶",
+      "plans": [
+        {
+          "name": "HDD1",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 50,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 1000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 19.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "HDD2",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 100,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 2000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 29.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "HDD3",
+          "cpu": {
+            "cores": 3,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 200,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 3000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 54.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "HDD4",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 400,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 5000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 104.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "HDD5",
+          "cpu": {
+            "cores": 5,
+            "model": null
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 800,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 10000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 204.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "HDD6",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 200,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 2000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 25.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "HDD7",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 400,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 4000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 40.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "HDD8",
+          "cpu": {
+            "cores": 3,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 900,
+            "unit": "GB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 8000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 75.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=140",
+      "coupon_code": "DEAL50",
+      "payment_methods": [
+        "支付宝",
+        "PayPal"
+      ],
+      "features": [
+        "RAID10硬盘",
+        "普通三网往返直连",
+        "KVM虚拟化",
+        "可选Windows操作系统",
+        "双倍流量+双倍内存"
+      ],
+      "suitable_for": null,
+      "summary": "HostDare美国VPS HDD方案，采用RAID10硬盘，容量大，适合存储需求高的用户。"
+    },
+    {
+      "vendor": "HostDare",
+      "product_name": "美国VPS ASSD方案",
+      "location": "美国洛杉矶",
+      "plans": [
+        {
+          "name": "ASSD0",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 768,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 13.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "ASSD1",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 25,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 20.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "ASSD2",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 50,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 37.49,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "ASSD3",
+          "cpu": {
+            "cores": 3,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 100,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 3,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 68.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "ASSD4",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 200,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 5,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 131.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "ASSD5",
+          "cpu": {
+            "cores": 5,
+            "model": null
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 400,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 10,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 253.5,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "ASSD6",
+          "cpu": {
+            "cores": 6,
+            "model": null
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 800,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 20,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 470.5,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=169",
+      "coupon_code": "DEAL50",
+      "payment_methods": [
+        "支付宝",
+        "PayPal"
+      ],
+      "features": [
+        "普通线路",
+        "NVMe SSD",
+        "自带IPv4和IPv6",
+        "双倍流量+双倍内存"
+      ],
+      "suitable_for": null,
+      "summary": "HostDare美国VPS ASSD方案，即CAMD方案的普通线路款，自带IPv6，性价比高。"
+    },
+    {
+      "vendor": "HostDare",
+      "product_name": "日本VPS软银线路",
+      "location": "日本大阪",
+      "plans": [
+        {
+          "name": "JSSD0",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 768,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 30,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 250,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 35.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "JSSD1",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 20,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 50,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 600,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 63.88,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "JSSD2",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 40,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 60,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 90.07,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "JSSD3",
+          "cpu": {
+            "cores": 3,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 80,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 80,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 252.88,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "JSSD4",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 160,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 612.88,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "JSSD5",
+          "cpu": {
+            "cores": 5,
+            "model": null
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 320,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 3500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 1044.88,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "JSSD6",
+          "cpu": {
+            "cores": 6,
+            "model": null
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 600,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 5500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 1962.88,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=129",
+      "coupon_code": "WWP2OEG8IM",
+      "payment_methods": [
+        "支付宝",
+        "PayPal"
+      ],
+      "features": [
+        "日本软银线路"
+      ],
+      "suitable_for": null,
+      "summary": "HostDare日本VPS软银线路，适合亚洲地区访问需求。"
+    },
+    {
+      "vendor": "HostDare",
+      "product_name": "日本VPS三网直连线路",
+      "location": "日本大阪",
+      "plans": [
+        {
+          "name": "NKVM0",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 768,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 23.38,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "NKVM1",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 25,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 35.98,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "NKVM2",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 50,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 63.88,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "NKVM3",
+          "cpu": {
+            "cores": 3,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 100,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 3000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 117.88,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "NKVM4",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 200,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 5000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 225.88,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "NKVM5",
+          "cpu": {
+            "cores": 5,
+            "model": null
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 400,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 10000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 432.88,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "NKVM6",
+          "cpu": {
+            "cores": 6,
+            "model": null
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 800,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 20000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 846.88,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=162",
+      "coupon_code": "WWP2OEG8IM",
+      "payment_methods": [
+        "支付宝",
+        "PayPal"
+      ],
+      "features": [
+        "日本三网直连线路",
+        "NVMe SSD"
+      ],
+      "suitable_for": null,
+      "summary": "HostDare日本VPS三网直连线路，带宽大，流量足。"
+    },
+    {
+      "vendor": "HostDare",
+      "product_name": "欧洲保加利亚VPS",
+      "location": "欧洲保加利亚",
+      "plans": [
+        {
+          "name": "BGSSD0",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 768,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 5,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 20.79,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "BGSSD1",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 25,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 10,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 31.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "BGSSD2",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 50,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 20,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 56.79,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "BGSSD3",
+          "cpu": {
+            "cores": 3,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 100,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 30,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 104.79,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "BGSSD4",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 200,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 50,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 200.79,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "BGSSD5",
+          "cpu": {
+            "cores": 5,
+            "model": null
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 400,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 100,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 384.79,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "BGSSD6",
+          "cpu": {
+            "cores": 6,
+            "model": null
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 800,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 200,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 752.79,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=152",
+      "coupon_code": "YEK7J255LM",
+      "payment_methods": [
+        "支付宝",
+        "PayPal"
+      ],
+      "features": [
+        "NVMe SSD",
+        "大流量"
+      ],
+      "suitable_for": null,
+      "summary": "HostDare欧洲保加利亚VPS，提供超大流量，适合欧洲业务或需要大流量的用户。"
+    }
+  ],
+  "article_title": "HostDare官方推出了2026年新年优惠码",
+  "article_summary": "HostDare推出2026年新年优惠活动，涵盖美国（CN2 GIA/普通线路）、日本（软银/三网直连）及欧洲保加利亚VPS。年付订单享受折扣，低至$12.99/月，续费同价。部分套餐可享双倍流量/内存或免费升级带宽。支持支付宝/PayPal付款。",
+  "source_url": "https://www.gwvpsceping.com/8770.html",
+  "publish_date": "2026-01-05"
+}

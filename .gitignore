@@ -12,14 +12,8 @@ wheels/
 # 环境变量（包含敏感 API Key）
 .env
 
-# 爬取输出数据（保留目录结构）
-data/articles/*
-data/raw/*
-data/html/*
+# 历史归档数据（可选忽略）
 data/old/*
-!data/articles/.gitkeep
-!data/raw/.gitkeep
-!data/html/.gitkeep
 !data/old/.gitkeep
 
 # IDE

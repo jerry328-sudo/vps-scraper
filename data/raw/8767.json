@@ -1,0 +1,152 @@
+{
+  "products": [
+    {
+      "vendor": "莱卡云",
+      "product_name": "越南双ISP家宽VPS",
+      "location": "越南河内",
+      "plans": [
+        {
+          "name": "套餐1",
+          "cpu": {
+            "cores": 1,
+            "model": "Intel Core系列"
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 30,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 88,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "套餐2",
+          "cpu": {
+            "cores": 2,
+            "model": "Intel Core系列"
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 40,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 106,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "套餐3",
+          "cpu": {
+            "cores": 4,
+            "model": "Intel Core系列"
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 60,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 162,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "套餐4",
+          "cpu": {
+            "cores": 8,
+            "model": "Intel Core系列"
+          },
+          "memory": {
+            "value": 6,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 80,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 226,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://www.lcayun.com/aff/BIWWCSGY",
+      "coupon_code": null,
+      "payment_methods": [
+        "支付宝"
+      ],
+      "features": [
+        "双ISP原生住宅IP",
+        "网络稳定",
+        "支持多系统安装",
+        "可配置多个IP",
+        "性价比高",
+        "支持Windows和Linux系统"
+      ],
+      "suitable_for": [
+        "TikTok/YouTube直播",
+        "跨境电商",
+        "海外测试",
+        "流媒体解锁",
+        "跨境业务"
+      ],
+      "summary": "莱卡云越南家宽VPS拥有双ISP原生住宅IP、网络稳定、性能可靠，价格合理，支持多操作系统和多IP配置，适合需要高质量越南家宽VPS的用户。"
+    }
+  ],
+  "article_title": "莱卡云越南双ISP家宽VPS测评",
+  "article_summary": "莱卡云是一家国人运营的主机商，近期优化了越南双ISP家宽VPS。测评显示该产品网络稳定，延迟低（本地平均133ms），IP纯净度高，适合跨境业务和流媒体解锁。套餐价格从88元/月起，性价比较高。",
+  "source_url": "https://www.gwvpsceping.com/8767.html",
+  "publish_date": "2026-01-05"
+}

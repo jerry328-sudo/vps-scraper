@@ -1,0 +1,62 @@
+{
+  "products": [
+    {
+      "vendor": "WePC",
+      "product_name": "印尼VPS",
+      "location": "雅加达",
+      "plans": [
+        {
+          "name": "印尼VPS",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": null
+          },
+          "bandwidth": {
+            "value": 50,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 19.9,
+            "currency": "CAD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/",
+      "coupon_code": null,
+      "payment_methods": [
+        "支付宝"
+      ],
+      "features": [
+        "原生IP",
+        "海外访问稳定",
+        "移动网络国内直连效果较好",
+        "支付方式灵活，支持支付宝"
+      ],
+      "suitable_for": [
+        "跨境外贸",
+        "电商",
+        "海外业务",
+        "需要印尼原生IP的应用场景"
+      ],
+      "summary": "WePC印尼VPS以原生IP、支付方便、海外稳定性较好为特点，适合跨境用户或印尼业务需求者使用。国内电信和联通网络存在丢包，建议通过中转服务器提升访问体验。"
+    }
+  ],
+  "article_title": "WePC印尼VPS测评：原生IP、网络性能与购买指南",
+  "article_summary": "文章对WePC印尼VPS进行了详细测评，涵盖配置、IP属性、延迟、路由等网络测试。结果显示该VPS具备原生IP，移动网络直连较稳，但电信联通存在丢包。整体性价比合理，适合跨境业务用户。",
+  "source_url": "https://www.gwvpsceping.com/8765.html",
+  "publish_date": "2026-01-05"
+}

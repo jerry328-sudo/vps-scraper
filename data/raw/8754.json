@@ -1,0 +1,1153 @@
+{
+  "products": [
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "英国",
+      "plans": [
+        {
+          "name": "英国原生家宽_TK专用",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 512,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 70.09,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=209",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "TIKTOK视频/直播",
+        "建议中转"
+      ],
+      "suitable_for": null,
+      "summary": "英国原生家宽，适合TikTok运营。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "阿联酋",
+      "plans": [
+        {
+          "name": "阿联酋TikTok专用",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 512,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 117.13,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=208",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "TIKTOK视频/直播",
+        "建议中转"
+      ],
+      "suitable_for": null,
+      "summary": "阿联酋TikTok专用线路。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "加拿大",
+      "plans": [
+        {
+          "name": "加拿大原生IP_TikTok专用",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 512,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 60.68,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=205",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "适合TIKTOK视频/直播",
+        "非优化线路建议中转"
+      ],
+      "suitable_for": null,
+      "summary": "加拿大原生IP，适合TikTok运营。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "新加坡",
+      "plans": [
+        {
+          "name": "新加坡家宽TK直播",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 117.13,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "新加坡Tiktok专用",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 79.49,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=206",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "直播建议中转",
+        "移动可直连"
+      ],
+      "suitable_for": null,
+      "summary": "新加坡家宽VPS，TikTok直播专用。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "西班牙",
+      "plans": [
+        {
+          "name": "西班牙TIKTOK专用",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 0.5,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 93.61,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=199",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "必须中转才能使用"
+      ],
+      "suitable_for": null,
+      "summary": "西班牙TikTok专用线路。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "法国",
+      "plans": [
+        {
+          "name": "法国TIKTOK专用",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 0.5,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 70.09,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=203",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "法国原生家宽IPv4",
+        "TIKTOK视频/直播",
+        "建议加中转"
+      ],
+      "suitable_for": null,
+      "summary": "法国原生家宽，适合TikTok。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "印度尼西亚",
+      "plans": [
+        {
+          "name": "印度尼西亚TikTok专线",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 50,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 93.61,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=195",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "联通电信需中转",
+        "部分移动优秀"
+      ],
+      "suitable_for": null,
+      "summary": "印度尼西亚TikTok专线。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "日本",
+      "plans": [
+        {
+          "name": "日本TikTok专用",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 88.9,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=191",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "日本原生IP",
+        "适合TIKTOK视频/直播",
+        "三网直连",
+        "无需中转"
+      ],
+      "suitable_for": null,
+      "summary": "日本TikTok专用，三网直连。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "澳大利亚",
+      "plans": [
+        {
+          "name": "澳大利亚TikTok专用",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 30,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 70.09,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=121",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "EXETEL家宽IPv4",
+        "TIKTOK视频/直播",
+        "电信用户需要中转"
+      ],
+      "suitable_for": null,
+      "summary": "澳大利亚TikTok专用，家宽IP。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "台湾",
+      "plans": [
+        {
+          "name": "台湾TikTok直播专线",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 79.49,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=172",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "三网绕",
+        "直播需要中转"
+      ],
+      "suitable_for": null,
+      "summary": "台湾TikTok直播专线。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "菲律宾",
+      "plans": [
+        {
+          "name": "菲律宾TikTok专线",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 512,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 50,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 93.61,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=183",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "适合TIKTOK视频/直播",
+        "少部分区域需要中转"
+      ],
+      "suitable_for": null,
+      "summary": "菲律宾TikTok专线。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "越南",
+      "plans": [
+        {
+          "name": "越南TikTok专线",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 512,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 50,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 79.49,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=176",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "适合TIKTOK视频/直播",
+        "电信用户需要中转"
+      ],
+      "suitable_for": null,
+      "summary": "越南TikTok专线。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "马来西亚",
+      "plans": [
+        {
+          "name": "马来西亚TikTOk专线",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 768,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 88.9,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=150",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "原生IP/Hosting 非家宽",
+        "电信用户需要中转"
+      ],
+      "suitable_for": null,
+      "summary": "马来西亚TikTok专线。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "泰国",
+      "plans": [
+        {
+          "name": "泰国TikTok视频专用",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 512,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 50,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 93.61,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=170",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "泰国原生家宽IPv4",
+        "适合TIKTOK视频/直播",
+        "电信用户需要中转"
+      ],
+      "suitable_for": null,
+      "summary": "泰国TikTok视频专用。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "韩国",
+      "plans": [
+        {
+          "name": "韩国家宽_TK直播",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 88.99,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=175",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "韩国原生家宽IP",
+        "TIKTOK视频/直播自然推流",
+        "三网直连",
+        "无需中转"
+      ],
+      "suitable_for": null,
+      "summary": "韩国家宽，适合TikTok直播。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "英国",
+      "plans": [
+        {
+          "name": "英国TikTok专线",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 0.5,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 41.86,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=163",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "英国原生非家宽IPv4",
+        "TIKTOK视频/直播"
+      ],
+      "suitable_for": null,
+      "summary": "英国TikTok专线，非家宽。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "德国",
+      "plans": [
+        {
+          "name": "德国TikTok专线",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 0.5,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 41.86,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=157",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "德国原生IP",
+        "TIKTOK视频/直播",
+        "电信需中转",
+        "联通移动稳定"
+      ],
+      "suitable_for": null,
+      "summary": "德国TikTok专线。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "美国纽约",
+      "plans": [
+        {
+          "name": "美国纽约双ISP_38家宽",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 0.5,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1.5,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 60.68,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=207",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "家宽双ISP",
+        "TIKTOK发视频/起号",
+        "4837优化线路无需中转"
+      ],
+      "suitable_for": null,
+      "summary": "美国纽约双ISP家宽，优化线路。"
+    },
+    {
+      "vendor": "WePC",
+      "product_name": "WePC TikTok专用VPS",
+      "location": "美国洛杉矶",
+      "plans": [
+        {
+          "name": "美国洛杉矶双ISP_38家宽",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 512,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 60.68,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "美国洛杉矶9929_38家宽直播",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 768,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1.5,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 74.79,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "美国洛杉矶GTT/NTT_216/192家宽直播",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 768,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1.5,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 79.49,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=164",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "适合发视频/起号",
+        "非优化线路建议中转"
+      ],
+      "suitable_for": null,
+      "summary": "美国洛杉矶TikTok专线，多种线路可选。"
+    },
+    {
+      "vendor": "丽萨主机",
+      "product_name": "新加坡原生IPVPS",
+      "location": "新加坡",
+      "plans": [
+        {
+          "name": "1核套餐",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 300,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 6,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 68,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "2核套餐",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 20,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 10,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 88,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "4核套餐",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 40,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 20,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 188,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "不限流量套餐(2核)",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 40,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 398,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "不限流量套餐(4核)",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 80,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 898,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "年付套餐",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 300,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 466,
+            "currency": "CNY",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://lisahost.com/aff.php?aff=225&gid=15",
+      "coupon_code": "TS-CBP205DQJE",
+      "payment_methods": null,
+      "features": [
+        "新加坡原生IP",
+        "NVMe SSD",
+        "不限流量套餐可选"
+      ],
+      "suitable_for": [
+        "TikTok直播",
+        "跨境电商"
+      ],
+      "summary": "丽萨主机提供的新加坡原生IP VPS，包含不限流量套餐，适合长期运营。"
+    }
+  ],
+  "article_title": "新加坡家宽VPS推荐：TikTok直播与东南亚运营的最佳选择",
+  "article_summary": "文章详细介绍了新加坡家宽VPS在TikTok直播、Shopee运营及跨境电商中的优势，对比了家宽与机房VPS的区别，并提供了WePC和丽萨主机两家供应商的多款TikTok专用及新加坡原生IP VPS套餐配置与价格。",
+  "source_url": "https://www.gwvpsceping.com/8754.html",
+  "publish_date": "2026-01-04"
+}

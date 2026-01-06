@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "vendor": "InfoFractal",
+      "product_name": "智利 VPS",
+      "location": "智利",
+      "plans": [
+        {
+          "name": "特价方案",
+          "cpu": {
+            "cores": 1,
+            "model": "Xeon Gold 6244"
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 2.5,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://infofractal.io/clients/aff.php?aff=52&pid=138",
+      "coupon_code": "LOWENDTALK2025",
+      "payment_methods": [
+        "PayPal",
+        "加密货币"
+      ],
+      "features": [
+        "高频CPU (Xeon Gold 6244 至4.3GHz)",
+        "无限流量",
+        "冷门智利IP段",
+        "1Gbps 带宽",
+        "免费 DDoS 防护",
+        "支持 IPv6 (/64)"
+      ],
+      "suitable_for": [
+        "外贸站点",
+        "内容分发",
+        "区域性业务测试",
+        "对南美IP有需求的用户",
+        "希望使用冷门机房进行业务部署的用户"
+      ],
+      "summary": "InfoFractal 提供的智利 VPS 方案，主打高频 CPU、无限流量和冷门 IP 段，虽然配置较低且不适合对国内延迟敏感的场景，但适合有南美业务需求或需要差异化 IP 的用户。"
+    }
+  ],
+  "article_title": "InfoFractal 智利 VPS 测评：2.5美元/月 高频CPU+无限流量",
+  "article_summary": "文章介绍了智利本土 IDC 服务商 InfoFractal 推出的特价 VPS 方案，该方案价格低至 2.5 美元/月，配备 1 核高频 CPU、1GB 内存和无限流量，适合外贸建站及对冷门机房有特定需求的用户。",
+  "source_url": "https://www.gwvpsceping.com/8781.html",
+  "publish_date": "2026-01-06"
+}

@@ -1,0 +1,153 @@
+{
+  "products": [
+    {
+      "vendor": "遨游主机",
+      "product_name": "香港CN2 VPS",
+      "location": "香港荃湾",
+      "plans": [
+        {
+          "name": "套餐一",
+          "cpu": {
+            "cores": 2,
+            "model": "AMD"
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 40,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 50,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 300,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 65,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "套餐二",
+          "cpu": {
+            "cores": 2,
+            "model": "AMD"
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 50,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 50,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 600,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 80,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "套餐三",
+          "cpu": {
+            "cores": 2,
+            "model": "AMD"
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 60,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 160,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "套餐四",
+          "cpu": {
+            "cores": 4,
+            "model": "AMD"
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 80,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1400,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 300,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://my.aoyozhuji.com/page.aspx?c=referral&u=43136",
+      "coupon_code": null,
+      "payment_methods": [
+        "支付宝"
+      ],
+      "features": [
+        "CN2优化线路（电信）、AS4837（联通）、CMI（移动）三网直连",
+        "提供原生IPv4地址，非NAT、非广播",
+        "支持Linux和Windows操作系统",
+        "采用DELL新一代AMD服务器",
+        "带宽可选50Mbps-200Mbps",
+        "三网延迟低（平均约51-66ms），稳定性好"
+      ],
+      "suitable_for": [
+        "建站",
+        "远程办公",
+        "跨境业务",
+        "企业官网",
+        "远程桌面",
+        "轻量应用部署"
+      ],
+      "summary": "遨游主机的香港CN2 VPS在网络稳定性、IP质量和价格方面表现均衡，接入CN2/AS4837/CMI优化线路，提供原生IP，支持支付宝付款，最低65元/月起，适合对线路质量和IP属性有要求的预算型用户。"
+    }
+  ],
+  "article_title": "遨游主机香港CN2 VPS测评：原生IP、三网直连线路实测",
+  "article_summary": "文章对遨游主机最新上线的香港CN2 VPS进行了详细测评，涵盖核心配置、网络路由、延迟测试及价格分析。测试结果显示该产品线路稳定、延迟低、IP质量好，性价比在同类产品中较为突出。",
+  "source_url": "https://www.gwvpsceping.com/8752.html",
+  "publish_date": "2026-01-04"
+}

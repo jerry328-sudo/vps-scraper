@@ -1,0 +1,209 @@
+{
+  "products": [
+    {
+      "vendor": "UQIDC",
+      "product_name": "美国休斯敦 VPS",
+      "location": "美国德克萨斯州休斯敦 (Netrality 机房)",
+      "plans": [
+        {
+          "name": "1G套餐",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD Ryzen 9 9950X"
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 20,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 1,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 25,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "2G套餐",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD Ryzen 9 9950X"
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 30,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 50,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "4G套餐",
+          "cpu": {
+            "cores": 2,
+            "model": "AMD Ryzen 9 9950X"
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 60,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 5,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 99,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "8G套餐",
+          "cpu": {
+            "cores": 8,
+            "model": "AMD Ryzen 9 9950X"
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 120,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 10,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 199,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "16G套餐",
+          "cpu": {
+            "cores": 8,
+            "model": "AMD Ryzen 9 9950X"
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 240,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 20,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 399,
+            "currency": "CNY",
+            "period": "月"
+          }
+        },
+        {
+          "name": "32G套餐",
+          "cpu": {
+            "cores": 16,
+            "model": "AMD Ryzen 9 9950X"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 480,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 40,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 799,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://www.uqidc.com/cart?fid=1&gid=33&aff=XVQIKOSI",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "AMD Ryzen 9 9950X 处理器",
+        "DDR5 内存",
+        "PCIe 5.0 NVMe 固态硬盘",
+        "美国原生 IPv4 + IPv6",
+        "1Gbps 大带宽",
+        "回程主要在美西方向接入回国，移动线路由 CMI 承载",
+        "2G 内存及以上套餐可安装 Windows 系统"
+      ],
+      "suitable_for": [
+        "TikTok 跨境运营",
+        "流媒体使用 (Netflix, YouTube)",
+        "AI 工具调用 (ChatGPT)",
+        "对 IP 纯净度要求较高的业务场景",
+        "Windows 环境需求用户"
+      ],
+      "summary": "UQIDC 美国休斯敦 VPS 采用高性能硬件配置（AMD 9950X, DDR5, PCIe 5.0），提供美国原生 IP，具备优秀的流媒体解锁能力（TikTok, Netflix, ChatGPT），网络路由优化（CMI 回国），适合跨境运营及对流媒体有需求的用户。"
+    }
+  ],
+  "article_title": "UQIDC近期在美国德克萨斯州休斯敦正式上线全新一代高性能VPS产品",
+  "article_summary": "UQIDC 上线美国休斯敦高性能 VPS，采用 AMD Ryzen 9 9950X 和 PCIe 5.0 NVMe 硬件，提供 1Gbps 带宽和美国原生 IP，实测可解锁 TikTok、Netflix、ChatGPT 等主流平台，适合跨境运营及流媒体使用。",
+  "source_url": "https://www.gwvpsceping.com/8756.html",
+  "publish_date": "2026-01-05"
+}
