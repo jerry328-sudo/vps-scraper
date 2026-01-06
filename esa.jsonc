@@ -1,5 +1,8 @@
 {
-  "output": {
-    "assets": "."
+  "name": "vps-data-viewer",
+  "buildCommand": "",
+  "assets": {
+    "directory": ".",
+    "notFoundStrategy": "singlePageApplication"
   }
 }
