@@ -20,7 +20,7 @@ from src.scrapers import GWVPSScraper
 # ============================================================
 
 # 爬取最近 N 天的文章
-DAYS = 3
+DAYS = 5
 
 # 爬取文章列表的线程数
 SCRAPE_THREADS = 4
