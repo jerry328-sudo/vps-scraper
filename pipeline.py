@@ -113,10 +113,28 @@ def main():
     print("=" * 60)
     print()
     
+    # 检查必需的 API Key
+    from config import API_KEYS
+    
+    zhipu_key = API_KEYS.get("zhipu", "")
+    tavily_key = API_KEYS.get("tavily", "")
+    
+    if not zhipu_key:
+        print("❌ 错误: 未配置 ZHIPU_API_KEY")
+        print("   请在 .env 文件中配置或设置环境变量")
+        print("   获取地址: https://open.bigmodel.cn/")
+        sys.exit(1)
+    
+    if USE_TAVILY and not tavily_key:
+        print("❌ 错误: USE_TAVILY=True 但未配置 TAVILY_API_KEY")
+        print("   请在 .env 文件中配置或设置环境变量")
+        print("   获取地址: https://tavily.com/")
+        sys.exit(1)
+    
     # 归档旧数据
     archive_old_data()
     
-    # 创建爬虫实例（使用 Tavily API 提取）
+    # 创建爬虫实例
     scraper = GWVPSScraper(use_tavily=USE_TAVILY)
     
     # 运行 Pipeline
