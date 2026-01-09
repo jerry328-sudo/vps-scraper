@@ -19,14 +19,10 @@ const authError = document.getElementById('auth-error');
 const filterVendor = document.getElementById('filter-vendor');
 const filterRegion = document.getElementById('filter-region');
 const filterPrice = document.getElementById('filter-price');
+const filterRam = document.getElementById('filter-ram');
+const filterCpu = document.getElementById('filter-cpu');
 const filterBandwidth = document.getElementById('filter-bandwidth');
 const resetBtn = document.getElementById('reset-filters-btn');
-
-// Chip Filters
-const chipFilters = {
-    ram: null,
-    cpu: null
-};
 
 // --- Initialization ---
 
@@ -106,36 +102,17 @@ function setupFilters() {
     filterVendor.addEventListener('change', updateUI);
     filterRegion.addEventListener('change', updateUI);
     filterPrice.addEventListener('input', debounce(updateUI, 300));
+    filterRam.addEventListener('change', updateUI);
+    filterCpu.addEventListener('change', updateUI);
     filterBandwidth.addEventListener('change', updateUI);
-
-    // Chip Listeners (RAM / CPU)
-    document.querySelectorAll('.chip').forEach(chip => {
-        chip.addEventListener('click', (e) => {
-            const type = chip.dataset.filter; // 'ram' or 'cpu'
-            const val = parseFloat(chip.dataset.val);
-
-            // Toggle
-            if (chipFilters[type] === val) {
-                chipFilters[type] = null;
-                chip.classList.remove('active');
-            } else {
-                chipFilters[type] = val;
-                // Deactivate data-filter=same group
-                document.querySelectorAll(`.chip[data-filter="${type}"]`).forEach(c => c.classList.remove('active'));
-                chip.classList.add('active');
-            }
-            updateUI();
-        });
-    });
 
     resetBtn.addEventListener('click', () => {
         filterVendor.value = "";
         filterRegion.value = "";
         filterPrice.value = "";
+        filterRam.value = "0";
+        filterCpu.value = "0";
         filterBandwidth.value = "0";
-        chipFilters.ram = null;
-        chipFilters.cpu = null;
-        document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
         updateUI();
     });
 }
@@ -145,8 +122,8 @@ function updateUI() {
         vendor: filterVendor.value,
         region: filterRegion.value,
         maxPrice: filterPrice.value ? parseFloat(filterPrice.value) : null,
-        minRam: chipFilters.ram,
-        minCpu: chipFilters.cpu,
+        minRam: parseInt(filterRam.value),
+        minCpu: parseInt(filterCpu.value),
         minBw: parseInt(filterBandwidth.value)
     };
 

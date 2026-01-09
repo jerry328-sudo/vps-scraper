@@ -214,3 +214,67 @@ button {
     .filters-section { margin: 1rem; padding: 1rem; }
     .results-grid { padding: 0 1rem 2rem; }
 }
+
+/* Disclaimer Section */
+.disclaimer-section {
+    margin: 2rem var(--space-lg);
+    padding: 2rem;
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--accent);
+}
+
+.disclaimer-content h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--accent);
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.disclaimer-content h3 i {
+    width: 24px;
+    height: 24px;
+}
+
+.disclaimer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.disclaimer-text p {
+    line-height: 1.6;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.disclaimer-text strong {
+    color: var(--text-main);
+    font-weight: 600;
+}
+
+.disclaimer-text a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.disclaimer-text a:hover {
+    text-decoration-style: solid;
+}
+
+@media (max-width: 768px) {
+    .disclaimer-section {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+    
+    .disclaimer-content h3 {
+        font-size: 1.1rem;
+    }
+    
+    .disclaimer-text p {
+        font-size: 0.9rem;
+    }
+}
