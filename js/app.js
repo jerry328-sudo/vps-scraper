@@ -93,9 +93,18 @@ function setupFilters() {
         filterVendor.appendChild(opt);
     });
 
+    // Populate Region Dropdown
+    const countries = dataManager.getCountries();
+    countries.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c;
+        opt.textContent = c;
+        filterRegion.appendChild(opt);
+    });
+
     // Listeners
     filterVendor.addEventListener('change', updateUI);
-    filterRegion.addEventListener('input', debounce(updateUI, 300));
+    filterRegion.addEventListener('change', updateUI);
     filterPrice.addEventListener('input', debounce(updateUI, 300));
     filterBandwidth.addEventListener('change', updateUI);
 

@@ -1,10 +1,12 @@
-import { DATA_FILES } from './config.js';
+
+import { DATA_FILES, COUNTRY_DICT } from './config.js';
 
 export class DataManager {
     constructor() {
         this.rawProducts = [];
         this.groupedData = {};
         this.stats = { vendors: 0, products: 0, plans: 0 };
+        this.availableCountries = new Set();
     }
 
     async loadAll() {
@@ -57,6 +59,7 @@ export class DataManager {
 
     processData(results) {
         this.rawProducts = [];
+        this.availableCountries.clear();
 
         results.forEach(fileData => {
             const sourceUrl = fileData.source_url;
@@ -66,6 +69,12 @@ export class DataManager {
                     // Inject source_url and original article info if needed
                     p.source_url = sourceUrl;
                     p.source_title = fileData.article_title;
+
+                    // Normalize Country
+                    p.country_norm = this.matchCountry(p.location);
+                    if (p.country_norm) {
+                        this.availableCountries.add(p.country_norm);
+                    }
 
                     // Normalize plans
                     if (p.plans) {
@@ -77,6 +86,24 @@ export class DataManager {
         });
 
         this.calculateStats();
+    }
+
+    matchCountry(locationStr) {
+        if (!locationStr) return null;
+        for (const [country, keywords] of Object.entries(COUNTRY_DICT)) {
+            // Case insensitive check
+            const lowerLoc = locationStr.toLowerCase();
+            for (const keyword of keywords) {
+                if (lowerLoc.includes(keyword.toLowerCase())) {
+                    return country;
+                }
+            }
+        }
+        return "Other";
+    }
+
+    getCountries() {
+        return Array.from(this.availableCountries).sort();
     }
 
     normalizePlan(plan) {
@@ -140,8 +167,8 @@ export class DataManager {
         }
 
         if (criteria.region) {
-            const q = criteria.region.toLowerCase();
-            filtered = filtered.filter(p => p.location && p.location.toLowerCase().includes(q));
+            // Exact match on normalized country
+            filtered = filtered.filter(p => p.country_norm === criteria.region);
         }
 
         // For Plan-level filters, we check if *any* plan in the product matches.

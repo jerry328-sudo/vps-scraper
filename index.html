@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,9 @@
     <!-- SVG Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
+
 <body class="dark-theme">
-    
+
     <!-- Auth Overlay -->
     <div id="auth-overlay" class="auth-overlay">
         <div class="auth-card glass-card">
@@ -53,7 +55,9 @@
                 </div>
                 <div class="filter-group">
                     <label>Region</label>
-                    <input type="text" id="filter-region" placeholder="e.g. Hong Kong, US" />
+                    <select id="filter-region">
+                        <option value="">All Regions</option>
+                    </select>
                 </div>
                 <div class="filter-group">
                     <label>Max Budget (Yearly)</label>
@@ -92,6 +96,7 @@
                         <option value="30">30 Mbps+</option>
                         <option value="100">100 Mbps+</option>
                         <option value="1000">1 Gbps+</option>
+                        <option value="10000">10 Gbps+</option>
                     </select>
                 </div>
             </div>
@@ -108,4 +113,5 @@
         lucide.createIcons();
     </script>
 </body>
+
 </html>
