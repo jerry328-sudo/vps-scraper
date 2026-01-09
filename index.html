@@ -1,866 +1,111 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VPS 测评数据展示</title>
-    <style>
-        /* ========== 访问验证样式 ========== */
-        #auth-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 9999;
-        }
-        #auth-overlay.hidden { display: none; }
-        .auth-box {
-            background: white;
-            padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            text-align: center;
-            max-width: 400px;
-            width: 90%;
-        }
-        .auth-box h2 {
-            margin-bottom: 10px;
-            color: #333;
-        }
-        .auth-box p {
-            color: #666;
-            margin-bottom: 20px;
-            font-size: 14px;
-        }
-        .auth-box input {
-            width: 100%;
-            padding: 12px 16px;
-            border: 2px solid #e1e8ed;
-            border-radius: 8px;
-            font-size: 16px;
-            margin-bottom: 15px;
-            transition: border-color 0.3s;
-        }
-        .auth-box input:focus {
-            outline: none;
-            border-color: #667eea;
-        }
-        .auth-box button {
-            width: 100%;
-            padding: 12px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .auth-box button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
-        }
-        .auth-error {
-            color: #e74c3c;
-            font-size: 14px;
-            margin-top: 10px;
-            display: none;
-        }
-        #main-content { display: none; }
-        #main-content.visible { display: block; }
-        /* ========== 访问验证样式结束 ========== */
-
-        :root {
-            --primary-color: #3498db;
-            --secondary-color: #2ecc71;
-            --bg-color: #f5f7fa;
-            --card-bg: #ffffff;
-            --text-color: #2c3e50;
-            --border-color: #e1e8ed;
-            --shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        header {
-            text-align: center;
-            padding: 40px 20px;
-            background: linear-gradient(135deg, var(--primary-color), #2980b9);
-            color: white;
-            border-radius: 16px;
-            margin-bottom: 30px;
-            box-shadow: var(--shadow);
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            opacity: 0.9;
-            font-size: 1.1rem;
-        }
-
-        .stats {
-            display: flex;
-            justify-content: center;
-            gap: 40px;
-            margin-top: 20px;
-        }
-
-        .stat-item {
-            text-align: center;
-        }
-
-        .stat-value {
-            font-size: 2rem;
-            font-weight: bold;
-        }
-
-        .stat-label {
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
-
-        .filters {
-            background: var(--card-bg);
-            padding: 20px;
-            border-radius: 12px;
-            margin-bottom: 30px;
-            box-shadow: var(--shadow);
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            align-items: center;
-        }
-
-        .filter-group {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .filter-group label {
-            font-weight: 500;
-            color: #666;
-        }
-
-        .filter-group select,
-        .filter-group input {
-            padding: 8px 12px;
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            font-size: 14px;
-            outline: none;
-            transition: border-color 0.3s;
-        }
-
-        .filter-group select:focus,
-        .filter-group input:focus {
-            border-color: var(--primary-color);
-        }
-
-        .vendor-section {
-            margin-bottom: 40px;
-        }
-
-        .vendor-header {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 20px;
-            padding: 15px 20px;
-            background: var(--card-bg);
-            border-radius: 12px;
-            box-shadow: var(--shadow);
-            position: sticky;
-            top: 20px;
-            z-index: 100;
-            border-left: 5px solid var(--primary-color);
-        }
-
-        .vendor-name {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--text-color);
-        }
-
-        .vendor-badge {
-            background: var(--secondary-color);
-            color: white;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-        }
-
-        .product-card {
-            background: var(--card-bg);
-            border-radius: 12px;
-            box-shadow: var(--shadow);
-            margin-bottom: 20px;
-            overflow: hidden;
-            border: 1px solid var(--border-color);
-        }
-
-        .product-header {
-            background: #f8f9fa;
-            padding: 15px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .product-title-group h3 {
-            font-size: 1.2rem;
-            color: var(--text-color);
-            margin-bottom: 5px;
-        }
-
-        .product-meta {
-            display: flex;
-            gap: 15px;
-            font-size: 0.9rem;
-            color: #666;
-        }
-
-        .product-meta span {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }
-
-        .plans-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 20px;
-            padding: 20px;
-        }
-
-        .plan-card {
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 15px;
-            transition: all 0.2s ease;
-            background: #fff;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .plan-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            border-color: var(--primary-color);
-        }
-
-        .plan-name {
-            font-weight: 600;
-            color: var(--primary-color);
-            margin-bottom: 12px;
-            font-size: 1.05rem;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 8px;
-        }
-
-        .plan-specs {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            font-size: 0.9rem;
-            margin-bottom: 15px;
-        }
-
-        .spec-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: #555;
-        }
-
-        .spec-row strong {
-            color: var(--text-color);
-        }
-
-        .plan-prices {
-            background: #f8f9fa;
-            margin: 0 -15px -15px -15px;
-            padding: 10px 15px;
-            border-top: 1px solid #eee;
-            border-radius: 0 0 8px 8px;
-        }
-
-        .price-tag {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 0.9rem;
-            margin-bottom: 4px;
-        }
-
-        .price-tag:last-child {
-            margin-bottom: 0;
-        }
-
-        .price-val {
-            color: #e74c3c;
-            font-weight: bold;
-            font-size: 1.1rem;
-        }
-
-        .loading, .no-data, .error {
-            text-align: center;
-            padding: 60px;
-            color: #888;
-        }
-
-        .loading-spinner {
-            width: 40px;
-            height: 40px;
-            border: 3px solid var(--border-color);
-            border-top-color: var(--primary-color);
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 20px;
-        }
-
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-
-        .error {
-            background: #fff5f5;
-            color: #c0392b;
-            border: 1px solid #ffcccc;
-            border-radius: 8px;
-        }
-
-        .toggle-btn {
-            background: transparent;
-            color: var(--primary-color);
-            border: 1px solid var(--primary-color);
-            padding: 5px 12px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 0.85rem;
-            transition: all 0.2s;
-        }
-
-        .toggle-btn:hover {
-            background: var(--primary-color);
-            color: white;
-        }
-
-        .product-actions {
-            display: flex;
-            gap: 10px;
-            margin-top: 15px;
-            padding-top: 15px;
-            border-top: 1px solid #eee;
-        }
-
-        .action-link {
-            flex: 1;
-            text-align: center;
-            padding: 8px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
-
-        .link-review {
-            background: #eef2f7;
-            color: var(--text-color);
-        }
-        .link-review:hover { background: #e1e8ed; }
-
-        .link-buy {
-            background: var(--secondary-color);
-            color: white;
-        }
-        .link-buy:hover { background: #27ae60; }
-
-        .collapsed .plans-grid, 
-        .collapsed .product-actions {
-            display: none;
-        }
-    </style>
+    <title>VPS Scout Pro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- SVG Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body>
-    <!-- ========== 访问验证层 ========== -->
-    <div id="auth-overlay">
-        <div class="auth-box">
-            <h2>🔐 访问验证</h2>
-            <p>请输入访问密钥以查看内容</p>
-            <input type="password" id="auth-token" placeholder="请输入密钥" onkeypress="if(event.key==='Enter')verifyToken()">
-            <button onclick="verifyToken()">验证</button>
-            <div class="auth-error" id="auth-error">密钥错误，请重试</div>
+<body class="dark-theme">
+    
+    <!-- Auth Overlay -->
+    <div id="auth-overlay" class="auth-overlay">
+        <div class="auth-card glass-card">
+            <h1 class="logo-text">VPS Scout <span class="accent-text">Pro</span></h1>
+            <p>Access Restricted. Verification Required.</p>
+            <div class="input-group">
+                <input type="password" id="auth-input" placeholder="Enter Access Key" />
+                <button id="auth-btn" class="primary-btn">Unlock</button>
+            </div>
+            <p id="auth-error" class="error-msg hidden">Invalid Access Key</p>
         </div>
     </div>
-    <!-- ========== 访问验证层结束 ========== -->
 
-    <div id="main-content" class="container">
-        <header>
-            <h1>🖥️ VPS 测评数据展示</h1>
-            <p>数据来源: 狗汪VPS测评网</p>
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-value" id="vendorCount">-</div>
-                    <div class="stat-label">服务商</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value" id="productCount">-</div>
-                    <div class="stat-label">产品系列</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-value" id="planCount">-</div>
-                    <div class="stat-label">在售套餐</div>
-                </div>
+    <!-- Main App -->
+    <div id="app" class="app-container hidden">
+        <!-- Header -->
+        <header class="glass-header">
+            <div class="logo">
+                <i data-lucide="server"></i>
+                <span>VPS Scout <span class="accent-text">Pro</span></span>
+            </div>
+            <div class="stats-bar" id="stats-bar">
+                <!-- Stats injected here -->
+            </div>
+            <div class="header-actions">
+                <button id="reset-filters-btn" class="text-btn"><i data-lucide="rotate-ccw"></i> Reset Filters</button>
             </div>
         </header>
 
-        <!-- 免责声明 -->
-        <div class="disclaimer" style="background: #fff3cd; border: 1px solid #ffc107; border-radius: 8px; padding: 15px 20px; margin-bottom: 20px; font-size: 0.9rem; color: #856404;">
-            <strong>⚠️ 免责声明：</strong>
-            本页面数据由 AI 自动从<a href="https://www.gwvpsceping.com/" target="_blank" rel="noopener" style="color: #0056b3;">狗汪 VPS 测评网</a>抓取并解析，仅供学习和参考使用。
-            数据可能存在错误或过时，请以各服务商官网为准。本项目不对数据准确性负责，不构成任何购买建议。
-            如有侵权请联系删除。
-        </div>
-
-        <div class="filters">
-            <div class="filter-group">
-                <label>服务商:</label>
-                <select id="vendorFilter"><option value="">全部</option></select>
-            </div>
-            <div class="filter-group">
-                <label>地区:</label>
-                <select id="locationFilter"><option value="">全部</option></select>
-            </div>
-            <div class="filter-group">
-                <label>最高预算(元/年):</label>
-                <input type="number" id="maxPriceFilter" placeholder="不限" style="width: 100px;">
-            </div>
-            <div class="filter-group">
-                <label>内存 >=</label>
-                <select id="minMemoryFilter">
-                    <option value="">不限</option>
-                    <option value="0.5">512 MB</option>
-                    <option value="1">1 GB</option>
-                    <option value="2">2 GB</option>
-                    <option value="4">4 GB</option>
-                    <option value="8">8 GB</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label>带宽 >=</label>
-                <select id="minBandwidthFilter">
-                    <option value="">不限</option>
-                    <option value="1">1 Mbps</option>
-                    <option value="5">5 Mbps</option>
-                    <option value="10">10 Mbps</option>
-                    <option value="30">30 Mbps</option>
-                    <option value="100">100 Mbps</option>
-                    <option value="1000">1 Gbps</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label>CPU >=</label>
-                <select id="minCpuFilter">
-                    <option value="">不限</option>
-                    <option value="1">1 核</option>
-                    <option value="2">2 核</option>
-                    <option value="4">4 核</option>
-                    <option value="8">8 核</option>
-                </select>
-            </div>
-            <button class="toggle-btn" style="background:var(--text-color);color:white;border:none" onclick="resetFilters()">重置</button>
-        </div>
-
-        <div id="content">
-            <div class="loading">
-                <div class="loading-spinner"></div>
-                <p>正在读取测评数据...</p>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        // ========== 访问验证逻辑 ==========
-        // 修改此密钥来设置访问密码（建议使用复杂字符串）
-        const ACCESS_TOKEN = 'vps2026';
-        const TOKEN_STORAGE_KEY = 'vps_access_token';
-
-        function verifyToken() {
-            const input = document.getElementById('auth-token').value;
-            const errorEl = document.getElementById('auth-error');
-            
-            if (input === ACCESS_TOKEN) {
-                // 验证成功，保存到 sessionStorage（关闭浏览器后失效）
-                sessionStorage.setItem(TOKEN_STORAGE_KEY, input);
-                unlockContent();
-            } else {
-                errorEl.style.display = 'block';
-                document.getElementById('auth-token').value = '';
-            }
-        }
-
-        function checkAuth() {
-            // 支持 URL 参数验证：?token=xxx
-            const urlParams = new URLSearchParams(window.location.search);
-            const urlToken = urlParams.get('token');
-            const storedToken = sessionStorage.getItem(TOKEN_STORAGE_KEY);
-            
-            if (urlToken === ACCESS_TOKEN || storedToken === ACCESS_TOKEN) {
-                if (urlToken === ACCESS_TOKEN) {
-                    sessionStorage.setItem(TOKEN_STORAGE_KEY, urlToken);
-                }
-                unlockContent();
-                return true;
-            }
-            return false;
-        }
-
-        function unlockContent() {
-            document.getElementById('auth-overlay').classList.add('hidden');
-            document.getElementById('main-content').classList.add('visible');
-        }
-        // ========== 访问验证逻辑结束 ==========
-
-        // 更新后的文件列表
-        const jsonFiles = [
-            'data/raw/8748.json', 'data/raw/8750.json', 'data/raw/8752.json',
-            'data/raw/8754.json', 'data/raw/8756.json', 'data/raw/8758.json',
-            'data/raw/8760.json', 'data/raw/8765.json', 'data/raw/8767.json',
-            'data/raw/8770.json', 'data/raw/8772.json', 'data/raw/8774.json',
-            'data/raw/8777.json', 'data/raw/8781.json', 'data/raw/8785.json'
-        ];
-
-        let globalData = []; // 扁平化的产品列表
-        let vendorsMap = new Map(); // Vendor Name -> [Products]
-        
-        async function init() {
-            const contentDiv = document.getElementById('content');
-            try {
-                // 1. 并发加载所有JSON
-                const responses = await Promise.all(jsonFiles.map(url => fetch(url).then(r => r.ok ? r.json() : null).catch(e => null)));
-                const validData = responses.filter(d => d);
-
-                if (validData.length === 0) {
-                    throw new Error("没有读取到任何有效数据");
-                }
-
-                // 2. 数据处理与合并
-                processData(validData);
-
-                // 3. 渲染
-                render();
-                populateFilters();
-
-            } catch (e) {
-                contentDiv.innerHTML = `<div class="error"><h3>加载失败</h3><p>${e.message}</p></div>`;
-                console.error(e);
-            }
-        }
-
-        function processData(rawDataList) {
-            globalData = [];
-            vendorsMap.clear();
-
-            rawDataList.forEach(fileData => {
-                if (!fileData.products || !Array.isArray(fileData.products)) return;
-
-                fileData.products.forEach(prod => {
-                    // 注入来源信息，方便跳转
-                    prod._meta = {
-                        article_title: fileData.article_title,
-                        source_url: fileData.source_url,
-                        publish_date: fileData.publish_date
-                    };
-
-                    globalData.push(prod);
-
-                    // 归一化服务商名称 (去除首尾空格，作为Key)
-                    let vName = (prod.vendor || '未知服务商').trim();
-                    if (!vendorsMap.has(vName)) {
-                        vendorsMap.set(vName, []);
-                    }
-                    vendorsMap.get(vName).push(prod);
-                });
-            });
-
-            updateStats();
-        }
-
-        function updateStats() {
-            document.getElementById('vendorCount').textContent = vendorsMap.size;
-            document.getElementById('productCount').textContent = globalData.length;
-            const totalPlans = globalData.reduce((acc, p) => acc + (p.plans ? p.plans.length : 0), 0);
-            document.getElementById('planCount').textContent = totalPlans;
-        }
-
-        function populateFilters() {
-            const vSelect = document.getElementById('vendorFilter');
-            const lSelect = document.getElementById('locationFilter');
-            const locations = new Set();
-
-            // 填充服务商
-            Array.from(vendorsMap.keys()).sort().forEach(v => {
-                const opt = document.createElement('option');
-                opt.value = v;
-                opt.textContent = v;
-                vSelect.appendChild(opt);
-            });
-
-            // 提取地区 (简单去重)
-            globalData.forEach(p => {
-                if(p.location) locations.add(p.location.trim());
-            });
-            Array.from(locations).sort().forEach(l => {
-                const opt = document.createElement('option');
-                opt.value = l;
-                opt.textContent = l;
-                lSelect.appendChild(opt);
-            });
-
-            // 绑定事件
-            ['vendorFilter', 'locationFilter', 'minMemoryFilter', 'minBandwidthFilter', 'minCpuFilter'].forEach(id => {
-                document.getElementById(id).addEventListener('change', render);
-            });
-            document.getElementById('maxPriceFilter').addEventListener('input', render);
-        }
-
-        function resetFilters() {
-            document.getElementById('vendorFilter').value = "";
-            document.getElementById('locationFilter').value = "";
-            document.getElementById('maxPriceFilter').value = "";
-            document.getElementById('minMemoryFilter').value = "";
-            document.getElementById('minBandwidthFilter').value = "";
-            document.getElementById('minCpuFilter').value = "";
-            render();
-        }
-
-        // 核心渲染逻辑
-        function render() {
-            const content = document.getElementById('content');
-            const filters = {
-                vendor: document.getElementById('vendorFilter').value,
-                location: document.getElementById('locationFilter').value,
-                maxPrice: parseFloat(document.getElementById('maxPriceFilter').value) || Infinity,
-                minMem: parseFloat(document.getElementById('minMemoryFilter').value) || 0,
-                minBw: parseFloat(document.getElementById('minBandwidthFilter').value) || 0,
-                minCpu: parseFloat(document.getElementById('minCpuFilter').value) || 0
-            };
-
-            // 重新按筛选条件构建分组
-            // 逻辑：遍历所有Vendor，筛选其下的Product，再筛选Product下的Plan
-            // 如果一个Product下没有符合的Plan，则不显示该Product
-            // 如果一个Vendor下没有符合的Product，则不显示该Vendor
-
-            let html = '';
-            let hasData = false;
-
-            // 按Vendor名称排序渲染
-            const sortedVendors = Array.from(vendorsMap.keys()).sort();
-
-            for (const vendorName of sortedVendors) {
-                // 1. Vendor 级筛选
-                if (filters.vendor && vendorName !== filters.vendor) continue;
-
-                const vendorProducts = vendorsMap.get(vendorName);
-                let visibleProductsHtml = '';
-
-                vendorProducts.forEach((product, idx) => {
-                    // 2. Product 级筛选 (Location)
-                    // 模糊匹配：如果筛选了地区，要求 product.location 包含该词，或者 product_name 包含
-                    if (filters.location && !((product.location || '').includes(filters.location))) {
-                        return; 
-                    }
-
-                    // 3. Plan 级筛选
-                    // 只要有一个Plan符合要求，就显示该Product
-                    const validPlans = (product.plans || []).filter(plan => {
-                        // 内存检查
-                        const memVal = plan.memory ? parseFloat(plan.memory.value) : 0;
-                        const memUnit = plan.memory ? plan.memory.unit.toUpperCase() : '';
-                        let memGB = memVal;
-                        if (memUnit === 'MB') memGB = memVal / 1024;
-                        if (memGB < filters.minMem) return false;
-
-                        // CPU 检查
-                        const cpuVal = plan.cpu ? parseFloat(plan.cpu.cores) : 0;
-                        if (cpuVal < filters.minCpu) return false;
-
-                        // 带宽检查
-                        const bwVal = plan.bandwidth ? parseFloat(plan.bandwidth.value) : 0;
-                        const bwUnit = plan.bandwidth ? (plan.bandwidth.unit || '').toUpperCase() : '';
-                        let bwMbps = bwVal;
-                        if (bwUnit.includes('GBPS')) bwMbps = bwVal * 1000;
-                        if (bwMbps < filters.minBw) return false;
-
-                        // 价格检查 (检查所有价格选项，只要有一个低于 maxPrice 即可)
-                        const prices = Array.isArray(plan.price) ? plan.price : (plan.price ? [plan.price] : []);
-                        if (prices.length === 0) return true; // 没写价格默认显示? 或者不显示
-                        
-                        // 寻找最低年付折算价格，这里简化为：只要有一个价格项的值 <= maxPrice (假设用户输入的是年付预算)
-                        // 通常用户输入的是"预算"，如果有一个套餐只要 48元(月付)，用户预算100，应该显示吗？
-                        // 简单的逻辑：如果是月付，x12 估算？或者直接比对数值？
-                        // 既然 Filter 标签写的是 "最高预算(元/年)"，那我们应该把所有价格归一化为年付比较
-                        // 或者简单点：只要有一个价格项 <= filters.maxPrice (如果它是年付)
-                        // 为避免复杂，如果用户输入了价格筛选，我们检查是否有任一价格条目 <= filters.maxPrice
-                        // 并且单位匹配? 暂时只比对数值。
-                        
-                        const hasAffordableOption = prices.some(p => {
-                            // 简单数值比对
-                            return parseFloat(p.value) <= filters.maxPrice;
-                        });
-                        return hasAffordableOption;
-                    });
-
-                    if (validPlans.length === 0) return;
-
-                    // 渲染 Product
-                    const pid = `prod-${Math.random().toString(36).substr(2,9)}`;
-                    visibleProductsHtml += `
-                        <div class="product-card" id="${pid}">
-                            <div class="product-header">
-                                <div class="product-title-group">
-                                    <h3>${escapeHtml(product.product_name)}</h3>
-                                    <div class="product-meta">
-                                        <span>📍 ${escapeHtml(product.location || '未知')}</span>
-                                        ${product.purchase_url ? '<span>🛒 可购买</span>' : ''}
-                                    </div>
-                                </div>
-                                <button class="toggle-btn" onclick="document.getElementById('${pid}').classList.toggle('collapsed')">
-                                    折叠/展开
-                                </button>
-                            </div>
-                            
-                            <div class="plans-grid">
-                                ${validPlans.map(plan => renderPlan(plan)).join('')}
-                            </div>
-
-                            <div class="product-actions">
-                                ${product._meta.source_url ? 
-                                    `<a href="${product._meta.source_url}" target="_blank" class="action-link link-review">📄 查看测评原文</a>` : ''}
-                                ${product.purchase_url ? 
-                                    `<a href="${product.purchase_url}" target="_blank" class="action-link link-buy">⚡ 直达购买</a>` : ''}
-                            </div>
-                        </div>
-                    `;
-                });
-
-                if (visibleProductsHtml) {
-                    hasData = true;
-                    html += `
-                        <div class="vendor-section">
-                            <div class="vendor-header">
-                                <span class="vendor-name">${escapeHtml(vendorName)}</span>
-                                <span class="vendor-badge" style="margin-left:10px">${vendorProducts.length} 系列</span>
-                            </div>
-                            <div class="vendor-products">
-                                ${visibleProductsHtml}
-                            </div>
-                        </div>
-                    `;
-                }
-            }
-
-            if (!hasData) {
-                content.innerHTML = '<div class="no-data">😕 没有找到符合条件的 VPS</div>';
-            } else {
-                content.innerHTML = html;
-            }
-        }
-
-        function renderPlan(plan) {
-            const cpu = plan.cpu ? `${plan.cpu.cores}核 ${plan.cpu.model || ''}` : '-';
-            const mem = plan.memory ? `${plan.memory.value}${plan.memory.unit}` : '-';
-            const disk = plan.storage ? `${plan.storage.value}${plan.storage.unit} ${plan.storage.type||''}` : '-';
-            const traffic = plan.traffic ? (plan.traffic.value === -1 || plan.traffic.value === "-1" ? '无限流量' : `${plan.traffic.value}${plan.traffic.unit}`) : '-';
-            const speed = plan.bandwidth ? `${plan.bandwidth.value}${plan.bandwidth.unit}` : '-';
-            
-            // 价格渲染：兼容数组(实际产出)和单对象(Schema定义)
-            let priceHtml = '';
-            const prices = Array.isArray(plan.price) ? plan.price : (plan.price ? [plan.price] : []);
-            
-            if (prices.length > 0) {
-                priceHtml = prices.map(p => `
-                    <div class="price-tag">
-                        <span>${p.period || '价格'}</span>
-                        <span class="price-val">${p.currency === 'CNY'?'¥':(p.currency === 'USD'?'$':(p.currency || ''))}${p.value}</span>
-                    </div>
-                `).join('');
-            } else {
-                priceHtml = '<div class="price-tag">暂无价格</div>';
-            }
-
-            return `
-                <div class="plan-card">
-                    <div class="plan-name">${escapeHtml(plan.name || '默认套餐')}</div>
-                    <div class="plan-specs">
-                        <div class="spec-row"><strong>CPU</strong> <span>${cpu}</span></div>
-                        <div class="spec-row"><strong>内存</strong> <span>${mem}</span></div>
-                        <div class="spec-row"><strong>硬盘</strong> <span>${disk}</span></div>
-                        <div class="spec-row"><strong>带宽</strong> <span>${speed}</span></div>
-                        <div class="spec-row"><strong>流量</strong> <span>${traffic}</span></div>
-                    </div>
-                    <div class="plan-prices">
-                        ${priceHtml}
+        <!-- Filters -->
+        <section class="filters-section glass-panel">
+            <div class="filter-grid">
+                <div class="filter-group">
+                    <label>Vendor</label>
+                    <select id="filter-vendor">
+                        <option value="">All Vendors</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Region</label>
+                    <input type="text" id="filter-region" placeholder="e.g. Hong Kong, US" />
+                </div>
+                <div class="filter-group">
+                    <label>Max Budget (Yearly)</label>
+                    <div class="input-with-unit">
+                        <span>¥</span>
+                        <input type="number" id="filter-price" placeholder="Max Price" />
                     </div>
                 </div>
-            `;
-        }
+                <div class="filter-group">
+                    <label>Min RAM</label>
+                    <div class="range-labels">
+                        <button class="chip" data-filter="ram" data-val="512">512M</button>
+                        <button class="chip" data-filter="ram" data-val="1">1G</button>
+                        <button class="chip" data-filter="ram" data-val="2">2G</button>
+                        <button class="chip" data-filter="ram" data-val="4">4G</button>
+                        <button class="chip" data-filter="ram" data-val="8">8G</button>
+                    </div>
+                </div>
+                <!-- Expanded Filters -->
+                <div class="filter-group">
+                    <label>Min CPU</label>
+                    <div class="range-labels">
+                        <button class="chip" data-filter="cpu" data-val="1">1C</button>
+                        <button class="chip" data-filter="cpu" data-val="2">2C</button>
+                        <button class="chip" data-filter="cpu" data-val="4">4C</button>
+                        <button class="chip" data-filter="cpu" data-val="8">8C</button>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <label>Min Bandwidth</label>
+                    <select id="filter-bandwidth">
+                        <option value="0">Any</option>
+                        <option value="1">1 Mbps+</option>
+                        <option value="5">5 Mbps+</option>
+                        <option value="10">10 Mbps+</option>
+                        <option value="30">30 Mbps+</option>
+                        <option value="100">100 Mbps+</option>
+                        <option value="1000">1 Gbps+</option>
+                    </select>
+                </div>
+            </div>
+        </section>
 
-        function escapeHtml(text) {
-            if (!text) return '';
-            return text.replace(/&/g, "&amp;")
-                       .replace(/</g, "&lt;")
-                       .replace(/>/g, "&gt;")
-                       .replace(/"/g, "&quot;")
-                       .replace(/'/g, "&#039;");
-        }
+        <!-- Content -->
+        <main id="results-container" class="results-grid">
+            <!-- Results injected here -->
+        </main>
+    </div>
 
-        // Start - 先验证访问权限
-        document.addEventListener('DOMContentLoaded', function() {
-            if (checkAuth()) {
-                init();
-            }
-            // 未验证时显示登录框，用户输入后手动触发 init
-            document.getElementById('auth-token').addEventListener('keypress', function(e) {
-                if (e.key === 'Enter') verifyToken();
-            });
-        });
-
-        // 验证成功后的回调
-        const originalUnlock = unlockContent;
-        unlockContent = function() {
-            originalUnlock();
-            init();
-        };
+    <script type="module" src="js/app.js"></script>
+    <script>
+        lucide.createIcons();
     </script>
 </body>
 </html>
