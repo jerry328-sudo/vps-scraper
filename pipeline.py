@@ -39,6 +39,10 @@ USE_TAVILY = True
 # 数据目录配置
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 OLD_DATA_DIR = os.path.join(DATA_DIR, "old")
+RAW_DATA_DIR = os.path.join(DATA_DIR, "raw")
+
+# JS 配置文件路径
+JS_CONFIG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "js", "config.js")
 
 # ============================================================
 # 辅助函数
@@ -95,6 +99,52 @@ def archive_old_data():
     
     print(f"✅ 已归档 {moved_count} 个文件")
     print()
+
+
+def update_js_config():
+    """
+    扫描 data/raw 目录，更新 js/config.js 中的 DATA_FILES 数组
+    确保 GitHub Pages 能正确加载所有数据文件
+    """
+    # 获取所有 JSON 文件
+    if not os.path.exists(RAW_DATA_DIR):
+        print("⚠️ data/raw 目录不存在，跳过更新 config.js")
+        return
+    
+    json_files = sorted([f for f in os.listdir(RAW_DATA_DIR) if f.endswith('.json')])
+    
+    if not json_files:
+        print("⚠️ data/raw 目录为空，跳过更新 config.js")
+        return
+    
+    # 读取现有配置文件
+    if not os.path.exists(JS_CONFIG_PATH):
+        print(f"⚠️ {JS_CONFIG_PATH} 不存在，跳过更新")
+        return
+    
+    with open(JS_CONFIG_PATH, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # 生成新的 DATA_FILES 数组
+    files_list = ',\n  '.join([f'"{f}"' for f in json_files])
+    new_data_files = f'''// Fallback list of files (used if auto-discovery fails)
+// GitHub Pages 不支持目录浏览，必须显式列出所有数据文件
+export const DATA_FILES = [
+  {files_list}
+];'''
+    
+    # 使用正则替换 DATA_FILES 部分
+    import re
+    pattern = r'// Fallback list of files.*?export const DATA_FILES = \[.*?\];'
+    new_content = re.sub(pattern, new_data_files, content, flags=re.DOTALL)
+    
+    # 写回文件
+    with open(JS_CONFIG_PATH, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+    
+    print(f"✅ 已更新 js/config.js，包含 {len(json_files)} 个数据文件")
+    print()
+
 
 # ============================================================
 # 主程序
@@ -155,6 +205,9 @@ def main():
             product = result.get("product_name", "未知")
             date = result.get("publish_date", "")
             print(f"   {i}. [{date}] {vendor} - {product}")
+    
+    # 更新 js/config.js 中的文件列表
+    update_js_config()
     
     return results
 

@@ -1,5 +1,29 @@
 // Fallback list of files (used if auto-discovery fails)
-export const DATA_FILES = [];
+// GitHub Pages 不支持目录浏览，必须显式列出所有数据文件
+export const DATA_FILES = [
+  "8756.json",
+  "8758.json",
+  "8765.json",
+  "8767.json",
+  "8770.json",
+  "8774.json",
+  "8777.json",
+  "8781.json",
+  "8785.json",
+  "8789.json",
+  "8793.json",
+  "8795.json",
+  "8799.json",
+  "8805.json",
+  "8807.json",
+  "8810.json",
+  "8812.json",
+  "8815.json",
+  "8817.json",
+  "8819.json",
+  "8825.json",
+  "8828.json"
+];
 
 export const AUTH_KEY = "vps2026";
 
