@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "vendor": "CloudCone",
+      "product_name": "Hashtag 2026 Sale 洛杉矶套餐",
+      "location": "美国洛杉矶",
+      "plans": [
+        {
+          "name": "KVM 双核套餐",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 50,
+            "unit": "GB",
+            "type": "SSD缓存"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 3,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 14.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "KVM 三核套餐",
+          "cpu": {
+            "cores": 3,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 100,
+            "unit": "GB",
+            "type": "SSD缓存"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 4,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 15.29,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "KVM 六核套餐",
+          "cpu": {
+            "cores": 6,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 200,
+            "unit": "GB",
+            "type": "SSD缓存"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 5,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 33.88,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "KVM 十核套餐",
+          "cpu": {
+            "cores": 10,
+            "model": null
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 400,
+            "unit": "GB",
+            "type": "SSD缓存"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 6,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 69.96,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://www.laoliuceping.com/goto/g0gk",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "KVM架构",
+        "SSD缓存硬盘",
+        "1Gbps带宽"
+      ],
+      "suitable_for": [
+        "存备份",
+        "大文件存储"
+      ],
+      "summary": "CloudCone Hashtag 2026 Sale洛杉矶套餐采用SSD缓存硬盘，相比纯SSD硬盘容量更大、价格更便宜，适合存储不常访问的备份或大文件。"
+    }
+  ],
+  "article_title": "CloudCone Hashtag 2026 Sale：美国洛杉矶VPS-$10.24/年，2核1G内存50GB SSD，3TB月流量@1Gbps带宽",
+  "article_summary": "CloudCone推出Hashtag 2026 Sale，包含美国洛杉矶机房SSD缓存套餐和美国圣路易斯机房纯SSD套餐。洛杉矶套餐价格更便宜，硬盘更大，最低配$10.24/年，提供2核1G内存50GB SSD和3TB月流量。",
+  "source_url": "https://www.gwvpsceping.com/8828.html",
+  "publish_date": "2026-01-09"
+}

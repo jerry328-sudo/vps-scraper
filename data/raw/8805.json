@@ -1,0 +1,637 @@
+{
+  "products": [
+    {
+      "vendor": "RackNerd",
+      "product_name": "美国 KVM VPS (新年优惠)",
+      "location": "美国多机房 (纽约/洛杉矶/芝加哥/达拉斯/西雅图/圣何塞/阿什本)",
+      "plans": [
+        {
+          "name": "1核 1G",
+          "cpu": {
+            "cores": 1,
+            "model": "Intel Xeon"
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 24,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 11.29,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "1核 2G",
+          "cpu": {
+            "cores": 1,
+            "model": "Intel Xeon"
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 40,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 3.5,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 18.29,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "2核 3.5G",
+          "cpu": {
+            "cores": 2,
+            "model": "Intel Xeon"
+          },
+          "memory": {
+            "value": 3.5,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 65,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 7,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 32.49,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "3核 4G",
+          "cpu": {
+            "cores": 3,
+            "model": "Intel Xeon"
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 105,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 9,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 43.88,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "4核 6G",
+          "cpu": {
+            "cores": 4,
+            "model": "Intel Xeon"
+          },
+          "memory": {
+            "value": 6,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 140,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 12,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 59.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://my.racknerd.com/aff.php?aff=2195",
+      "coupon_code": null,
+      "payment_methods": [
+        "支付宝",
+        "PayPal",
+        "信用卡"
+      ],
+      "features": [
+        "英特尔至强处理器",
+        "固态硬盘",
+        "支持多种操作系统",
+        "1Gbps高速连接",
+        "BGP多运营商混合接入",
+        "3天内免费更换IP",
+        "完全根管理员访问权限"
+      ],
+      "suitable_for": [
+        "日常建站",
+        "轻量应用"
+      ],
+      "summary": "RackNerd 2026年新年优惠，美国KVM VPS特价低至$11.29/年，全系搭载英特尔至强处理器与固态硬盘，网络稳定，性价比高。"
+    },
+    {
+      "vendor": "RackNerd",
+      "product_name": "美国裸金属服务器",
+      "location": "纽约、犹他州",
+      "plans": [
+        {
+          "name": "E3-1240 V3",
+          "cpu": {
+            "cores": 4,
+            "model": "Intel Xeon E3-1240 V3"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 4,
+            "unit": "TB",
+            "type": "SSD+HDD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 64.95,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "AMD Ryzen 7600",
+          "cpu": {
+            "cores": 6,
+            "model": "AMD Ryzen 7600"
+          },
+          "memory": {
+            "value": 64,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 109.95,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "E5-2683 v4",
+          "cpu": {
+            "cores": 16,
+            "model": "Intel Xeon E5-2683 v4"
+          },
+          "memory": {
+            "value": 256,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 4,
+            "unit": "TB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 209,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://my.racknerd.com/aff.php?aff=2195",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "裸金属配置",
+        "1Gbps带宽不限流量",
+        "全天候24小时支持",
+        "适合托管繁忙的数据库或运行高要求的渲染应用程序"
+      ],
+      "suitable_for": [
+        "托管繁忙的数据库",
+        "高要求的渲染应用程序"
+      ],
+      "summary": "RackNerd美国服务器采用裸金属配置，高配置方案仅$64.95/月起，1Gbps带宽不限流量，适合高性能需求场景。"
+    },
+    {
+      "vendor": "RackNerd",
+      "product_name": "Intel SSD VPS (往期特价)",
+      "location": "美国多机房",
+      "plans": [
+        {
+          "name": "1核 768M",
+          "cpu": {
+            "cores": 1,
+            "model": "Intel"
+          },
+          "memory": {
+            "value": 768,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 15,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 1,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 10.18,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "1核 1G (15G)",
+          "cpu": {
+            "cores": 1,
+            "model": "Intel"
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 15,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 1,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 17.99,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "6核 8G",
+          "cpu": {
+            "cores": 6,
+            "model": "Intel"
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 150,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 20,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 62.49,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://my.racknerd.com/aff.php?aff=2195",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "KVM虚拟架构",
+        "纯SSD RAID10阵列",
+        "SolusVM管理面板",
+        "1Gbps高速带宽"
+      ],
+      "suitable_for": [
+        "日常建站",
+        "轻量应用"
+      ],
+      "summary": "RackNerd往期特价Intel SSD VPS，采用KVM虚拟架构和纯SSD RAID10阵列，适合日常建站和轻量应用。"
+    },
+    {
+      "vendor": "RackNerd",
+      "product_name": "Intel HDD VPS (往期特价)",
+      "location": "洛杉矶MC机房",
+      "plans": [
+        {
+          "name": "1核 1.5G",
+          "cpu": {
+            "cores": 1,
+            "model": "Intel"
+          },
+          "memory": {
+            "value": 1.5,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 25,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 3,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 24.39,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "4核 8G (200G)",
+          "cpu": {
+            "cores": 4,
+            "model": "Intel"
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 200,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 8,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 135,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://my.racknerd.com/aff.php?aff=2195",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "KVM虚拟",
+        "SolusVM管理",
+        "SSD缓存RAID10方案",
+        "1Gbps带宽",
+        "1个IPv4"
+      ],
+      "suitable_for": [
+        "性价比刚需"
+      ],
+      "summary": "RackNerd往期特价Intel HDD VPS，采用SSD缓存RAID10方案，机房固定为洛杉矶MC，性价比高。"
+    },
+    {
+      "vendor": "RackNerd",
+      "product_name": "AMD Ryzen VPS",
+      "location": "美国多机房",
+      "plans": [
+        {
+          "name": "1核 512M",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD Ryzen 9"
+          },
+          "memory": {
+            "value": 512,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 6,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 400,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 15,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "2核 4G",
+          "cpu": {
+            "cores": 2,
+            "model": "AMD Ryzen 9"
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 65,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 6,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 55.88,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://my.racknerd.com/aff.php?aff=2195",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "KVM虚拟架构",
+        "AMD Ryzen 9 高性能处理器",
+        "DDR5内存",
+        "NVMe SSD",
+        "1Gbps带宽",
+        "不支持Windows系统"
+      ],
+      "suitable_for": [
+        "Linux用户"
+      ],
+      "summary": "RackNerd AMD Ryzen VPS，搭载高性能处理器、DDR5内存和NVMe SSD，性能强劲，但不支持Windows系统。"
+    },
+    {
+      "vendor": "RackNerd",
+      "product_name": "Windows VPS (AMD平台)",
+      "location": "美国多机房",
+      "plans": [
+        {
+          "name": "1核 2G",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD Ryzen 9"
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 35,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 60,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "4核 12G",
+          "cpu": {
+            "cores": 4,
+            "model": "AMD Ryzen 9"
+          },
+          "memory": {
+            "value": 12,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 160,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 12,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 289,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://my.racknerd.com/aff.php?aff=2195",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "KVM虚拟架构",
+        "AMD Ryzen 9 处理器",
+        "DDR5内存",
+        "NVMe SSD",
+        "1Gbps带宽",
+        "SolusVM面板管理",
+        "自带Windows中英文授权版系统"
+      ],
+      "suitable_for": [
+        "Windows用户"
+      ],
+      "summary": "RackNerd Windows VPS基于AMD平台，自带Windows中英文授权版系统，无需额外激活，适合Windows用户。"
+    }
+  ],
+  "article_title": "RackNerd新年优惠 美国KVM VPS低至$11.29/年 32G美国服务器仅$64.95/月 多机房可选/自主更换IP",
+  "article_summary": "文章介绍了RackNerd推出的2026年新年优惠活动，包括美国多机房KVM VPS和裸金属服务器。VPS特价低至$11.29/年，服务器低至$64.95/月。文章详细列出了多种套餐配置，包括Intel SSD VPS、Intel HDD VPS、AMD Ryzen VPS以及Windows VPS等，并提到了支持支付宝付款和3天内免费更换IP等特性。",
+  "source_url": "https://www.gwvpsceping.com/8805.html",
+  "publish_date": "2026-01-09"
+}

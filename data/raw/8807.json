@@ -1,0 +1,378 @@
+{
+  "products": [
+    {
+      "vendor": "Casbay",
+      "product_name": "Mac mini M4服务器",
+      "location": "马来西亚",
+      "plans": [
+        {
+          "name": "Mac mini M4",
+          "cpu": {
+            "cores": 10,
+            "model": "Apple M4"
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 256,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 149,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://billing.casbay.com/aff.php?aff=38&billingcycle=monthly&pid=216",
+      "coupon_code": null,
+      "payment_methods": [
+        "PayPal",
+        "信用卡",
+        "USDT",
+        "BTC",
+        "ETH"
+      ],
+      "features": [
+        "Apple M4 芯片",
+        "10核GPU",
+        "住宅动态IP",
+        "原生 macOS"
+      ],
+      "suitable_for": [
+        "iOS/macOS 应用开发",
+        "Xcode 编译",
+        "CI/CD 自动化"
+      ],
+      "summary": "Casbay 提供的 Mac mini M4 采用 Apple 最新 M4 芯片，属于原生 macOS 服务器方案，使用住宅动态 IP 接入，适合开发与测试环境使用。"
+    },
+    {
+      "vendor": "Casbay",
+      "product_name": "Linux KVM VPS",
+      "location": "马来西亚",
+      "plans": [
+        {
+          "name": "2GB RAM",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 40,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 24.59,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "4GB RAM",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 80,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 50.59,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "8GB RAM",
+          "cpu": {
+            "cores": 8,
+            "model": null
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 160,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 102.59,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://billing.casbay.com/aff.php?aff=38",
+      "coupon_code": null,
+      "payment_methods": [
+        "PayPal",
+        "信用卡",
+        "USDT",
+        "BTC",
+        "ETH"
+      ],
+      "features": [
+        "KVM 虚拟化",
+        "纯 SSD 存储阵列",
+        "默认提供 1个IPv4",
+        "不限流量"
+      ],
+      "suitable_for": [
+        "长期带宽消耗有要求的业务场景"
+      ],
+      "summary": "Casbay Linux VPS 采用 KVM 虚拟化架构，使用纯 SSD 存储阵列，默认提供 1个IPv4，机房位于马来西亚，全线不限流量。"
+    },
+    {
+      "vendor": "Casbay",
+      "product_name": "Windows KVM VPS",
+      "location": "马来西亚",
+      "plans": [
+        {
+          "name": "2GB RAM",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 60,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 20.59,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "4GB RAM",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 100,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 42.59,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "8GB RAM",
+          "cpu": {
+            "cores": 8,
+            "model": null
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 180,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 86.59,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://billing.casbay.com/aff.php?aff=38",
+      "coupon_code": null,
+      "payment_methods": [
+        "PayPal",
+        "信用卡",
+        "USDT",
+        "BTC",
+        "ETH"
+      ],
+      "features": [
+        "KVM 虚拟化",
+        "纯 SSD 存储",
+        "马来西亚机房原生 IP",
+        "不限流量"
+      ],
+      "suitable_for": [
+        "远程桌面",
+        "企业应用",
+        "Windows 测试环境"
+      ],
+      "summary": "Windows VPS 同样基于 KVM 虚拟化，纯 SSD 存储，马来西亚机房原生 IP，适合远程桌面、企业应用或 Windows 测试环境。"
+    },
+    {
+      "vendor": "Casbay",
+      "product_name": "马来西亚独立服务器",
+      "location": "马来西亚",
+      "plans": [
+        {
+          "name": "套餐一 (128GB)",
+          "cpu": {
+            "cores": 20,
+            "model": "双路 Intel Xeon E5"
+          },
+          "memory": {
+            "value": 128,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1600,
+            "unit": "GB",
+            "type": "SAS SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 216.99,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "套餐二 (256GB)",
+          "cpu": {
+            "cores": 20,
+            "model": "双路 Intel Xeon E5"
+          },
+          "memory": {
+            "value": 256,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1600,
+            "unit": "GB",
+            "type": "SAS SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 259.99,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://billing.casbay.com/aff.php?aff=38",
+      "coupon_code": null,
+      "payment_methods": [
+        "PayPal",
+        "信用卡",
+        "USDT",
+        "BTC",
+        "ETH"
+      ],
+      "features": [
+        "高配置",
+        "不限流量",
+        "独立IPv4 × 2"
+      ],
+      "suitable_for": [
+        "高并发业务",
+        "大数据处理",
+        "虚拟化节点部署"
+      ],
+      "summary": "Casbay 同时提供高配置马来西亚独立服务器，适合高并发业务、大数据处理或虚拟化节点部署。"
+    }
+  ],
+  "article_title": "Casbay马来西亚KVM VPS与独立服务器：不限流量+原生机房，新上线Mac mini M4月付$149",
+  "article_summary": "Casbay 是一家成立于2010年前后的马来西亚本土主机服务商，长期运营马来西亚原生数据中心。近期新增上线 Mac mini M4 服务器，提供 KVM VPS、Windows VPS 和独立服务器，全线不限流量，支持多种支付方式。",
+  "source_url": "https://www.gwvpsceping.com/8807.html",
+  "publish_date": "2026-01-09"
+}

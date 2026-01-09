@@ -2,14 +2,14 @@
   "products": [
     {
       "vendor": "莱卡云",
-      "product_name": "越南双ISP家宽VPS",
-      "location": "越南河内",
+      "product_name": "越南家宽VPS",
+      "location": "越南",
       "plans": [
         {
           "name": "套餐1",
           "cpu": {
             "cores": 1,
-            "model": "Intel Core系列"
+            "model": null
           },
           "memory": {
             "value": 1,
@@ -38,7 +38,7 @@
           "name": "套餐2",
           "cpu": {
             "cores": 2,
-            "model": "Intel Core系列"
+            "model": null
           },
           "memory": {
             "value": 2,
@@ -67,7 +67,7 @@
           "name": "套餐3",
           "cpu": {
             "cores": 4,
-            "model": "Intel Core系列"
+            "model": null
           },
           "memory": {
             "value": 4,
@@ -96,7 +96,7 @@
           "name": "套餐4",
           "cpu": {
             "cores": 8,
-            "model": "Intel Core系列"
+            "model": null
           },
           "memory": {
             "value": 6,
@@ -124,27 +124,26 @@
       ],
       "purchase_url": "https://www.lcayun.com/aff/BIWWCSGY",
       "coupon_code": null,
-      "payment_methods": [
-        "支付宝"
-      ],
+      "payment_methods": null,
       "features": [
         "双ISP原生住宅IP",
-        "网络稳定",
-        "支持多系统安装",
-        "可配置多个IP",
-        "性价比高"
+        "IP纯净度高",
+        "网络稳定性好",
+        "支持Windows系统及多个Linux发行版",
+        "支持多IP配置（单台最多5个IP）"
       ],
       "suitable_for": [
         "TikTok/YouTube直播",
         "跨境电商",
         "海外测试",
-        "流媒体解锁"
+        "流媒体解锁",
+        "需要住宅IP的场景"
       ],
       "summary": "莱卡云越南家宽VPS拥有双ISP原生住宅IP、网络稳定、性能可靠，价格合理，支持多操作系统和多IP配置，适合需要高质量越南家宽VPS的用户。"
     }
   ],
-  "article_title": "莱卡云越南双ISP家宽VPS测评",
-  "article_summary": "莱卡云是一家国人运营的主机商，提供越南河内机房的双ISP家宽VPS。经测评，该产品拥有双ISP原生住宅IP，网络稳定性良好（平均延迟133ms左右），性能满足轻量业务需求，适合跨境业务、流媒体解锁等场景。",
+  "article_title": "莱卡云越南家宽VPS测评：双ISP原生住宅IP、网络稳定、性价比高",
+  "article_summary": "文章详细测评了莱卡云提供的越南双ISP家宽VPS，确认其具备双ISP原生住宅IP属性，网络延迟低且稳定性好。文章列出了从1核1G到8核6G的四种套餐配置，价格在88元至226元每月，并指出该产品适合流媒体解锁、跨境业务等需要高质量住宅IP的场景。",
   "source_url": "https://www.gwvpsceping.com/8767.html",
   "publish_date": "2026-01-05"
 }

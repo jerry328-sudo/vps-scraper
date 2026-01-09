@@ -1,0 +1,275 @@
+{
+  "products": [
+    {
+      "vendor": "SoftShellWeb",
+      "product_name": "洛杉矶Ryzen9950X高性能VPS",
+      "location": "美国洛杉矶",
+      "plans": [
+        {
+          "name": "冬季促销版 1G",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD Ryzen 9 9950X"
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 20,
+            "unit": "GB",
+            "type": "NVMe SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 3,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 23.95,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "冬季促销版 4G",
+          "cpu": {
+            "cores": 2,
+            "model": "AMD Ryzen 9 9950X"
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 100,
+            "unit": "GB",
+            "type": "NVMe SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 10,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 6.95,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "冬季促销版 8G",
+          "cpu": {
+            "cores": 4,
+            "model": "AMD Ryzen 9 9950X"
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 200,
+            "unit": "GB",
+            "type": "NVMe SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 20,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 9.95,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "正价款 2G",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD Ryzen 9 9950X"
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 50,
+            "unit": "GB",
+            "type": "NVMe SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 5,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 7,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "正价款 4G",
+          "cpu": {
+            "cores": 2,
+            "model": "AMD Ryzen 9 9950X"
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 100,
+            "unit": "GB",
+            "type": "NVMe SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 10,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 12,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "正价款 8G",
+          "cpu": {
+            "cores": 4,
+            "model": "AMD Ryzen 9 9950X"
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 200,
+            "unit": "GB",
+            "type": "NVMe SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 20,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 20,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "正价款 16G",
+          "cpu": {
+            "cores": 8,
+            "model": "AMD Ryzen 9 9950X"
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 500,
+            "unit": "GB",
+            "type": "NVMe SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 50,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 40,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "正价款 64G",
+          "cpu": {
+            "cores": 16,
+            "model": "AMD Ryzen 9 9950X"
+          },
+          "memory": {
+            "value": 64,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1000,
+            "unit": "GB",
+            "type": "NVMe SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 200,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 100,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://softshellweb.com/client/aff.php?aff=206",
+      "coupon_code": "RyzenPower",
+      "payment_methods": [
+        "信用卡",
+        "PayPal",
+        "加密货币",
+        "支付宝",
+        "银联",
+        "WebMoney"
+      ],
+      "features": [
+        "AMD Ryzen 9 9950X 处理器",
+        "DDR5 内存",
+        "NVMe SSD 阵列",
+        "标配 10Gbps 网络端口",
+        "支持 Windows 系统",
+        "免费 DDoS 防护",
+        "支持自定义 ISO 挂载",
+        "国际线路"
+      ],
+      "suitable_for": [
+        "建站",
+        "跨境业务",
+        "代理转发",
+        "测试环境",
+        "高IO应用"
+      ],
+      "summary": "SoftShellWeb 推出的洛杉矶高性能 VPS，采用 AMD Ryzen 9 9950X 处理器和 DDR5 内存，标配 10Gbps 端口和 NVMe SSD，性能强劲。支持多种支付方式（含支付宝），提供免费 DDoS 防护和自定义 ISO 安装，适合对硬件性能要求较高的建站、跨境业务及高 IO 应用场景。"
+    }
+  ],
+  "article_title": "SoftShellWeb洛杉矶Ryzen9950X高性能VPS测评：$23.95/年起，10Gbps带宽+NVMe固态",
+  "article_summary": "本文介绍了 SoftShellWeb 新上线的美国洛杉矶数据中心 VPS 产品，该产品主打高性能硬件（AMD Ryzen 9 9950X, DDR5, NVMe）与 10Gbps 大带宽。文章详细列出了冬季促销版和正常款的套餐配置与价格，并提及了支付方式、DDoS 防护等特性，适合建站及跨境业务用户。",
+  "source_url": "https://www.gwvpsceping.com/8815.html",
+  "publish_date": "2026-01-09"
+}

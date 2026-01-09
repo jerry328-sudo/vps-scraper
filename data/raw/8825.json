@@ -1,51 +1,22 @@
 {
   "products": [
     {
-      "vendor": "RackNerd",
-      "product_name": "黑五年付 VPS 套餐",
-      "location": "北美 + 欧洲",
+      "vendor": "CloudCone",
+      "product_name": "美国圣路易斯VPS",
+      "location": "美国圣路易斯",
       "plans": [
         {
-          "name": "1GB 套餐",
-          "cpu": {
-            "cores": 1,
-            "model": null
-          },
-          "memory": {
-            "value": 1,
-            "unit": "GB"
-          },
-          "storage": {
-            "value": 25,
-            "unit": "GB",
-            "type": "SSD"
-          },
-          "bandwidth": {
-            "value": 1,
-            "unit": "Gbps"
-          },
-          "traffic": {
-            "value": 2000,
-            "unit": "GB"
-          },
-          "price": {
-            "value": 10.6,
-            "currency": "USD",
-            "period": "年"
-          }
-        },
-        {
-          "name": "2.5GB 套餐",
+          "name": "KVM 1G",
           "cpu": {
             "cores": 2,
             "model": null
           },
           "memory": {
-            "value": 2.5,
+            "value": 1,
             "unit": "GB"
           },
           "storage": {
-            "value": 45,
+            "value": 20,
             "unit": "GB",
             "type": "SSD"
           },
@@ -54,19 +25,48 @@
             "unit": "Gbps"
           },
           "traffic": {
-            "value": 3000,
-            "unit": "GB"
+            "value": 3,
+            "unit": "TB"
           },
           "price": {
-            "value": 18.66,
+            "value": 14.99,
             "currency": "USD",
             "period": "年"
           }
         },
         {
-          "name": "4GB 套餐",
+          "name": "KVM 2G",
           "cpu": {
             "cores": 3,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 30,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 4,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 23.5,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "KVM 4G",
+          "cpu": {
+            "cores": 6,
             "model": null
           },
           "memory": {
@@ -74,7 +74,7 @@
             "unit": "GB"
           },
           "storage": {
-            "value": 65,
+            "value": 60,
             "unit": "GB",
             "type": "SSD"
           },
@@ -83,48 +83,19 @@
             "unit": "Gbps"
           },
           "traffic": {
-            "value": 6500,
-            "unit": "GB"
+            "value": 5,
+            "unit": "TB"
           },
           "price": {
-            "value": 29.98,
+            "value": 42,
             "currency": "USD",
             "period": "年"
           }
         },
         {
-          "name": "6GB 套餐",
+          "name": "KVM 8G",
           "cpu": {
-            "cores": 5,
-            "model": null
-          },
-          "memory": {
-            "value": 6,
-            "unit": "GB"
-          },
-          "storage": {
-            "value": 100,
-            "unit": "GB",
-            "type": "SSD"
-          },
-          "bandwidth": {
-            "value": 1,
-            "unit": "Gbps"
-          },
-          "traffic": {
-            "value": 10000,
-            "unit": "GB"
-          },
-          "price": {
-            "value": 44.98,
-            "currency": "USD",
-            "period": "年"
-          }
-        },
-        {
-          "name": "8GB 套餐",
-          "cpu": {
-            "cores": 6,
+            "cores": 10,
             "model": null
           },
           "memory": {
@@ -132,7 +103,7 @@
             "unit": "GB"
           },
           "storage": {
-            "value": 150,
+            "value": 120,
             "unit": "GB",
             "type": "SSD"
           },
@@ -141,43 +112,92 @@
             "unit": "Gbps"
           },
           "traffic": {
-            "value": 20000,
-            "unit": "GB"
+            "value": 6,
+            "unit": "TB"
           },
           "price": {
-            "value": 62.49,
+            "value": 78,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "KVM 16G",
+          "cpu": {
+            "cores": 14,
+            "model": null
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 240,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 8,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 150,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "KVM 32G",
+          "cpu": {
+            "cores": 18,
+            "model": null
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 480,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 10,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 310,
             "currency": "USD",
             "period": "年"
           }
         }
       ],
-      "purchase_url": "https://my.racknerd.com/aff.php?aff=2195&pid=923",
+      "purchase_url": "https://app.cloudcone.com/?ref=6680",
       "coupon_code": null,
       "payment_methods": [
-        "支付宝",
-        "银联卡",
-        "比特币",
-        "USDT"
+        "PayPal",
+        "支付宝"
       ],
       "features": [
-        "KVM 虚拟化",
-        "SolusVM 面板",
-        "完整 Root 权限",
-        "多数据中心可选",
-        "独立 IPv4",
-        "支持双倍流量活动"
+        "KVM架构",
+        "纯SSD硬盘",
+        "1Gbps带宽",
+        "与Multacom机房同母公司"
       ],
-      "suitable_for": [
-        "低成本长期 VPS",
-        "个人博客 / WordPress / 宝塔面板",
-        "Docker / API / 轻量服务部署",
-        "学习 Linux、服务器运维"
-      ],
-      "summary": "RackNerd 黑五年付 VPS 套餐性价比极高，最低 $10.60/年，适合建站、Docker 和学习测试等用途，支持多种支付方式和多机房选择。"
+      "suitable_for": null,
+      "summary": "CloudCone发来了最新邮件通知Hashtag Sale活动，这次促销VPS是来自美国密苏里州圣路易斯机房的特价年付套餐，采用纯SSD硬盘，最低年付14.99美元起。"
     }
   ],
-  "article_title": "RackNerd 2026年1月抽奖活动及黑五年付VPS套餐测评",
-  "article_summary": "文章介绍了 RackNerd 在 2026 年 1 月开启的抽奖活动，以及目前仍在持续销售的高性价比黑五年付 VPS 套餐，详细列出了各套餐配置、价格及适用场景。",
-  "source_url": "https://www.gwvpsceping.com/8750.html",
-  "publish_date": "2026-01-04"
+  "article_title": "CloudCone美国圣路易斯VPS：$14.99/年-1核2G内存20GB SSD，3TB月流量@1Gbps带宽",
+  "article_summary": "CloudCone推出美国圣路易斯机房特价年付VPS套餐，基于KVM架构和纯SSD硬盘，1Gbps带宽，最低年付14.99美元起，支持PayPal或支付宝付款。",
+  "source_url": "https://www.gwvpsceping.com/8825.html",
+  "publish_date": "2026-01-09"
 }

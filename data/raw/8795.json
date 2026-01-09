@@ -1,0 +1,534 @@
+{
+  "products": [
+    {
+      "vendor": "DMIT",
+      "product_name": "美国洛杉矶Premium/Pro",
+      "location": "美国洛杉矶",
+      "plans": [
+        {
+          "name": "LAX.AN5.Pro.TINY",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 20,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 1000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 28.88,
+            "currency": "USD",
+            "period": "季"
+          }
+        },
+        {
+          "name": "LAX.AN5.Pro.Pocket",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 40,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 4,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 1500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 14.9,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "LAX.AN5.Pro.STARTER",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 80,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 3000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 29.9,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "LAX.AN5.Pro.MINI",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 80,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 5000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 58.88,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "LAX.AN5.Pro.MICRO",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 160,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 7000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 74.99,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "LAX.AN5.Pro.MEDIUM",
+          "cpu": {
+            "cores": 6,
+            "model": null
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 160,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 14000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 168.88,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "LAX.AN5.Pro.LARGE",
+          "cpu": {
+            "cores": 8,
+            "model": null
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 320,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 25000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 338.88,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "LAX.AN5.Pro.GIANT",
+          "cpu": {
+            "cores": 8,
+            "model": null
+          },
+          "memory": {
+            "value": 24,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 640,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 50000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 619.99,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://www.dmit.io/aff.php?aff=2292",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "CN2线路",
+        "支持IPv6"
+      ],
+      "suitable_for": null,
+      "summary": "DMIT洛杉矶Premium/Pro系列，主打CN2线路，适合需要优质线路连接的用户。"
+    },
+    {
+      "vendor": "DMIT",
+      "product_name": "美国洛杉矶Eyeball",
+      "location": "美国洛杉矶",
+      "plans": [
+        {
+          "name": "WEE",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD EPYC 9004"
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 800,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 39.9,
+            "currency": "USD",
+            "period": "年"
+          }
+        },
+        {
+          "name": "TINY",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD EPYC 9005"
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 20,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 2,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 1500,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 9.99,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "Pocket",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD EPYC 9005"
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 40,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 4,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 3000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 14.9,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "STARTER",
+          "cpu": {
+            "cores": 2,
+            "model": "AMD EPYC 9005"
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 80,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 5000,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 29.9,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "MINI",
+          "cpu": {
+            "cores": 4,
+            "model": "AMD EPYC 9005"
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 80,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 10,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 58.88,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "MICRO",
+          "cpu": {
+            "cores": 4,
+            "model": "AMD EPYC 9005"
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 160,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 14,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 74.99,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "MEDIUM",
+          "cpu": {
+            "cores": 6,
+            "model": "AMD EPYC 9005"
+          },
+          "memory": {
+            "value": 8,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 160,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 30,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 168.88,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "LARGE",
+          "cpu": {
+            "cores": 8,
+            "model": "AMD EPYC 9005"
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 320,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 50,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 338.88,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "GIANT",
+          "cpu": {
+            "cores": 12,
+            "model": "AMD EPYC 9005"
+          },
+          "memory": {
+            "value": 24,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 640,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 10,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 100,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 619.99,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://www.dmit.io/aff.php?aff=2292",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "AMD EPYC 9005/9004",
+        "大流量",
+        "高带宽"
+      ],
+      "suitable_for": null,
+      "summary": "DMIT洛杉矶Eyeball系列，采用AMD EPYC 9005系列处理器，提供高带宽和大流量配置。"
+    }
+  ],
+  "article_title": "DMIT VPS IP地址更换政策详解：免费条件、收费标准及问题解答",
+  "article_summary": "文章详细介绍了DMIT官方关于IP地址更换的具体政策，包括Premium/Pro、Eyeball及T1系列套餐的免费更换条件、收费情况及常见问题解答。",
+  "source_url": "https://www.gwvpsceping.com/8795.html",
+  "publish_date": "2026-01-07"
+}

@@ -1,0 +1,152 @@
+{
+  "products": [
+    {
+      "vendor": "ZJI",
+      "product_name": "香港A区 A-6型高配服务器",
+      "location": "中国香港",
+      "plans": [
+        {
+          "name": "A-6型高配服务器",
+          "cpu": {
+            "cores": 24,
+            "model": "2 × Intel E5-2680 v3"
+          },
+          "memory": {
+            "value": 128,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 2,
+            "unit": "TB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 30,
+            "unit": "Mbps"
+          },
+          "traffic": null,
+          "price": {
+            "value": 840,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://my.zji.net/aff.php?aff=734&pid=546",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "支持标准均衡/企业精品/新国际/纯国际线路",
+        "RAID1硬盘阵列",
+        "季付额外赠送1个月",
+        "7折循环优惠"
+      ],
+      "suitable_for": [
+        "高并发业务",
+        "跨境电商",
+        "外贸站群"
+      ],
+      "summary": "ZJI香港A区高配服务器，配备双路E5-2680 v3 CPU和128GB大内存，适合对计算性能和内存要求较高的业务，支持多种网络线路选择。"
+    },
+    {
+      "vendor": "ZJI",
+      "product_name": "香港A区 A-8型旗舰服务器",
+      "location": "中国香港",
+      "plans": [
+        {
+          "name": "A-8型旗舰服务器",
+          "cpu": {
+            "cores": 48,
+            "model": "2 × Intel Platinum 8259CL"
+          },
+          "memory": {
+            "value": 128,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 2,
+            "unit": "TB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 30,
+            "unit": "Mbps"
+          },
+          "traffic": null,
+          "price": {
+            "value": 910,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://my.zji.net/aff.php?aff=734&pid=549",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "旗舰级双路Platinum 8259CL CPU",
+        "支持标准均衡/企业精品/新国际/纯国际线路",
+        "季付额外赠送1个月",
+        "7折循环优惠"
+      ],
+      "suitable_for": [
+        "高并发业务",
+        "AI计算",
+        "渲染任务"
+      ],
+      "summary": "ZJI香港A区旗舰服务器，搭载双路Intel Platinum 8259CL处理器（48核96线程），提供极致的计算性能，适合AI计算和渲染等高性能需求场景。"
+    },
+    {
+      "vendor": "ZJI",
+      "product_name": "香港A区 A-7型显卡服务器",
+      "location": "中国香港",
+      "plans": [
+        {
+          "name": "A-7型显卡服务器",
+          "cpu": {
+            "cores": 14,
+            "model": "Intel E5-2640"
+          },
+          "memory": {
+            "value": 64,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 30,
+            "unit": "Mbps"
+          },
+          "traffic": null,
+          "price": {
+            "value": 980,
+            "currency": "CNY",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://my.zji.net/aff.php?aff=734&pid=547",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "配备Nvidia GTX 2080Ti显卡（22GB显存）",
+        "支持标准均衡/企业精品/新国际/纯国际线路",
+        "季付额外赠送1个月",
+        "7折循环优惠"
+      ],
+      "suitable_for": [
+        "AI计算",
+        "渲染任务",
+        "图形处理"
+      ],
+      "summary": "ZJI香港A区显卡服务器，专为AI计算和图形渲染设计，搭载Nvidia GTX 2080Ti显卡，提供强大的图形处理能力。"
+    }
+  ],
+  "article_title": "ZJI香港高配独立服务器春节特惠：月付7折/季付7折送1个月，840元/月起，可选精品/标准/国际网络",
+  "article_summary": "ZJI针对香港高配独立服务器（A-6、A-8及A-7显卡机型）推出春节限时优惠，月付与季付统一享受7折优惠，季付额外赠送1个月。产品覆盖多种网络线路，适合高并发、AI计算及跨境电商等场景。",
+  "source_url": "https://www.gwvpsceping.com/8817.html",
+  "publish_date": "2026-01-09"
+}

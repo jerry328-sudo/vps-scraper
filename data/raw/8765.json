@@ -18,7 +18,7 @@
           "storage": {
             "value": 10,
             "unit": "GB",
-            "type": null
+            "type": "SSD"
           },
           "bandwidth": {
             "value": 50,
@@ -35,17 +35,15 @@
           }
         }
       ],
-      "purchase_url": "https://wepc.au/",
+      "purchase_url": "https://wepc.au/aff.php?aff=245",
       "coupon_code": null,
       "payment_methods": [
         "支付宝"
       ],
       "features": [
         "原生IP",
-        "海外访问稳定",
-        "移动网络国内直连效果较好",
-        "支付方式灵活，支持支付宝",
-        "提供Linux系统"
+        "带宽50Mbps",
+        "海外网络稳定性较好"
       ],
       "suitable_for": [
         "跨境外贸",
@@ -56,8 +54,8 @@
       "summary": "WePC印尼VPS以原生IP、支付方便、海外稳定性较好为特点，适合跨境用户或印尼业务需求者使用。国内电信和联通网络存在丢包，建议通过中转服务器提升访问体验。"
     }
   ],
-  "article_title": "WePC印尼VPS测评",
-  "article_summary": "文章测评了WePC位于雅加达机房的VPS产品，提供原生IP和50Mbps带宽。测试显示该产品海外网络稳定，移动网络国内直连效果较好，但电信和联通网络存在丢包现象。产品支持支付宝付款，适合跨境外贸及需要印尼原生IP的用户。",
+  "article_title": "WePC印尼VPS测评-雅加达机房原生IP-VPS套餐购买指",
+  "article_summary": "WePC是一家专业的VPS服务商，提供印尼雅加达机房VPS，配备原生IP和50Mbps带宽。测评显示其海外网络稳定性较好，支持支付宝付款，适合跨境外贸等业务，但国内电信和联通网络可能需要中转优化。",
   "source_url": "https://www.gwvpsceping.com/8765.html",
   "publish_date": "2026-01-05"
 }

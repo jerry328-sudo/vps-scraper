@@ -1,0 +1,62 @@
+{
+  "products": [
+    {
+      "vendor": "WePC",
+      "product_name": "加拿大VPS",
+      "location": "加拿大密西沙加",
+      "plans": [
+        {
+          "name": "基础套餐",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 512,
+            "unit": "MB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": null
+          },
+          "bandwidth": {
+            "value": 200,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": 1,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 12.9,
+            "currency": "CAD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://wepc.au/aff.php?aff=245&pid=205",
+      "coupon_code": null,
+      "payment_methods": [
+        "支付宝"
+      ],
+      "features": [
+        "加拿大原生IP",
+        "IP纯净度高",
+        "三网骨干直连",
+        "网络稳定性良好"
+      ],
+      "suitable_for": [
+        "跨境业务",
+        "电商",
+        "海外平台访问",
+        "对IP质量有明确需求的用户"
+      ],
+      "summary": "WePC 加拿大 VPS 位于密西沙加，提供加拿大原生IP，网络稳定性表现不错。虽然不是 CN2 优化线路，但三网骨干直连足以满足大多数实际使用需求。价格在加拿大原生IP资源中性价比可接受。"
+    }
+  ],
+  "article_title": "WePC加拿大VPS测评：密西沙加原生IP，200Mbps带宽，支持支付宝付款",
+  "article_summary": "本文测评了 WePC 位于加拿大密西沙加的 VPS 产品。该产品提供加拿大原生IP，配置为1核512MB内存、10GB存储、1TB流量和200Mbps带宽，月付12.9加元，支持支付宝付款。测试显示其IP纯净度高，三网延迟均衡且稳定，适合对IP质量要求较高的跨境业务场景。",
+  "source_url": "https://www.gwvpsceping.com/8810.html",
+  "publish_date": "2026-01-09"
+}

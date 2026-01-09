@@ -1,0 +1,599 @@
+{
+  "products": [
+    {
+      "vendor": "Vultr",
+      "product_name": "海外VPS",
+      "location": "美国、日本、韩国、新加坡",
+      "plans": [
+        {
+          "name": "基础套餐",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 0.5,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 10,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 0.5,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 2.5,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "进阶套餐",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 25,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 1,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 5,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "标准套餐",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 55,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 10,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "增强套餐",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 65,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 3,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 15,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "高性能套餐",
+          "cpu": {
+            "cores": 4,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 80,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 3,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 20,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://www.vultr.com/?ref=8845366",
+      "coupon_code": null,
+      "payment_methods": [
+        "信用卡",
+        "PayPal",
+        "支付宝"
+      ],
+      "features": [
+        "支持Regular Performance、High Performance、High Frequency三种性能类型",
+        "按小时计费",
+        "全球多个机房"
+      ],
+      "suitable_for": [
+        "网站",
+        "博客",
+        "CMS",
+        "小型数据库",
+        "开发/测试环境"
+      ],
+      "summary": "Vultr海外VPS拥有美国、日本、韩国、新加坡等机房，支持多种性能类型，价格低至$2.5/月，适合网站、博客、CMS、小型数据库及开发/测试环境。"
+    },
+    {
+      "vendor": "Vultr",
+      "product_name": "裸金属服务器",
+      "location": null,
+      "plans": [
+        {
+          "name": "E3-1270",
+          "cpu": {
+            "cores": 4,
+            "model": "E3-1270"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 480,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 5,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 120,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "Intel E-2286G",
+          "cpu": {
+            "cores": 6,
+            "model": "Intel E-2286G"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1920,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 5,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 185,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "AMD EPYC 4245P",
+          "cpu": {
+            "cores": 6,
+            "model": "AMD EPYC 4245P"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1920,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 5,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 295,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "Intel E-2388G",
+          "cpu": {
+            "cores": 8,
+            "model": "Intel E-2388G"
+          },
+          "memory": {
+            "value": 128,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 3840,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 10,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 350,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "Intel E-2288G",
+          "cpu": {
+            "cores": 8,
+            "model": "Intel E-2288G"
+          },
+          "memory": {
+            "value": 128,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 3840,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 10,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 350,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "AMD EPYC 4345P",
+          "cpu": {
+            "cores": 8,
+            "model": "AMD EPYC 4345P"
+          },
+          "memory": {
+            "value": 128,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 3800,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 10,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 395,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://www.vultr.com/?ref=8845366",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "支持NVIDIA GPU及CPU Compute类型",
+        "高性能计算",
+        "大数据处理"
+      ],
+      "suitable_for": [
+        "高性能计算",
+        "大数据处理",
+        "高带宽需求场景"
+      ],
+      "summary": "裸金属服务器适合高性能计算、大数据处理及高带宽需求场景，支持NVIDIA GPU及CPU Compute类型，价格从$120/月起。"
+    },
+    {
+      "vendor": "Vultr",
+      "product_name": "GPU云服务器",
+      "location": null,
+      "plans": [
+        {
+          "name": "1/8 GPU",
+          "cpu": {
+            "cores": 2,
+            "model": "vCPUs"
+          },
+          "memory": {
+            "value": 15,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 170,
+            "unit": "GB",
+            "type": null
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 2,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 0.342,
+            "currency": "USD",
+            "period": "小时"
+          }
+        },
+        {
+          "name": "1/4 GPU",
+          "cpu": {
+            "cores": 3,
+            "model": "vCPUs"
+          },
+          "memory": {
+            "value": 30,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 350,
+            "unit": "GB",
+            "type": null
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 3,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 0.616,
+            "currency": "USD",
+            "period": "小时"
+          }
+        },
+        {
+          "name": "1/2 GPU",
+          "cpu": {
+            "cores": 6,
+            "model": "vCPUs"
+          },
+          "memory": {
+            "value": 60,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 700,
+            "unit": "GB",
+            "type": null
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 6,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 1.199,
+            "currency": "USD",
+            "period": "小时"
+          }
+        },
+        {
+          "name": "1 GPU",
+          "cpu": {
+            "cores": 12,
+            "model": "vCPUs"
+          },
+          "memory": {
+            "value": 120,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1400,
+            "unit": "GB",
+            "type": null
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 10,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 2.397,
+            "currency": "USD",
+            "period": "小时"
+          }
+        },
+        {
+          "name": "2 GPU",
+          "cpu": {
+            "cores": 24,
+            "model": "vCPUs"
+          },
+          "memory": {
+            "value": 240,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1400,
+            "unit": "GB",
+            "type": null
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 10,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 4.795,
+            "currency": "USD",
+            "period": "小时"
+          }
+        },
+        {
+          "name": "4 GPU",
+          "cpu": {
+            "cores": 48,
+            "model": "vCPUs"
+          },
+          "memory": {
+            "value": 480,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1400,
+            "unit": "GB",
+            "type": null
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 15,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 9.589,
+            "currency": "USD",
+            "period": "小时"
+          }
+        },
+        {
+          "name": "8 GPU",
+          "cpu": {
+            "cores": 96,
+            "model": "vCPUs"
+          },
+          "memory": {
+            "value": 960,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 2200,
+            "unit": "GB",
+            "type": null
+          },
+          "bandwidth": {
+            "value": null,
+            "unit": null
+          },
+          "traffic": {
+            "value": 25,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 19.178,
+            "currency": "USD",
+            "period": "小时"
+          }
+        }
+      ],
+      "purchase_url": "https://www.vultr.com/?ref=8845366",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "支持多种NVIDIA GPU型号",
+        "按小时计费",
+        "灵活开关"
+      ],
+      "suitable_for": [
+        "AI训练",
+        "渲染",
+        "高负载计算任务"
+      ],
+      "summary": "Vultr GPU云服务器支持多种NVIDIA GPU型号，适合AI训练、渲染和高负载计算任务，按小时计费，最低$0.059/hr。"
+    }
+  ],
+  "article_title": "Vultr 2026新年活动：海外VPS低至$2.5/月，新用户注册最高送$300",
+  "article_summary": "2026年1月，Vultr推出全新新年优惠活动，提供多种优惠码让新用户享受注册礼金，还带来价格极具竞争力的海外VPS、裸金属服务器及GPU云服务器方案。",
+  "source_url": "https://www.gwvpsceping.com/8789.html",
+  "publish_date": "2026-01-06"
+}

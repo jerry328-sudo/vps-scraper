@@ -1,0 +1,62 @@
+{
+  "products": [
+    {
+      "vendor": "NoslaCloud",
+      "product_name": "圣何塞特价套餐 SJC-Pre-S",
+      "location": "美国圣何塞",
+      "plans": [
+        {
+          "name": "SJC-Pre-S",
+          "cpu": {
+            "cores": 1,
+            "model": "AMD EPYC 7C13"
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 20,
+            "unit": "GB",
+            "type": "NVMe U.2 SSD (Raid 10)"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 300,
+            "unit": "GB"
+          },
+          "price": {
+            "value": 289,
+            "currency": "CNY",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://ccp.nosla.cloud/order/main/packages/sjcpre/?group_id=5&a=NjQ=",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "三网高端回程线路（电信CN2 GIA、联通CUII 9929、移动CMIN2）",
+        "AMD EPYC 7C13 处理器",
+        "NVMe U.2 SSD (Raid 10)",
+        "原生流媒体解锁 (Netflix, YouTube, ChatGPT, TikTok)",
+        "低风险 IP (Scamalytics 评分 0)",
+        "IPv6 原生 IP"
+      ],
+      "suitable_for": [
+        "对网络延迟有极致追求的用户",
+        "开发者",
+        "外贸从业者",
+        "个人或小型工作室"
+      ],
+      "summary": "NoslaCloud 圣何塞 SJC-Pre-S 是一款真正为“网络体验”而生的产品。289元/年的价格，能买到三网回程优化的 AMD 高性能 VPS，性价比非常突出。"
+    }
+  ],
+  "article_title": "极致网络体验：BitFlowCloud旗下NoslaCloud圣何塞SJC-Pre-S深度测评，三网回程电信CN2,联通CUII (9929),移动CMIN2",
+  "article_summary": "本文对 BitFlowCloud 旗下的 NoslaCloud 圣何塞特价套餐 SJC-Pre-S 进行了深度测评。该产品主打三网高端回程线路（电信 CN2 GIA、联通 CUII 9929、移动 CMIN2），硬件配置采用 AMD EPYC 7C13 和 NVMe SSD。实测显示其网络延迟低、路由优秀，且原生解锁 Netflix、ChatGPT 等流媒体，非常适合对网络质量要求较高的用户。",
+  "source_url": "https://www.gwvpsceping.com/8819.html",
+  "publish_date": "2026-01-09"
+}

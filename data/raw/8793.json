@@ -1,0 +1,149 @@
+{
+  "products": [
+    {
+      "vendor": "Justhost.asia",
+      "product_name": "WINTER VPS DEAL",
+      "location": "美国纽约、德国法兰克福、荷兰阿姆斯特丹、瑞典斯德哥尔摩、奥地利维也纳",
+      "plans": [
+        {
+          "name": "Sirius",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 1,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 20,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 300,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 3.22,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "Arcturus",
+          "cpu": {
+            "cores": 1,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 30,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 300,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 4.6,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "Alpha Centauri",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 2,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 40,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 400,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 5.97,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "Vega",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 80,
+            "unit": "GB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 500,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 8.93,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://justhost.asia/services/vps/tariffs?ref=104784",
+      "coupon_code": "WINTER45",
+      "payment_methods": null,
+      "features": [
+        "不限月流量",
+        "支持自行切换机房",
+        "支持更换IP",
+        "KVM架构",
+        "NVMe硬盘"
+      ],
+      "suitable_for": [
+        "建站",
+        "外贸网站",
+        "海外项目部署",
+        "轻量应用",
+        "测试环境"
+      ],
+      "summary": "Justhost.asia 冬季促销VPS，提供美国、德国、荷兰、瑞典、奥地利等多地机房，最低$3.22/月起，采用KVM架构和NVMe硬盘，带宽300Mbps起步且不限流量，支持灵活切换机房和IP，适合对性价比和流量要求较高的用户。"
+    }
+  ],
+  "article_title": "Justhost冬季促销VPS最低$3.22/月，300Mbps带宽不限流量，美国德国荷兰瑞典奥地利机房可选",
+  "article_summary": "Justhost.asia 推出冬季促销活动，覆盖多个欧美机房，VPS套餐最低$3.22/月起，配备NVMe硬盘和不限流量策略，支持机房切换，适合建站及跨境业务。",
+  "source_url": "https://www.gwvpsceping.com/8793.html",
+  "publish_date": "2026-01-07"
+}

@@ -2,14 +2,14 @@
   "products": [
     {
       "vendor": "华纳云",
-      "product_name": "美国VPS",
-      "location": "美国洛杉矶",
+      "product_name": "香港VPS",
+      "location": "香港",
       "plans": [
         {
-          "name": "套餐1",
+          "name": "套餐一",
           "cpu": {
             "cores": 1,
-            "model": "Intel Xeon E5-2660"
+            "model": null
           },
           "memory": {
             "value": 1,
@@ -21,7 +21,7 @@
             "type": null
           },
           "bandwidth": {
-            "value": 5,
+            "value": 2,
             "unit": "Mbps"
           },
           "traffic": {
@@ -30,22 +30,22 @@
           },
           "price": [
             {
-              "value": 48,
+              "value": 64.8,
               "currency": "CNY",
               "period": "月"
             },
             {
-              "value": 240,
+              "value": 324,
               "currency": "CNY",
               "period": "年"
             }
           ]
         },
         {
-          "name": "套餐2",
+          "name": "套餐二",
           "cpu": {
             "cores": 2,
-            "model": "Intel Xeon E5-2660"
+            "model": null
           },
           "memory": {
             "value": 2,
@@ -57,7 +57,7 @@
             "type": null
           },
           "bandwidth": {
-            "value": 5,
+            "value": 2,
             "unit": "Mbps"
           },
           "traffic": {
@@ -66,22 +66,22 @@
           },
           "price": [
             {
-              "value": 82.2,
+              "value": 100.8,
               "currency": "CNY",
               "period": "月"
             },
             {
-              "value": 548,
+              "value": 672,
               "currency": "CNY",
               "period": "年"
             }
           ]
         },
         {
-          "name": "套餐3",
+          "name": "套餐三",
           "cpu": {
             "cores": 2,
-            "model": "Intel Xeon E5-2660"
+            "model": null
           },
           "memory": {
             "value": 4,
@@ -102,22 +102,22 @@
           },
           "price": [
             {
-              "value": 114.6,
+              "value": 190.8,
               "currency": "CNY",
               "period": "月"
             },
             {
-              "value": 764,
+              "value": 1272,
               "currency": "CNY",
               "period": "年"
             }
           ]
         },
         {
-          "name": "套餐4",
+          "name": "套餐四",
           "cpu": {
             "cores": 4,
-            "model": "Intel Xeon E5-2660"
+            "model": null
           },
           "memory": {
             "value": 8,
@@ -138,44 +138,41 @@
           },
           "price": [
             {
-              "value": 215.4,
+              "value": 292.8,
               "currency": "CNY",
               "period": "月"
             },
             {
-              "value": 1436,
+              "value": 1952,
               "currency": "CNY",
               "period": "年"
             }
           ]
         }
       ],
-      "purchase_url": "https://www.hncloud.com/activity/activity_20251212.html?k=RRVYWA",
+      "purchase_url": "https://www.hncloud.com/hk_ecs.html?k=RRVYWA",
       "coupon_code": null,
-      "payment_methods": [
-        "支付宝",
-        "PayPal"
-      ],
+      "payment_methods": null,
       "features": [
-        "CN2优化线路",
-        "电信/联通/移动三网直连",
-        "原生IPv4",
-        "免费T级DDoS防护",
-        "支持CentOS、Ubuntu、Windows系统",
-        "支持配置动态扩容",
-        "年付性价比高"
+        "BGP国际多线 + CN2 GIA优化线路",
+        "三网直连大陆",
+        "不限流量",
+        "支持 Linux / Windows 系统",
+        "网络稳定，无明显丢包"
       ],
       "suitable_for": [
-        "面向中国大陆访问的网站",
-        "对网络稳定性要求较高的业务",
-        "需要CN2优化线路的跨境应用",
-        "希望降低长期服务器成本的用户"
+        "企业官网",
+        "博客",
+        "展示型网站",
+        "跨境电商后台",
+        "海外业务中转",
+        "API服务"
       ],
-      "summary": "华纳云美国VPS位于洛杉矶，采用CN2优化线路和三网直连架构，网络稳定且延迟较低。年付方案性价比突出，提供原生IP和免费DDoS防护，适合建站及跨境业务，但不支持多IP配置。"
+      "summary": "华纳云香港VPS主打三网CN2直连和低价年付方案，网络稳定，国内访问体验不错，适合建站、跨境业务或日常服务部署。"
     }
   ],
-  "article_title": "华纳云洛杉矶美国VPS测评：CN2优化线路与三网直连",
-  "article_summary": "本文对华纳云洛杉矶美国VPS进行了全面测评，涵盖了基础配置、网络延迟、路由分析、性能表现及价格体系。测评显示该产品具备CN2优化、三网直连、原生IP及高防御能力，年付价格具备较强竞争力，适合追求稳定性和性价比的用户。",
-  "source_url": "https://www.gwvpsceping.com/8748.html",
-  "publish_date": "2026-01-04"
+  "article_title": "华纳云香港VPS测评｜三网CN2直连大陆｜便宜稳定香港VPS推荐",
+  "article_summary": "文章对华纳云香港VPS进行了详细测评，涵盖网络线路（BGP+CN2 GIA）、延迟测试（平均约54ms）、路由分析及套餐价格。产品定位国内访问优化，适合对延迟和稳定性有要求的用户，年付起价324元，性价比较高。",
+  "source_url": "https://www.gwvpsceping.com/8812.html",
+  "publish_date": "2026-01-09"
 }

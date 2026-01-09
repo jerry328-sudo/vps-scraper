@@ -6,7 +6,7 @@
       "location": null,
       "plans": [
         {
-          "name": "Metal+ 会员订阅",
+          "name": "Metal+ 会员",
           "cpu": null,
           "memory": null,
           "storage": null,
@@ -19,13 +19,14 @@
           }
         }
       ],
-      "purchase_url": "https://www.reliablesite.net/",
+      "purchase_url": "http://payments.reliablesite.net/aff.php?aff=1323",
       "coupon_code": null,
       "payment_methods": null,
       "features": [
         "硬件升级25%循环折扣",
         "免费升级至10Gbps高速端口",
         "免费增加第二个IPv4地址",
+        "入站流量不限速",
         "账号级会员，一次订阅全账号受益"
       ],
       "suitable_for": [
@@ -34,17 +35,17 @@
         "高带宽应用、存储节点、业务节点部署",
         "希望一次付费长期降本的用户"
       ],
-      "summary": "ReliableSite推出的Metal+会员计划，专为重度专用服务器用户打造，年费$99。提供硬件升级折扣、10Gbps端口升级及额外IP等权益，适合拥有多台服务器或需要高性能扩展的用户。"
+      "summary": "ReliableSite Metal+ 会员计划是一个专为重度专用服务器用户打造的增值方案，年费 $99，可解锁 10Gbps 端口、额外 IPv4 及硬件升级折扣。"
     },
     {
       "vendor": "ReliableSite",
       "product_name": "美国专用服务器",
-      "location": "纽约",
+      "location": "美国",
       "plans": [
         {
-          "name": "Intel Atom D525",
+          "name": "Atom D525 套餐",
           "cpu": {
-            "cores": 1,
+            "cores": 2,
             "model": "Intel Atom D525"
           },
           "memory": {
@@ -71,7 +72,7 @@
           }
         },
         {
-          "name": "4 x Varies (Intel Core i7)",
+          "name": "Core i7 套餐",
           "cpu": {
             "cores": 4,
             "model": "Intel Core i7 860 or better"
@@ -100,7 +101,7 @@
           }
         },
         {
-          "name": "Intel Core i9 9900K",
+          "name": "Core i9 9900K 套餐",
           "cpu": {
             "cores": 8,
             "model": "Intel Core i9 9900K"
@@ -129,7 +130,7 @@
           }
         },
         {
-          "name": "Intel Special 6 Core",
+          "name": "Intel Special 6 Core 套餐",
           "cpu": {
             "cores": 6,
             "model": "Intel Special 6 Core (3.50 GHz+)"
@@ -156,24 +157,9 @@
             "currency": "USD",
             "period": "月"
           }
-        }
-      ],
-      "purchase_url": "http://payments.reliablesite.net/aff.php?aff=1323&pid=152",
-      "coupon_code": null,
-      "payment_methods": null,
-      "features": [
-        "支持叠加 Metal+ 会员权益"
-      ],
-      "suitable_for": null,
-      "summary": "ReliableSite纽约机房专用服务器促销，涵盖从入门级Atom到高性能i9配置，支持Metal+会员权益叠加。"
-    },
-    {
-      "vendor": "ReliableSite",
-      "product_name": "美国专用服务器",
-      "location": "纽约|洛杉矶",
-      "plans": [
+        },
         {
-          "name": "AMD Ryzen 3700X",
+          "name": "Ryzen 3700X 套餐",
           "cpu": {
             "cores": 8,
             "model": "AMD Ryzen 3700X"
@@ -202,7 +188,7 @@
           }
         },
         {
-          "name": "AMD Ryzen 3900X",
+          "name": "Ryzen 3900X 套餐",
           "cpu": {
             "cores": 12,
             "model": "AMD Ryzen 3900X"
@@ -229,68 +215,9 @@
             "currency": "USD",
             "period": "月"
           }
-        }
-      ],
-      "purchase_url": "http://payments.reliablesite.net/aff.php?aff=1323&pid=280",
-      "coupon_code": null,
-      "payment_methods": null,
-      "features": [
-        "支持叠加 Metal+ 会员权益"
-      ],
-      "suitable_for": null,
-      "summary": "ReliableSite纽约和洛杉矶机房AMD Ryzen系列专用服务器，提供高性能计算能力及无限流量。"
-    },
-    {
-      "vendor": "ReliableSite",
-      "product_name": "美国专用服务器",
-      "location": "纽约|洛杉矶|迈阿密",
-      "plans": [
+        },
         {
-          "name": "AMD Epyc 4545P",
-          "cpu": {
-            "cores": 12,
-            "model": "AMD Epyc 4545P"
-          },
-          "memory": {
-            "value": 256,
-            "unit": "GB"
-          },
-          "storage": {
-            "value": 4,
-            "unit": "TB",
-            "type": "NVMe"
-          },
-          "bandwidth": {
-            "value": 1,
-            "unit": "Gbps"
-          },
-          "traffic": {
-            "value": -1,
-            "unit": "无限"
-          },
-          "price": {
-            "value": 219,
-            "currency": "USD",
-            "period": "月"
-          }
-        }
-      ],
-      "purchase_url": "http://payments.reliablesite.net/aff.php?aff=1323&pid=414",
-      "coupon_code": null,
-      "payment_methods": null,
-      "features": [
-        "支持叠加 Metal+ 会员权益"
-      ],
-      "suitable_for": null,
-      "summary": "ReliableSite多机房AMD Epyc系列专用服务器，配备DDR5内存和NVMe存储。"
-    },
-    {
-      "vendor": "ReliableSite",
-      "product_name": "美国专用服务器",
-      "location": "迈阿密",
-      "plans": [
-        {
-          "name": "AMD Ryzen 9900X",
+          "name": "Ryzen 9900X 套餐",
           "cpu": {
             "cores": 12,
             "model": "AMD Ryzen 9900X"
@@ -319,7 +246,36 @@
           }
         },
         {
-          "name": "AMD Ryzen 9950X",
+          "name": "Epyc 4545P 套餐",
+          "cpu": {
+            "cores": 12,
+            "model": "AMD Epyc 4545P"
+          },
+          "memory": {
+            "value": 256,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 4,
+            "unit": "TB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 219,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "Ryzen 9950X 套餐",
           "cpu": {
             "cores": 16,
             "model": "AMD Ryzen 9950X"
@@ -348,18 +304,24 @@
           }
         }
       ],
-      "purchase_url": "http://payments.reliablesite.net/aff.php?aff=1323&pid=402",
+      "purchase_url": "http://payments.reliablesite.net/aff.php?aff=1323",
       "coupon_code": null,
       "payment_methods": null,
       "features": [
-        "支持叠加 Metal+ 会员权益"
+        "支持 Metal+ 会员权益叠加",
+        "可选 1Gbps 或 Metal+ 升级 10Gbps 端口",
+        "不限流量套餐可选"
       ],
-      "suitable_for": null,
-      "summary": "ReliableSite迈阿密机房高端AMD Ryzen 9000系列专用服务器，配备DDR5内存，性能强劲。"
+      "suitable_for": [
+        "高带宽应用",
+        "存储节点",
+        "业务节点部署"
+      ],
+      "summary": "ReliableSite 提供多种配置的美国专用服务器，涵盖从低端 Atom 到高端 Ryzen 9950X 和 Epyc 系列，支持 Metal+ 会员权益叠加，适合不同规模的业务需求。"
     }
   ],
-  "article_title": "ReliableSite上线 Metal+ 会员计划及美国专用服务器促销",
-  "article_summary": "ReliableSite推出了Metal+会员计划，年费$99，提供硬件升级折扣、10Gbps端口及额外IP等权益。同时，文章列出了多款位于纽约、洛杉矶和迈阿密机房的专用服务器促销套餐，涵盖Intel和AMD多种配置，均支持Metal+权益叠加。",
+  "article_title": "ReliableSite Metal+会员计划上线：$99/年免费10Gbps端口+IPv4，美国独立服务器性价比升级",
+  "article_summary": "ReliableSite 推出 Metal+ 会员计划，年费 $99，提供免费 10Gbps 端口升级、额外 IPv4 及硬件升级折扣。同时列出了多款美国专用服务器促销套餐，支持叠加会员权益。",
   "source_url": "https://www.gwvpsceping.com/8774.html",
   "publish_date": "2026-01-06"
 }

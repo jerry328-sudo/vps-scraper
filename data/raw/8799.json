@@ -1,0 +1,808 @@
+{
+  "products": [
+    {
+      "vendor": "RAKsmart",
+      "product_name": "VPS",
+      "location": "圣何塞",
+      "plans": [
+        {
+          "name": "VPS",
+          "cpu": {
+            "cores": 2,
+            "model": null
+          },
+          "memory": {
+            "value": 4,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 50,
+            "unit": "GB",
+            "type": null
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": 10,
+            "unit": "TB"
+          },
+          "price": {
+            "value": 42.5,
+            "currency": "USD",
+            "period": "年"
+          }
+        }
+      ],
+      "purchase_url": "https://billing.raksmart.com/ec/price?pid=1889&sample_id=psam_01KE69MGZYZDR77FYQV758DJY6&activity_id=act_01KE6316A01G44B1Q2QKNZ256V&lang=en&aff=2999",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "美国公司",
+        "无实名要求",
+        "部分自营机房/线路",
+        "中英文网页及客户服务",
+        "默认1个IP"
+      ],
+      "suitable_for": null,
+      "summary": null
+    },
+    {
+      "vendor": "RAKsmart",
+      "product_name": "裸机云",
+      "location": "日本",
+      "plans": [
+        {
+          "name": "裸机云-秒杀",
+          "cpu": {
+            "cores": null,
+            "model": "E5-2620"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "NVMe"
+          },
+          "bandwidth": {
+            "value": 30,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 59.9,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "裸机云-E5-2620",
+          "cpu": {
+            "cores": null,
+            "model": "E5-2620"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 30,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 90.8,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "裸机云-E5-2680",
+          "cpu": {
+            "cores": null,
+            "model": "E5-2680"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 30,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 98.8,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "裸机云-2*E5-2620",
+          "cpu": {
+            "cores": null,
+            "model": "2*E5-2620"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 30,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 106.8,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "裸机云-2*E5-2680",
+          "cpu": {
+            "cores": null,
+            "model": "2*E5-2680"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 30,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 114.8,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "裸机云大带宽-E5-2620",
+          "cpu": {
+            "cores": null,
+            "model": "E5-2620"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 323.6,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "裸机云大带宽-2*E5-2680",
+          "cpu": {
+            "cores": null,
+            "model": "2*E5-2680"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 348.6,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "裸机云大带宽-2*E5-2683v4",
+          "cpu": {
+            "cores": null,
+            "model": "2*E5-2683v4"
+          },
+          "memory": {
+            "value": 64,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 372.6,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "裸机云高防-E5-2620",
+          "cpu": {
+            "cores": null,
+            "model": "E5-2620"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 30,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 179.2,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "裸机云高防-2*E5-2620",
+          "cpu": {
+            "cores": null,
+            "model": "2*E5-2620"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 30,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 195.2,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "裸机云高防-2*E5-2680",
+          "cpu": {
+            "cores": null,
+            "model": "2*E5-2680"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 30,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 203.2,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "裸机云高防-2*E5-2683v4",
+          "cpu": {
+            "cores": null,
+            "model": "2*E5-2683v4"
+          },
+          "memory": {
+            "value": 64,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 30,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 227.2,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://www.raksmart.com/cps/5369",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "日本东京机房",
+        "下单支持升级硬件、带宽、IP、防御等",
+        "大陆优化测试IP：104.233.160.61",
+        "国际BGP：104.233.166.166",
+        "8折为首付折扣"
+      ],
+      "suitable_for": null,
+      "summary": null
+    },
+    {
+      "vendor": "RAKsmart",
+      "product_name": "站群服务器",
+      "location": "西雅图",
+      "plans": [
+        {
+          "name": "站群-E3-1230",
+          "cpu": {
+            "cores": null,
+            "model": "E3-1230"
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 90,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "站群-2*L5630",
+          "cpu": {
+            "cores": null,
+            "model": "2*L5630"
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 480,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 95,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://billing.raksmart.com/ec/price?pid=2050&sample_id=psam_01K5ZHCYB7YFX2GJH78VBJGGPE&activity_id=act_01KE6316A01G44B1Q2QKNZ256V&lang=en&aff=2999",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "默认1C段253个IP",
+        "可选2C、4C",
+        "最高可升级到2*[1Gbps带宽]"
+      ],
+      "suitable_for": null,
+      "summary": null
+    },
+    {
+      "vendor": "RAKsmart",
+      "product_name": "西雅图物理服务器",
+      "location": "西雅图",
+      "plans": [
+        {
+          "name": "物理服务器-E3-1230",
+          "cpu": {
+            "cores": null,
+            "model": "E3-1230"
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 47.2,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "物理服务器-2*L5630",
+          "cpu": {
+            "cores": null,
+            "model": "2*L5630"
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 480,
+            "unit": "GB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 63.2,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "物理服务器-E5-2620",
+          "cpu": {
+            "cores": null,
+            "model": "E5-2620"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 87.2,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "物理服务器-2*E5-2683v4",
+          "cpu": {
+            "cores": null,
+            "model": "2*E5-2683v4"
+          },
+          "memory": {
+            "value": 64,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 159.2,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "大带宽服务器-E3-1230",
+          "cpu": {
+            "cores": null,
+            "model": "E3-1230"
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 83.2,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "大带宽服务器-E5-2620",
+          "cpu": {
+            "cores": null,
+            "model": "E5-2620"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 123.2,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "大带宽服务器-2*E5-2683v4",
+          "cpu": {
+            "cores": null,
+            "model": "2*E5-2683v4"
+          },
+          "memory": {
+            "value": 64,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 1,
+            "unit": "Gbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 195.2,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "高防服务器-E3-1230",
+          "cpu": {
+            "cores": null,
+            "model": "E3-1230"
+          },
+          "memory": {
+            "value": 16,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 67.2,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "高防服务器-E5-2620",
+          "cpu": {
+            "cores": null,
+            "model": "E5-2620"
+          },
+          "memory": {
+            "value": 32,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "HDD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 107.2,
+            "currency": "USD",
+            "period": "月"
+          }
+        },
+        {
+          "name": "高防服务器-2*E5-2683v4",
+          "cpu": {
+            "cores": null,
+            "model": "2*E5-2683v4"
+          },
+          "memory": {
+            "value": 64,
+            "unit": "GB"
+          },
+          "storage": {
+            "value": 1,
+            "unit": "TB",
+            "type": "SSD"
+          },
+          "bandwidth": {
+            "value": 100,
+            "unit": "Mbps"
+          },
+          "traffic": {
+            "value": -1,
+            "unit": "无限"
+          },
+          "price": {
+            "value": 179.2,
+            "currency": "USD",
+            "period": "月"
+          }
+        }
+      ],
+      "purchase_url": "https://www.raksmart.com/cps/5369",
+      "coupon_code": null,
+      "payment_methods": null,
+      "features": [
+        "美国西雅图机房",
+        "最高可选2*1Gbps带宽",
+        "800G DDoS防御",
+        "大陆优化VIP测试IP：107.149.147.136",
+        "国际BGP：107.149.151.131",
+        "8折为首付折扣"
+      ],
+      "suitable_for": null,
+      "summary": null
+    }
+  ],
+  "article_title": "RAKsmart 2026新年钜惠：日本裸机云/西雅图独立服务器8折$47.2/月起,站群服务器秒杀$90/月起",
+  "article_summary": "RAKsmart最新促销活动：2026新年钜惠，提供爆款产品限时秒杀，日本裸机云、西雅图物理服务器8折等，活动期间双核、4GB云服务器年付42.5美元起，日本裸机云服务器$59.9/月起，美国站群服务器$90/月起。",
+  "source_url": "https://www.gwvpsceping.com/8799.html",
+  "publish_date": "2026-01-08"
+}

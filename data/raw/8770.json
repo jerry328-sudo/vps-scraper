@@ -2,7 +2,7 @@
   "products": [
     {
       "vendor": "HostDare",
-      "product_name": "中国优化美国VPS CSSD方案",
+      "product_name": "美国CN2 VPS (CSSD方案)",
       "location": "美国洛杉矶",
       "plans": [
         {
@@ -209,7 +209,7 @@
           }
         }
       ],
-      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=106",
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929",
       "coupon_code": "VU6E1H58UY",
       "payment_methods": [
         "支付宝",
@@ -217,17 +217,17 @@
       ],
       "features": [
         "电信CN2 GIA+联通9929+移动CMIN2线路",
+        "NVMe固态硬盘",
         "KVM虚拟化",
-        "默认1个IPv4地址",
         "全场8折续费同价",
-        "带宽免费升级到100Mbps"
+        "带宽免费升级至100Mbps"
       ],
       "suitable_for": null,
-      "summary": "HostDare中国优化美国VPSCSSD方案搭载NVMe固态硬盘，走的是电信CN2 GIA+联通9929+移动CMIN2线路。"
+      "summary": "HostDare中国优化美国VPS，走CN2 GIA等三网高端线路，适合对国内连接质量要求较高的用户。"
     },
     {
       "vendor": "HostDare",
-      "product_name": "中国优化美国VPS CKVM方案",
+      "product_name": "美国CN2 VPS (CKVM方案)",
       "location": "美国洛杉矶",
       "plans": [
         {
@@ -463,25 +463,27 @@
           }
         }
       ],
-      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=74",
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929",
       "coupon_code": "VU6E1H58UY",
       "payment_methods": [
         "支付宝",
         "PayPal"
       ],
       "features": [
-        "CN2 GIA+联通9929+移动CMIN2线路",
+        "电信CN2 GIA+联通9929+移动CMIN2线路",
         "HDD硬盘",
-        "适合需要更大存储的用户",
+        "KVM虚拟化",
         "全场8折续费同价",
-        "带宽免费升级到100Mbps"
+        "带宽免费升级至100Mbps"
       ],
-      "suitable_for": null,
-      "summary": "HostDare中国优化美国VPS CKVM方案采用HDD硬盘，适合需要更大存储的用户。"
+      "suitable_for": [
+        "需要更大存储的用户"
+      ],
+      "summary": "HostDare中国优化美国VPS HDD方案，适合需要大容量存储但对硬盘IO要求不极致的用户。"
     },
     {
       "vendor": "HostDare",
-      "product_name": "中国优化美国VPS CAMD方案",
+      "product_name": "美国CN2 VPS (CAMD方案)",
       "location": "美国洛杉矶",
       "plans": [
         {
@@ -688,7 +690,7 @@
           }
         }
       ],
-      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=176",
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929",
       "coupon_code": "VU6E1H58UY",
       "payment_methods": [
         "支付宝",
@@ -696,17 +698,18 @@
       ],
       "features": [
         "AMD EPYC处理器",
-        "1个IPv4、/64 IPv6",
         "美国CN2 GIA线路",
+        "NVMe固态硬盘",
+        "自带IPv4和/64 IPv6",
         "全场8折续费同价",
-        "带宽免费升级到100Mbps"
+        "带宽免费升级至100Mbps"
       ],
       "suitable_for": null,
-      "summary": "HostDare中国优化美国VPS CAMD方案是新推出的AMD EPYC处理器方案。"
+      "summary": "HostDare新推出的AMD EPYC处理器方案，性能强劲，适合需要高性能计算的用户。"
     },
     {
       "vendor": "HostDare",
-      "product_name": "美国VPS SSD方案",
+      "product_name": "美国VPS (SSD方案)",
       "location": "美国洛杉矶",
       "plans": [
         {
@@ -725,7 +728,7 @@
             "type": "NVMe"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -754,7 +757,7 @@
             "type": "NVMe"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -783,7 +786,7 @@
             "type": "NVMe"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -812,7 +815,7 @@
             "type": "NVMe"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -841,7 +844,7 @@
             "type": "NVMe"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -870,7 +873,7 @@
             "type": "NVMe"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -884,7 +887,7 @@
           }
         }
       ],
-      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=113",
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929",
       "coupon_code": "DEAL50",
       "payment_methods": [
         "支付宝",
@@ -892,17 +895,18 @@
       ],
       "features": [
         "普通三网往返直连",
-        "KVM虚拟化、NVMe硬盘",
+        "KVM虚拟化",
+        "NVMe硬盘",
         "可选Windows操作系统",
         "全场5折续费同价",
         "送双倍流量+双倍内存"
       ],
       "suitable_for": null,
-      "summary": "HostDare美国VPSSSD方案采用普通三网往返直连，KVM虚拟化、NVMe硬盘。"
+      "summary": "HostDare特价美国VPS，采用普通线路，性价比极高，适合预算有限且不需要CN2线路的用户。"
     },
     {
       "vendor": "HostDare",
-      "product_name": "美国VPS HDD方案",
+      "product_name": "美国VPS (HDD方案)",
       "location": "美国洛杉矶",
       "plans": [
         {
@@ -921,7 +925,7 @@
             "type": "HDD"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -950,7 +954,7 @@
             "type": "HDD"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -979,7 +983,7 @@
             "type": "HDD"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -1008,7 +1012,7 @@
             "type": "HDD"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -1037,7 +1041,7 @@
             "type": "HDD"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -1066,7 +1070,7 @@
             "type": "HDD"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -1095,7 +1099,7 @@
             "type": "HDD"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -1124,7 +1128,7 @@
             "type": "HDD"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -1138,7 +1142,7 @@
           }
         }
       ],
-      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=140",
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929",
       "coupon_code": "DEAL50",
       "payment_methods": [
         "支付宝",
@@ -1153,11 +1157,11 @@
         "送双倍流量+双倍内存"
       ],
       "suitable_for": null,
-      "summary": "HostDare美国VPS HDD方案采用RAID10硬盘、普通三网往返直连，KVM虚拟化。"
+      "summary": "HostDare美国VPS HDD方案，采用RAID10阵列，数据安全性较高，适合需要大容量存储的用户。"
     },
     {
       "vendor": "HostDare",
-      "product_name": "美国VPS ASSD方案",
+      "product_name": "美国VPS (ASSD方案)",
       "location": "美国洛杉矶",
       "plans": [
         {
@@ -1364,24 +1368,25 @@
           }
         }
       ],
-      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=169",
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929",
       "coupon_code": "DEAL50",
       "payment_methods": [
         "支付宝",
         "PayPal"
       ],
       "features": [
-        "自带一个IPv4和IPv6",
-        "从2G内存套餐开始可选Windows系统",
+        "普通线路款",
+        "自带IPv4和IPv6",
+        "NVMe SSD",
         "全场5折续费同价",
         "送双倍流量+双倍内存"
       ],
       "suitable_for": null,
-      "summary": "HostDare美国VPS ASSD方案即CAMD方案的普通线路款。"
+      "summary": "HostDare美国VPS ASSD方案，即CAMD的普通线路版，提供大带宽，适合对带宽要求高的用户。"
     },
     {
       "vendor": "HostDare",
-      "product_name": "日本VPS软银线路",
+      "product_name": "日本VPS (软银线路)",
       "location": "日本大阪",
       "plans": [
         {
@@ -1588,22 +1593,22 @@
           }
         }
       ],
-      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=129",
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929",
       "coupon_code": "WWP2OEG8IM",
       "payment_methods": [
         "支付宝",
         "PayPal"
       ],
       "features": [
-        "日本软银线路",
+        "软银线路",
         "全场9折续费同价"
       ],
       "suitable_for": null,
-      "summary": "HostDare日本VPS软银线路全场9折续费同价。"
+      "summary": "HostDare日本VPS，采用软银线路，适合东亚地区业务部署。"
     },
     {
       "vendor": "HostDare",
-      "product_name": "日本VPS三网直连线路",
+      "product_name": "日本VPS (三网直连线路)",
       "location": "日本大阪",
       "plans": [
         {
@@ -1810,18 +1815,18 @@
           }
         }
       ],
-      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=162",
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929",
       "coupon_code": "WWP2OEG8IM",
       "payment_methods": [
         "支付宝",
         "PayPal"
       ],
       "features": [
-        "日本三网直连线路",
+        "VPS三网直连线路",
         "全场9折续费同价"
       ],
       "suitable_for": null,
-      "summary": "HostDare日本VPS三网直连线路全场9折续费同价。"
+      "summary": "HostDare日本VPS三网直连线路，带宽较大，适合需要高带宽连接的用户。"
     },
     {
       "vendor": "HostDare",
@@ -1844,7 +1849,7 @@
             "type": "NVMe"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -1873,7 +1878,7 @@
             "type": "NVMe"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -1902,7 +1907,7 @@
             "type": "NVMe"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -1931,7 +1936,7 @@
             "type": "NVMe"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -1960,7 +1965,7 @@
             "type": "NVMe"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -1989,7 +1994,7 @@
             "type": "NVMe"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -2018,7 +2023,7 @@
             "type": "NVMe"
           },
           "bandwidth": {
-            "value": 1000,
+            "value": null,
             "unit": "Mbps"
           },
           "traffic": {
@@ -2032,21 +2037,22 @@
           }
         }
       ],
-      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929&pid=152",
+      "purchase_url": "https://bill.hostdare.com/aff.php?aff=2929",
       "coupon_code": "YEK7J255LM",
       "payment_methods": [
         "支付宝",
         "PayPal"
       ],
       "features": [
-        "全场8折续费同价"
+        "全场8折续费同价",
+        "大流量"
       ],
       "suitable_for": null,
-      "summary": "HostDare欧洲保加利亚VPS全场8折续费同价。"
+      "summary": "HostDare欧洲保加利亚VPS，提供超大流量，适合需要部署欧洲业务或需要大量流量的用户。"
     }
   ],
-  "article_title": "HostDare官方推出了2026年新年优惠码",
-  "article_summary": "HostDare官方推出了2026年新年优惠码，适用于国际线路（无优化）美国洛杉矶VPS、美国CN2 GIA VPS、日本大阪VPS和欧洲保加利亚VPS，年付订单可享优惠，每月价格低至12.99美元，续费同价（可循环优惠3次）。活动期间使用专属优惠码下单还可享受双倍流量+内存或者免费升级至100Mbps带宽。",
+  "article_title": "HostDare新年促销：CN2 VPS全场8折续费同价 美国VPS低至$12.99/年 送双倍流量+内存或升级100Mbps带宽",
+  "article_summary": "HostDare推出2026年新年优惠，涵盖美国洛杉矶（CN2 GIA、普通线路）、日本大阪（软银、三网直连）及欧洲保加利亚VPS。年付订单享受折扣（8折/9折/5折），续费同价，部分活动赠送双倍流量内存或升级带宽。",
   "source_url": "https://www.gwvpsceping.com/8770.html",
   "publish_date": "2026-01-05"
 }
