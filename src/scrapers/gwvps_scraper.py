@@ -454,6 +454,10 @@ class GWVPSScraper(BaseScraper):
         url = article["link"]
         title = article["title"]
         
+        # 预先生成文件名
+        filename = url.split("/")[-1].replace(".html", "")
+        filename = sanitize_filename(filename) or "article"
+        
         print(f"   [{index}/{total}] 🤖 正在处理: {title[:40]}...")
         
         try:
