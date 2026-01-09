@@ -75,7 +75,7 @@ async function loadData() {
         setupFilters();
         updateUI();
     } else {
-        alert("Failed to load data files. Please ensure you are running this on a local server (e.g., Live Server) to bypass CORS restrictions.");
+        alert('Failed to load data files. Please ensure you are running this on a local server (e.g., Live Server) to bypass CORS restrictions.');
     }
 }
 
@@ -107,12 +107,12 @@ function setupFilters() {
     filterBandwidth.addEventListener('change', updateUI);
 
     resetBtn.addEventListener('click', () => {
-        filterVendor.value = "";
-        filterRegion.value = "";
-        filterPrice.value = "";
-        filterRam.value = "0";
-        filterCpu.value = "0";
-        filterBandwidth.value = "0";
+        filterVendor.value = '';
+        filterRegion.value = '';
+        filterPrice.value = '';
+        filterRam.value = '0';
+        filterCpu.value = '0';
+        filterBandwidth.value = '0';
         updateUI();
     });
 }

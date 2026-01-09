@@ -17,7 +17,7 @@ export class UIManager {
         const vendors = Object.keys(groupedData).sort();
 
         if (vendors.length === 0) {
-            this.container.innerHTML = `<div style="text-align:center; grid-column: 1/-1; padding: 4rem; color: var(--text-muted);">No products match your criteria.</div>`;
+            this.container.innerHTML = '<div style="text-align:center; grid-column: 1/-1; padding: 4rem; color: var(--text-muted);">No products match your criteria.</div>';
             return;
         }
 

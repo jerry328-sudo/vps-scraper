@@ -1,11 +1,11 @@
 :root {
     /* Colors - Space Tech Palette */
     --bg-page: #0B0B10;
-    --bg-glass: rgba(18, 24, 38, 0.65);
-    --bg-card: rgba(30, 41, 59, 0.4);
-    --border-glass: rgba(255, 255, 255, 0.08);
+    --bg-glass: rgb(18 24 38 / 0.65);
+    --bg-card: rgb(30 41 59 / 0.4);
+    --border-glass: rgb(255 255 255 / 0.08);
     --primary: #3B82F6;
-    --primary-glow: rgba(59, 130, 246, 0.5);
+    --primary-glow: rgb(59 130 246 / 0.5);
     --secondary: #94A3B8;
     --text-main: #F8FAFC;
     --text-muted: #94A3B8;
@@ -27,16 +27,18 @@
 
 /* Reset & Base */
 * { box-sizing: border-box; margin: 0; padding: 0; }
+
 body {
     background-color: var(--bg-page);
     color: var(--text-main);
     font-family: var(--font-body);
     min-height: 100vh;
     overflow-x: hidden;
+
     /* Subtle mesh gradient background */
     background-image: 
-        radial-gradient(circle at 15% 50%, rgba(59, 130, 246, 0.08), transparent 25%), 
-        radial-gradient(circle at 85% 30%, rgba(0, 209, 255, 0.05), transparent 25%);
+        radial-gradient(circle at 15% 50%, rgb(59 130 246 / 0.08), transparent 25%), 
+        radial-gradient(circle at 85% 30%, rgb(0 209 255 / 0.05), transparent 25%);
 }
 
 h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; }
@@ -52,18 +54,19 @@ a:hover { color: var(--accent); }
 .glass-card, .glass-panel, .glass-header {
     background: var(--bg-glass);
     backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
     border: 1px solid var(--border-glass);
-    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 20px rgb(0 0 0 / 0.2);
 }
 
 /* Auth Overlay */
 .auth-overlay {
     position: fixed; inset: 0; z-index: 1000;
     display: flex; align-items: center; justify-content: center;
-    background: rgba(11, 11, 16, 0.8);
+    background: rgb(11 11 16 / 0.8);
     backdrop-filter: blur(10px);
 }
+
 .auth-card {
     padding: 3rem;
     border-radius: var(--radius-lg);
@@ -72,8 +75,9 @@ a:hover { color: var(--accent); }
     display: flex; flex-direction: column; gap: 1.5rem;
 }
 .input-group { display: flex; flex-direction: column; gap: 1rem; }
+
 input[type="text"], input[type="password"], input[type="number"], select {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgb(0 0 0 / 0.3);
     border: 1px solid var(--border-glass);
     color: white;
     padding: 0.75rem 1rem;
@@ -82,13 +86,14 @@ input[type="text"], input[type="password"], input[type="number"], select {
     outline: none;
     transition: border-color 0.2s;
 }
-input:focus, select:focus { border-color: var(--primary); box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2); }
+input:focus, select:focus { border-color: var(--primary); box-shadow: 0 0 0 2px rgb(59 130 246 / 0.2); }
 
 button {
     cursor: pointer; font-family: var(--font-heading); font-weight: 600;
     border: none; border-radius: var(--radius-sm);
     transition: all 0.2s;
 }
+
 .primary-btn {
     background: var(--primary); color: white;
     padding: 0.75rem 1.5rem;
@@ -112,14 +117,16 @@ button {
     margin: 2rem; padding: 1.5rem;
     border-radius: var(--radius-lg);
 }
+
 .filter-grid {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;
 }
 .filter-group { display: flex; flex-direction: column; gap: 0.5rem; }
 .filter-group label { font-size: 0.85rem; color: var(--text-muted); font-weight: 500; }
 .range-labels { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+
 .chip {
-    background: rgba(255,255,255,0.05); color: var(--text-muted); padding: 4px 10px; font-size: 0.8rem;
+    background: rgb(255 255 255 / 0.05); color: var(--text-muted); padding: 4px 10px; font-size: 0.8rem;
     border: 1px solid var(--border-glass);
 }
 .chip.active { background: var(--primary); color: white; border-color: var(--primary); }
@@ -132,11 +139,13 @@ button {
 
 /* Vendor Group */
 .vendor-group { display: flex; flex-direction: column; gap: 1rem; }
+
 .vendor-header {
     display: flex; align-items: center; gap: 1rem;
     margin-bottom: 0.5rem;
     padding-left: 0.5rem; border-left: 4px solid var(--primary);
 }
+
 .vendor-grid {
     display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 1.5rem;
 }
@@ -150,23 +159,25 @@ button {
     transition: transform 0.2s, box-shadow 0.2s;
     display: flex; flex-direction: column;
 }
+
 .product-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    border-color: rgba(59, 130, 246, 0.3);
+    box-shadow: 0 10px 30px rgb(0 0 0 / 0.3);
+    border-color: rgb(59 130 246 / 0.3);
 }
 
 .card-header {
     padding: 1.25rem;
     border-bottom: 1px solid var(--border-glass);
-    background: rgba(0,0,0,0.2);
+    background: rgb(0 0 0 / 0.2);
     display: flex; justify-content: space-between; align-items: start;
 }
 .product-title { font-size: 1.1rem; line-height: 1.4; color: white; }
 .product-location { font-size: 0.85rem; color: var(--text-muted); margin-top: 4px; display: flex; align-items: center; gap: 4px; }
+
 .badge {
     font-size: 0.75rem; padding: 2px 8px; border-radius: 4px;
-    background: rgba(59, 130, 246, 0.2); color: #60A5FA; border: 1px solid rgba(59, 130, 246, 0.3);
+    background: rgb(59 130 246 / 0.2); color: #60A5FA; border: 1px solid rgb(59 130 246 / 0.3);
 }
 
 .card-body { padding: 1rem; flex: 1; }
@@ -174,17 +185,19 @@ button {
 
 /* Plan Item */
 .plan-item {
-    background: rgba(255,255,255,0.03);
+    background: rgb(255 255 255 / 0.03);
     border: 1px solid var(--border-glass);
     border-radius: var(--radius-sm);
     padding: 0.75rem;
     display: grid; grid-template-columns: 1fr auto;
     gap: 0.5rem;
 }
+
 .plan-specs {
     font-size: 0.9rem; color: var(--text-muted); display: grid; grid-template-columns: 1fr 1fr; gap: 4px;
 }
 .spec-row { display: flex; align-items: center; gap: 6px; }
+
 .plan-price {
     font-family: var(--font-heading); font-weight: 700; color: var(--accent);
     text-align: right;
@@ -197,18 +210,19 @@ button {
     padding: 1rem; border-top: 1px solid var(--border-glass);
     display: flex; gap: 0.75rem; justify-content: space-between;
 }
+
 .action-btn {
     flex: 1; padding: 0.6rem; font-size: 0.9rem;
-    background: rgba(255,255,255,0.05); color: white;
+    background: rgb(255 255 255 / 0.05); color: white;
     border: 1px solid var(--border-glass); border-radius: var(--radius-sm);
     display: flex; align-items: center; justify-content: center; gap: 6px;
 }
 .action-btn.primary { background: var(--primary); border-color: var(--primary); }
-.action-btn:hover { background: rgba(255,255,255,0.1); }
+.action-btn:hover { background: rgb(255 255 255 / 0.1); }
 .action-btn.primary:hover { background: #2563EB; }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (width <= 768px) {
     .glass-header { flex-direction: column; gap: 1rem; align-items: start; }
     .auth-card { padding: 2rem; }
     .filters-section { margin: 1rem; padding: 1rem; }
@@ -264,7 +278,7 @@ button {
     text-decoration-style: solid;
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
     .disclaimer-section {
         margin: 1rem;
         padding: 1.5rem;

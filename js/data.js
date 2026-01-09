@@ -14,7 +14,7 @@ export class DataManager {
         try {
             files = await this.discoverFiles();
         } catch (e) {
-            console.warn("Auto-discovery failed, falling back to config", e);
+            console.warn('Auto-discovery failed, falling back to config', e);
         }
 
         if (files.length === 0) {
@@ -29,7 +29,7 @@ export class DataManager {
             this.processData(results);
             return true;
         } catch (e) {
-            console.error("Failed to load data", e);
+            console.error('Failed to load data', e);
             return false;
         }
     }
@@ -37,7 +37,7 @@ export class DataManager {
     async discoverFiles() {
         try {
             const response = await fetch('data/raw/');
-            if (!response.ok) throw new Error("Directory listing not available");
+            if (!response.ok) throw new Error('Directory listing not available');
 
             const text = await response.text();
             // Parse HTML to find .json links
@@ -52,7 +52,7 @@ export class DataManager {
 
             return [...new Set(jsonFiles)]; // Unique
         } catch (e) {
-            console.warn("Could not list directory", e);
+            console.warn('Could not list directory', e);
             return [];
         }
     }
@@ -99,7 +99,7 @@ export class DataManager {
                 }
             }
         }
-        return "Other";
+        return 'Other';
     }
 
     getCountries() {
