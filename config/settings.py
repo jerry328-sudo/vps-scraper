@@ -21,6 +21,8 @@ API_KEYS = {
     "zhipu": os.getenv("ZHIPU_API_KEY", ""),
     # NVIDIA API Key
     "nvidia": os.getenv("NVIDIA_API_KEY", ""),
+    # Tavily API Key
+    "tavily": os.getenv("TAVILY_API_KEY", ""),
 }
 
 # ============================================================

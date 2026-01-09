@@ -8,7 +8,6 @@ import sys
 from typing import Optional
 
 from zai import ZhipuAiClient
-from bs4 import BeautifulSoup
 
 # 确保项目根目录在 Python 路径中
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
@@ -115,43 +114,12 @@ VPS_ARTICLE_SCHEMA = {
 }
 
 
-def html_to_text(html_content: str) -> str:
+def extract_vps_info(text_content: str, model: Optional[str] = None) -> Optional[dict]:
     """
-    将 HTML 转换为纯文本，解决 HTML 实体编码问题
-    保留表格结构以便 AI 识别
-    """
-    soup = BeautifulSoup(html_content, 'html.parser')
-    
-    # 移除脚本和样式
-    for tag in soup(['script', 'style', 'nav', 'footer', 'header']):
-        tag.decompose()
-    
-    # 提取文章主体内容
-    article = soup.find('article') or soup.find('div', class_='entry-content') or soup
-    
-    lines = []
-    for elem in article.find_all(['h1', 'h2', 'h3', 'p', 'li', 'td', 'th', 'blockquote']):
-        text = elem.get_text(strip=True)
-        if text:
-            # 保留链接信息
-            if elem.name in ['td', 'th']:
-                link = elem.find('a')
-                if link and link.get('href'):
-                    lines.append(f"{text} [链接: {link.get('href')}]")
-                else:
-                    lines.append(text)
-            else:
-                lines.append(text)
-    
-    return '\n'.join(lines)
-
-
-def extract_vps_info(html_content: str, model: Optional[str] = None) -> Optional[dict]:
-    """
-    使用智谱 AI 从 HTML 内容中提取 VPS 结构化信息
+    使用智谱 AI 从文本内容中提取 VPS 结构化信息
     
     Args:
-        html_content: 网页的 HTML 内容
+        text_content: 已处理的纯文本内容（不是 HTML）
         model: 使用的模型名称，默认使用配置中的值
         
     Returns:
@@ -167,10 +135,6 @@ def extract_vps_info(html_content: str, model: Optional[str] = None) -> Optional
     zhipu_config = AI_CONFIG.get("zhipu", {})
     if model is None:
         model = zhipu_config.get("default_model", "glm-4.7")
-    
-    # 先将 HTML 转换为纯文本
-    text_content = html_to_text(html_content)
-    print(f"📝 提取文本长度: {len(text_content)} 字符")
     
     client = ZhipuAiClient(api_key=api_key)
     

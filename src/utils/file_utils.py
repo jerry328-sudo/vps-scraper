@@ -152,3 +152,42 @@ def save_to_html(
         f.write(html)
     
     return filepath
+
+
+def html_to_text(html_content: str) -> str:
+    """
+    将 HTML 转换为纯文本，解决 HTML 实体编码问题
+    保留表格结构以便 AI 识别
+    
+    Args:
+        html_content: 原始 HTML 内容
+        
+    Returns:
+        提取的纯文本内容
+    """
+    from bs4 import BeautifulSoup
+    
+    soup = BeautifulSoup(html_content, 'html.parser')
+    
+    # 移除脚本和样式
+    for tag in soup(['script', 'style', 'nav', 'footer', 'header']):
+        tag.decompose()
+    
+    # 提取文章主体内容
+    article = soup.find('article') or soup.find('div', class_='entry-content') or soup
+    
+    lines = []
+    for elem in article.find_all(['h1', 'h2', 'h3', 'p', 'li', 'td', 'th', 'blockquote']):
+        text = elem.get_text(strip=True)
+        if text:
+            # 保留链接信息
+            if elem.name in ['td', 'th']:
+                link = elem.find('a')
+                if link and link.get('href'):
+                    lines.append(f"{text} [链接: {link.get('href')}]")
+                else:
+                    lines.append(text)
+            else:
+                lines.append(text)
+    
+    return '\n'.join(lines)

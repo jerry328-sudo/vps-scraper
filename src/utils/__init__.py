@@ -9,6 +9,7 @@ from .file_utils import (
     save_to_json,
     save_to_markdown,
     save_to_html,
+    html_to_text,
 )
 
 __all__ = [
@@ -17,4 +18,5 @@ __all__ = [
     "save_to_json",
     "save_to_markdown",
     "save_to_html",
+    "html_to_text",
 ]

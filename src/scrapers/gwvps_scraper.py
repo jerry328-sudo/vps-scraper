@@ -13,8 +13,9 @@ import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 from src.scrapers.base import BaseScraper
+from src.scrapers.page_extract import extract_page_with_tavily
 from src.ai_clients.zhipu_client import extract_vps_info
-from src.utils import sanitize_filename, save_to_json, save_to_markdown, save_to_html
+from src.utils import sanitize_filename, save_to_json, save_to_markdown, save_to_html, html_to_text
 from config import TARGET_SITES, OUTPUT_CONFIG
 
 
@@ -25,10 +26,21 @@ class GWVPSScraper(BaseScraper):
     支持两种输出格式：
     - JSON: 使用 AI 提取结构化数据
     - Markdown: 保存原始文章内容
+    
+    支持两种页面提取方式：
+    - 标准爬虫方式（use_tavily=False，默认）
+    - Tavily API 提取方式（use_tavily=True）
     """
     
-    def __init__(self):
+    def __init__(self, use_tavily: bool = False):
+        """
+        初始化爬虫
+        
+        Args:
+            use_tavily: 是否使用 Tavily API 提取页面内容（默认 False）
+        """
         super().__init__(TARGET_SITES["gwvps"])
+        self.use_tavily = use_tavily
     
     def get_article_list(self, page: int = 1) -> List[Dict[str, str]]:
         """获取指定页的文章列表"""
@@ -89,6 +101,10 @@ class GWVPSScraper(BaseScraper):
         """
         爬取文章并使用 AI 提取结构化数据
         
+        根据 use_tavily 设置选择页面提取方式：
+        - False: 使用标准爬虫（requests + html_to_text）
+        - True: 使用 Tavily API 提取
+        
         Args:
             url: 文章 URL
             
@@ -96,15 +112,37 @@ class GWVPSScraper(BaseScraper):
             AI 提取的结构化数据字典
         """
         print(f"📡 正在爬取: {url}")
-        html = self._request(url)
-        if not html:
-            return None
         
-        print(f"✅ HTML 获取成功，长度: {len(html)} 字符")
+        # 根据配置选择页面提取方式
+        if self.use_tavily:
+            # 使用 Tavily API 提取
+            text_content = extract_page_with_tavily(url)
+            if not text_content:
+                print("⚠️  Tavily 提取失败，尝试使用标准爬虫方式...")
+                # Fallback 到标准爬虫
+                html = self._request(url)
+                if not html:
+                    return None
+                print(f"✅ HTML 获取成功，长度: {len(html)} 字符")
+                print("📝 正在将 HTML 转换为纯文本...")
+                text_content = html_to_text(html)
+                print(f"   提取文本长度: {len(text_content)} 字符")
+        else:
+            # 使用标准爬虫方式
+            html = self._request(url)
+            if not html:
+                return None
+            
+            print(f"✅ HTML 获取成功，长度: {len(html)} 字符")
+            
+            # 将 HTML 转换为纯文本
+            print("📝 正在将 HTML 转换为纯文本...")
+            text_content = html_to_text(html)
+            print(f"   提取文本长度: {len(text_content)} 字符")
         
         # 调用 AI 提取结构化数据
         print("🤖 正在调用大模型提取结构化数据...")
-        vps_info = extract_vps_info(html)
+        vps_info = extract_vps_info(text_content)
         
         if vps_info:
             vps_info["source_url"] = url
@@ -419,18 +457,42 @@ class GWVPSScraper(BaseScraper):
         print(f"   [{index}/{total}] 🤖 正在处理: {title[:40]}...")
         
         try:
-            html = self._request(url)
-            if not html:
-                print(f"   [{index}/{total}] ❌ 获取失败: {title[:30]}...")
-                return None
-            
-            # 保存原始 HTML 页面
-            filename = url.split("/")[-1].replace(".html", "")
-            filename = sanitize_filename(filename) or "article"
-            save_to_html(html, filename, OUTPUT_CONFIG["html_dir"])
+            # 根据配置选择页面提取方式
+            if self.use_tavily:
+                # 使用 Tavily API 提取
+                text_content = extract_page_with_tavily(url)
+                if not text_content:
+                    print(f"   [{index}/{total}] ⚠️ Tavily 提取失败，尝试标准方式...")
+                    # Fallback 到标准爬虫
+                    html = self._request(url)
+                    if not html:
+                        print(f"   [{index}/{total}] ❌ 获取失败: {title[:30]}...")
+                        return None
+                    
+                    # 保存原始 HTML 页面
+                    filename = url.split("/")[-1].replace(".html", "")
+                    filename = sanitize_filename(filename) or "article"
+                    save_to_html(html, filename, OUTPUT_CONFIG["html_dir"])
+                    
+                    # 将 HTML 转换为纯文本
+                    text_content = html_to_text(html)
+            else:
+                # 使用标准爬虫方式
+                html = self._request(url)
+                if not html:
+                    print(f"   [{index}/{total}] ❌ 获取失败: {title[:30]}...")
+                    return None
+                
+                # 保存原始 HTML 页面
+                filename = url.split("/")[-1].replace(".html", "")
+                filename = sanitize_filename(filename) or "article"
+                save_to_html(html, filename, OUTPUT_CONFIG["html_dir"])
+                
+                # 将 HTML 转换为纯文本
+                text_content = html_to_text(html)
             
             # 调用 AI 提取结构化数据
-            vps_info = extract_vps_info(html)
+            vps_info = extract_vps_info(text_content)
             
             if vps_info:
                 vps_info["source_url"] = url

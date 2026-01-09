@@ -31,6 +31,11 @@ AI_THREADS = 5
 # 最大爬取页数（防止无限爬取）
 MAX_PAGES = 50
 
+# 页面提取方式
+# - False: 标准爬虫（requests + html_to_text）- 免费，可能遇到反爬
+# - True:  Tavily API 提取 - 需要 API Key，质量更高，更稳定
+USE_TAVILY = True
+
 # 数据目录配置
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 OLD_DATA_DIR = os.path.join(DATA_DIR, "old")
@@ -104,14 +109,15 @@ def main():
     print(f"   爬取线程: {SCRAPE_THREADS}")
     print(f"   AI 线程:  {AI_THREADS}")
     print(f"   最大页数: {MAX_PAGES}")
+    print(f"   提取方式: {'Tavily API' if USE_TAVILY else '标准爬虫'}")
     print("=" * 60)
     print()
     
     # 归档旧数据
     archive_old_data()
     
-    # 创建爬虫实例
-    scraper = GWVPSScraper()
+    # 创建爬虫实例（使用 Tavily API 提取）
+    scraper = GWVPSScraper(use_tavily=USE_TAVILY)
     
     # 运行 Pipeline
     results = scraper.pipeline_recent_to_json(
