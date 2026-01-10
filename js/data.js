@@ -197,14 +197,15 @@ export class DataManager {
             filtered = filtered.filter(p => p.country_norm === criteria.region);
         }
 
-        // For Plan-level filters, we check if *any* plan in the product matches.
-        // If it matches, we assume the whole product is relevant.
-        // We could also filter the plans inside the product for display, but that modifies data structure.
-        // Let's just return products that have qualifying plans.
+        // Filter plans within products
+        // We create a new list of products where each product has a filtered list of plans.
+        // If a product has no plans matching the criteria, it is removed from the list.
+        const resultProducts = [];
 
-        filtered = filtered.filter(p => {
-            if (!p.plans || p.plans.length === 0) return false;
-            return p.plans.some(plan => {
+        filtered.forEach(product => {
+            if (!product.plans || product.plans.length === 0) return;
+
+            const matchingPlans = product.plans.filter(plan => {
                 let pass = true;
 
                 // Min RAM (GB)
@@ -222,20 +223,16 @@ export class DataManager {
                     if ((plan.bandwidth?.val_norm || 0) < criteria.minBw) pass = false;
                 }
 
-                // Max Price (Yearly normalized? Or just check available periods check)
-                // Requirement: "Input yearly price limit (CNY/Year)"
-                // We need to normalize price to yearly to compare?
-                // Or just if any price period * 12 (if month) <= limit?
-                // Let's assume input is Yearly Budget.
+                // Max Price (Yearly budget)
                 if (criteria.maxPrice) {
-                    // Check if any price option fits budget
                     const fits = plan.price_list.some(pr => {
                         let yearlyPrice = 9999999;
+                        // Simple heuristic for common periods
                         if (pr.period === '年') yearlyPrice = pr.value;
                         else if (pr.period === '月') yearlyPrice = pr.value * 12;
                         else if (pr.period === '季') yearlyPrice = pr.value * 4;
                         else if (pr.period === '半年') yearlyPrice = pr.value * 2;
-
+                        
                         return yearlyPrice <= criteria.maxPrice;
                     });
                     if (!fits) pass = false;
@@ -243,11 +240,19 @@ export class DataManager {
 
                 return pass;
             });
+
+            if (matchingPlans.length > 0) {
+                // Return a shallow copy of the product with the filtered plans
+                resultProducts.push({
+                    ...product,
+                    plans: matchingPlans
+                });
+            }
         });
 
         // Group by vendor
         const grouped = {};
-        filtered.forEach(p => {
+        resultProducts.forEach(p => {
             if (!grouped[p.vendor]) grouped[p.vendor] = [];
             grouped[p.vendor].push(p);
         });
