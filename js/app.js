@@ -1,9 +1,10 @@
 import { DataManager } from './data.js';
 import { UIManager } from './ui.js';
 import { AUTH_KEY } from './config.js';
+import { i18n } from './i18n.js';
 
 const dataManager = new DataManager();
-const uiManager = new UIManager();
+const uiManager = new UIManager(i18n);
 
 // Auth State
 let isAuthenticated = sessionStorage.getItem('vps_auth') === 'true';
@@ -23,10 +24,17 @@ const filterRam = document.getElementById('filter-ram');
 const filterCpu = document.getElementById('filter-cpu');
 const filterBandwidth = document.getElementById('filter-bandwidth');
 const resetBtn = document.getElementById('reset-filters-btn');
+const langToggleBtn = document.getElementById('lang-toggle-btn');
+const langText = document.getElementById('lang-text');
 
 // --- Initialization ---
 
 async function init() {
+    // Initialize language
+    i18n.updatePage();
+    updateLangButton();
+    setupLanguageToggle();
+    
     checkUrlToken();
     if (isAuthenticated) {
         showApp();
@@ -66,7 +74,23 @@ function setupAuthListeners() {
 function showApp() {
     authOverlay.classList.add('hidden');
     appContainer.classList.remove('hidden');
+    i18n.updatePage();
     loadData();
+}
+
+function setupLanguageToggle() {
+    langToggleBtn.addEventListener('click', () => {
+        const currentLang = i18n.getLanguage();
+        const newLang = currentLang === 'zh' ? 'en' : 'zh';
+        i18n.setLanguage(newLang);
+        updateLangButton();
+        updateUI(); // Re-render results with new language
+    });
+}
+
+function updateLangButton() {
+    const currentLang = i18n.getLanguage();
+    langText.textContent = currentLang === 'zh' ? 'EN' : '中文';
 }
 
 async function loadData() {

@@ -1,14 +1,15 @@
 export class UIManager {
-    constructor() {
+    constructor(i18n) {
         this.container = document.getElementById('results-container');
         this.statsBar = document.getElementById('stats-bar');
+        this.i18n = i18n;
     }
 
     renderStats(stats) {
         this.statsBar.innerHTML = `
-            <div class="stat-item">Vendors: <b>${stats.vendors}</b></div>
-            <div class="stat-item">Series: <b>${stats.products}</b></div>
-            <div class="stat-item">Plans: <b>${stats.plans}</b></div>
+            <div class="stat-item">${this.i18n.t('statsVendors')}: <b>${stats.vendors}</b></div>
+            <div class="stat-item">${this.i18n.t('statsSeries')}: <b>${stats.products}</b></div>
+            <div class="stat-item">${this.i18n.t('statsPlans')}: <b>${stats.plans}</b></div>
         `;
     }
 
@@ -17,7 +18,7 @@ export class UIManager {
         const vendors = Object.keys(groupedData).sort();
 
         if (vendors.length === 0) {
-            this.container.innerHTML = '<div style="text-align:center; grid-column: 1/-1; padding: 4rem; color: var(--text-muted);">No products match your criteria.</div>';
+            this.container.innerHTML = `<div style="text-align:center; grid-column: 1/-1; padding: 4rem; color: var(--text-muted);">${this.i18n.t('noResults')}</div>`;
             return;
         }
 
@@ -29,7 +30,7 @@ export class UIManager {
             group.innerHTML = `
                 <div class="vendor-header">
                     <h3>${vendor}</h3>
-                    <span class="badge">${products.length} Products</span>
+                    <span class="badge">${products.length} ${this.i18n.t('products')}</span>
                 </div>
                 <div class="vendor-grid"></div>
             `;
@@ -54,10 +55,10 @@ export class UIManager {
         header.className = 'card-header';
         header.innerHTML = `
             <div>
-                <div class="product-title">${product.product_name || 'Unknown Product'}</div>
+                <div class="product-title">${product.product_name || this.i18n.t('unknownProduct')}</div>
                 <div class="product-location">
                     <i data-lucide="map-pin" style="width:14px; height:14px;"></i>
-                    ${product.location || 'Global'}
+                    ${product.location || this.i18n.t('global')}
                 </div>
             </div>
             <button class="toggle-btn" aria-label="Toggle Details">
@@ -84,10 +85,10 @@ export class UIManager {
         footer.className = 'card-actions';
         footer.innerHTML = `
             <a href="${product.source_url || '#'}" target="_blank" class="action-btn">
-                <i data-lucide="file-text" style="width:16px;"></i> Review
+                <i data-lucide="file-text" style="width:16px;"></i> ${this.i18n.t('review')}
             </a>
             <a href="${product.purchase_url || '#'}" target="_blank" class="action-btn primary">
-                <i data-lucide="shopping-cart" style="width:16px;"></i> Buy
+                <i data-lucide="shopping-cart" style="width:16px;"></i> ${this.i18n.t('buy')}
             </a>
         `;
 
