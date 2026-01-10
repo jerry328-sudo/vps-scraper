@@ -122,7 +122,7 @@ function updateUI() {
         vendor: filterVendor.value,
         region: filterRegion.value,
         maxPrice: filterPrice.value ? parseFloat(filterPrice.value) : null,
-        minRam: parseInt(filterRam.value),
+        minRam: parseFloat(filterRam.value),
         minCpu: parseInt(filterCpu.value),
         minBw: parseInt(filterBandwidth.value)
     };
