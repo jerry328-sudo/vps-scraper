@@ -116,15 +116,9 @@ export class UIManager {
     createPlanItem(plan) {
         // Stats
         const cpu = plan.cpu ? `${plan.cpu.cores}C` : '-';
-        const ram = plan.memory ? `${plan.memory.val_norm}${plan.memory.unit === 'MB' && plan.memory.val_norm < 1 ? 'MB' : 'GB'}` : '-';
-        // Logic fix: normalizePlan already converted to GB if unit was MB. 
-        // Actually normalizePlan sets val_norm. 
-        // Let's render from original or normalized.
-        // I set val_norm = value / 1024 if MB. So val_norm is in GB.
-        // display: if val_norm < 1, maybe show MB? But let's stick to GB for consistency or use original.
-        // Requirement: "Memory auto convert MB -> GB". So always show GB usually.
-
-        const ramDisp = plan.memory ? `${plan.memory.val_norm}G` : '-';
+        const ramDisp = plan.memory?.disp_val != null
+            ? `${plan.memory.disp_val}${plan.memory.disp_unit || 'GB'}`
+            : (plan.memory?.val_norm != null ? `${plan.memory.val_norm}GB` : '-');
 
         const ssd = plan.storage ? `${plan.storage.value}G ${plan.storage.type || ''}` : '-';
 
@@ -133,7 +127,9 @@ export class UIManager {
         // Wait, normalizePlan handles unit conversion to Mbps? 
         // I didn't change the original unit in normalizePlan, I set `disp_unit`.
         // Let's use that if available.
-        const bwDisp = plan.bandwidth?.disp_val ? `${plan.bandwidth.disp_val}Mbps` : bw;
+        const bwDisp = plan.bandwidth?.disp_val != null
+            ? `${plan.bandwidth.disp_val}${plan.bandwidth.disp_unit || 'Mbps'}`
+            : bw;
 
         // Traffic
         let traffic = '-';

@@ -107,24 +107,50 @@ export class DataManager {
     }
 
     normalizePlan(plan) {
-        // Memory: MB -> GB
-        if (plan.memory && plan.memory.unit && plan.memory.unit.toUpperCase() === 'MB') {
-            plan.memory.val_norm = plan.memory.value / 1024;
-        } else if (plan.memory) {
-            plan.memory.val_norm = plan.memory.value;
+        // Memory: normalize to GB
+        if (plan.memory) {
+            const unitRaw = plan.memory.unit || '';
+            const unit = unitRaw.toString().trim().toLowerCase();
+            const value = Number(plan.memory.value);
+            if (Number.isFinite(value)) {
+                if (['mb', 'm', 'mib'].includes(unit)) {
+                    plan.memory.val_norm = value / 1024;
+                } else if (['gb', 'g', 'gib'].includes(unit) || unit === '') {
+                    plan.memory.val_norm = value;
+                } else if (['tb', 't', 'tib'].includes(unit)) {
+                    plan.memory.val_norm = value * 1024;
+                } else {
+                    plan.memory.val_norm = value;
+                }
+                plan.memory.disp_unit = 'GB';
+                plan.memory.disp_val = plan.memory.val_norm;
+            }
         }
 
-        // Bandwidth: Gbps -> Mbps
-        if (plan.bandwidth && plan.bandwidth.unit) {
-            const u = plan.bandwidth.unit.toLowerCase();
-            if (u.includes('gbps')) {
-                plan.bandwidth.val_norm = plan.bandwidth.value * 1000;
+        // Bandwidth: normalize to Mbps
+        if (plan.bandwidth) {
+            const unitRaw = plan.bandwidth.unit || '';
+            const unit = unitRaw.toString().trim().toLowerCase().replace(/\s+/g, '');
+            const value = Number(plan.bandwidth.value);
+            if (Number.isFinite(value)) {
+                if (
+                    unit.includes('gbps') ||
+                    unit.includes('gb/s') ||
+                    unit.includes('gbit') ||
+                    unit === 'g'
+                ) {
+                    plan.bandwidth.val_norm = value * 1000;
+                } else if (
+                    unit.includes('kbps') ||
+                    unit.includes('kb/s') ||
+                    unit.includes('kbit')
+                ) {
+                    plan.bandwidth.val_norm = value / 1000;
+                } else {
+                    plan.bandwidth.val_norm = value;
+                }
                 plan.bandwidth.disp_unit = 'Mbps';
-                plan.bandwidth.disp_val = plan.bandwidth.value * 1000;
-            } else {
-                plan.bandwidth.val_norm = plan.bandwidth.value;
-                plan.bandwidth.disp_unit = 'Mbps';
-                plan.bandwidth.disp_val = plan.bandwidth.value;
+                plan.bandwidth.disp_val = plan.bandwidth.val_norm;
             }
         }
 
