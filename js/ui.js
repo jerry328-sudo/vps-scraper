@@ -161,11 +161,11 @@ export class UIManager {
         return `
             <div class="plan-item">
                 <div class="plan-specs">
-                    <div class="spec-row" title="CPU"><i data-lucide="cpu" style="width:14px; opacity:0.7"></i> ${cpu}</div>
-                    <div class="spec-row" title="RAM"><i data-lucide="memory-stick" style="width:14px; opacity:0.7"></i> ${ramDisp}</div>
-                    <div class="spec-row" title="Storage"><i data-lucide="hard-drive" style="width:14px; opacity:0.7"></i> ${ssd}</div>
-                    <div class="spec-row" title="Bandwidth"><i data-lucide="activity" style="width:14px; opacity:0.7"></i> ${bwDisp}</div>
-                    <div class="spec-row" title="Traffic"><i data-lucide="arrow-down-up" style="width:14px; opacity:0.7"></i> ${traffic}</div>
+                    <div class="spec-row" title="CPU"><i data-lucide="cpu" style="width:14px;"></i> ${cpu}</div>
+                    <div class="spec-row" title="RAM"><i data-lucide="memory-stick" style="width:14px;"></i> ${ramDisp}</div>
+                    <div class="spec-row" title="Storage"><i data-lucide="hard-drive" style="width:14px;"></i> ${ssd}</div>
+                    <div class="spec-row" title="Bandwidth"><i data-lucide="activity" style="width:14px;"></i> ${bwDisp}</div>
+                    <div class="spec-row" title="Traffic"><i data-lucide="arrow-down-up" style="width:14px;"></i> ${traffic}</div>
                 </div>
                 <div class="plan-price">
                     ${priceHtml}
